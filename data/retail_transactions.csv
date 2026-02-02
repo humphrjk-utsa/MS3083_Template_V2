@@ -1,0 +1,501 @@
+TransactionID,CustomerID,CustomerName,CustomerCity,ProductName,ProductCategory,TotalAmount,Quantity,TransactionDate
+1,81,Customer 39,Chicago,Adidas Jacket,Clothing,632.39,3,2024-03-09
+2,13,Customer 63,Philadelphia,Samsung TV,Music,114.28,3,2024-12-08
+3,18,Customer 98,Chicago,Adidas Jacket,Computers,1289.24,7,2024-01-22
+4,76,Customer 39,Houston,Dell Laptop,Computers,885.4,2,2024-07-02
+5,86,Customer 45,New York,Nike Shoes,Computers,95.95,5,2024-08-13
+6,37,Customer 8,Philadelphia,Adidas Jacket,Electronics,1126.34,2,2024-04-15
+7,45,Customer 83,New York,HP Printer,Clothing,78.71,3,2024-05-02
+8,11,Customer 60,Chicago,Samsung TV,Music,871.93,3,2024-04-30
+9,13,Customer 69,Houston,iPhone 14,Music,1347.56,8,2024-08-08
+10,55,Customer 24,Chicago,Sony Headphones,Books,633.51,1,2024-06-23
+11,100,Customer 95,Philadelphia,HP Printer,Movies,572.43,6,2024-12-09
+12,89,Customer 22,Philadelphia,Adidas Jacket,Electronics,1208.43,5,2024-03-14
+13,56,Customer 62,Phoenix,Dell Laptop,Electronics,1337.94,8,2024-02-15
+14,19,Customer 100,Phoenix,Nike Shoes,Books,32.29,3,2024-12-11
+15,1,Customer 52,New York,Nike Shoes,Clothing,602.79,5,2024-01-05
+16,78,Customer 20,Chicago,HP Printer,Electronics,1476.49,3,2024-05-29
+17,2,Customer 38,New York,Sony Headphones,Electronics,520.91,1,2024-06-16
+18,5,Customer 15,Phoenix,Dell Laptop,Books,1012.57,8,2024-12-08
+19,7,Customer 1,Phoenix,Sony Headphones,Computers,834.08,5,2024-07-24
+20,27,Customer 57,Chicago,Dell Laptop,Computers,1176.07,4,2024-06-25
+21,31,Customer 1,Houston,HP Printer,Music,259.44,5,2024-04-27
+22,80,Customer 4,New York,iPhone 14,Books,1424.99,7,2024-02-01
+23,57,Customer 50,Chicago,HP Printer,Computers,897.63,5,2024-01-30
+24,88,Customer 30,Phoenix,Nike Shoes,Computers,1168.05,1,2024-10-08
+25,97,Customer 17,New York,iPhone 14,Movies,999.24,2,2024-02-03
+26,34,Customer 7,Philadelphia,iPhone 14,Computers,504.96,4,2024-02-26
+27,6,Customer 27,Philadelphia,HP Printer,Electronics,88.45,3,2024-05-07
+28,54,Customer 41,Los Angeles,Adidas Jacket,Music,703.88,6,2024-05-27
+29,3,Customer 23,New York,Samsung TV,Clothing,1392.13,5,2024-04-30
+30,98,Customer 48,Houston,Samsung TV,Books,294.82,3,2024-03-05
+31,11,Customer 30,Chicago,Adidas Jacket,Clothing,1219.37,1,2024-10-12
+32,21,Customer 62,Chicago,Sony Headphones,Electronics,1416.35,1,2024-01-01
+33,60,Customer 65,Philadelphia,iPhone 14,Computers,82.98,4,2024-11-05
+34,62,Customer 26,Houston,Adidas Jacket,Music,887.44,3,2024-11-24
+35,24,Customer 47,New York,Samsung TV,Clothing,536.69,1,2024-10-05
+36,47,Customer 82,New York,Adidas Jacket,Clothing,871.96,5,2024-05-14
+37,66,Customer 93,Phoenix,Nike Shoes,Electronics,1080.28,3,2024-08-03
+38,55,Customer 61,New York,Adidas Jacket,Computers,42.27,2,2024-10-11
+39,36,Customer 83,Los Angeles,Sony Headphones,Clothing,50.25,4,2024-07-07
+40,30,Customer 73,Houston,Sony Headphones,Clothing,744.85,2,2024-07-08
+41,60,Customer 9,Phoenix,iPhone 14,Clothing,247.98,8,2024-11-16
+42,59,Customer 20,Chicago,Sony Headphones,Electronics,1158.09,3,2024-03-07
+43,27,Customer 74,Houston,Sony Headphones,Books,817.22,1,2024-08-01
+44,7,Customer 42,Chicago,iPhone 14,Computers,1136.57,2,2024-01-18
+45,1,Customer 28,Philadelphia,iPhone 14,Music,1206.7,4,2024-11-04
+46,40,Customer 56,Houston,HP Printer,Electronics,229.81,7,2024-05-28
+47,87,Customer 87,Chicago,HP Printer,Electronics,57.22,4,2024-06-28
+48,71,Customer 18,Philadelphia,iPhone 14,Clothing,935.3,7,2024-06-09
+49,17,Customer 73,Philadelphia,Dell Laptop,Computers,1220.59,2,2024-12-19
+50,92,Customer 83,Chicago,Nike Shoes,Music,808.93,3,2024-01-02
+51,20,Customer 26,Phoenix,HP Printer,Computers,1397.43,8,2024-06-28
+52,31,Customer 33,New York,Adidas Jacket,Electronics,1246.39,1,2024-09-16
+53,32,Customer 61,New York,Adidas Jacket,Movies,502.72,6,2024-01-02
+54,67,Customer 64,Houston,Nike Shoes,Movies,475.4,3,2024-11-27
+55,17,Customer 53,Phoenix,Sony Headphones,Electronics,962.8,8,2024-05-30
+56,43,Customer 69,New York,Adidas Jacket,Computers,124.82,7,2024-02-10
+57,84,Customer 70,Chicago,Samsung TV,Electronics,487.41,3,2024-07-12
+58,31,Customer 68,Houston,Adidas Jacket,Movies,952.01,4,2024-04-04
+59,9,Customer 25,New York,Samsung TV,Books,941.02,2,2024-11-08
+60,61,Customer 77,Los Angeles,Nike Shoes,Clothing,597.96,4,2024-06-15
+61,87,Customer 28,New York,Dell Laptop,Computers,1491.96,7,2024-08-15
+62,32,Customer 71,Chicago,Samsung TV,Electronics,1424.38,5,2024-02-23
+63,88,Customer 56,Phoenix,Adidas Jacket,Computers,216.52,2,2024-11-01
+64,9,Customer 68,Houston,Adidas Jacket,Electronics,913.13,2,2024-09-30
+65,94,Customer 5,Chicago,Samsung TV,Music,781.85,5,2024-04-11
+66,21,Customer 45,Chicago,Adidas Jacket,Clothing,960.77,1,2024-07-23
+67,23,Customer 12,Philadelphia,Dell Laptop,Computers,304.06,2,2024-11-21
+68,28,Customer 17,Los Angeles,Dell Laptop,Computers,140.76,5,2024-12-13
+69,70,Customer 49,Chicago,Nike Shoes,Computers,1370.57,7,2024-02-06
+70,61,Customer 38,Los Angeles,iPhone 14,Computers,1150.96,8,2024-04-08
+71,20,Customer 53,Philadelphia,Dell Laptop,Music,1411.95,6,2024-04-15
+72,15,Customer 27,Philadelphia,Sony Headphones,Electronics,162.98,1,2024-07-02
+73,50,Customer 50,Chicago,Sony Headphones,Computers,906.83,6,2024-08-06
+74,57,Customer 88,Philadelphia,Samsung TV,Books,875.19,6,2024-09-03
+75,91,Customer 76,New York,Adidas Jacket,Computers,378.17,5,2024-05-25
+76,35,Customer 83,Houston,iPhone 14,Books,963.57,2,2024-11-30
+77,21,Customer 16,Phoenix,Samsung TV,Books,329.58,1,2024-10-10
+78,59,Customer 51,Los Angeles,iPhone 14,Electronics,1124.15,4,2024-10-05
+79,52,Customer 38,Phoenix,iPhone 14,Computers,178.22,7,2024-03-24
+80,12,Customer 87,Houston,iPhone 14,Clothing,1184.65,8,2024-07-17
+81,86,Customer 98,Los Angeles,Dell Laptop,Electronics,96.83,2,2024-01-14
+82,69,Customer 98,Chicago,Adidas Jacket,Music,570.82,1,2024-05-13
+83,65,Customer 11,Los Angeles,iPhone 14,Books,144.2,2,2024-01-16
+84,41,Customer 14,Phoenix,iPhone 14,Computers,1471.59,7,2024-11-16
+85,49,Customer 25,Houston,Nike Shoes,Books,420.46,8,2024-12-10
+86,28,Customer 4,Philadelphia,Adidas Jacket,Clothing,722.72,6,2024-03-23
+87,3,Customer 37,Philadelphia,Dell Laptop,Music,191.97,8,2024-04-08
+88,96,Customer 42,Chicago,Adidas Jacket,Computers,695.21,2,2024-07-06
+89,61,Customer 18,New York,HP Printer,Computers,973.31,1,2024-04-04
+90,12,Customer 11,Chicago,Dell Laptop,Clothing,931.78,7,2024-02-21
+91,54,Customer 32,Chicago,HP Printer,Books,721.24,4,2024-03-10
+92,6,Customer 55,New York,iPhone 14,Movies,1099.52,3,2024-12-31
+93,36,Customer 74,Chicago,Adidas Jacket,Computers,676.93,2,2024-11-05
+94,85,Customer 17,Chicago,Dell Laptop,Electronics,521.86,5,2024-02-21
+95,51,Customer 14,Phoenix,Adidas Jacket,Books,1349.26,5,2024-05-18
+96,90,Customer 81,New York,Samsung TV,Electronics,721.25,2,2024-03-03
+97,3,Customer 70,Los Angeles,Adidas Jacket,Music,68.81,1,2024-02-07
+98,46,Customer 68,Chicago,Nike Shoes,Movies,789.0,2,2024-07-03
+99,54,Customer 55,Chicago,Nike Shoes,Music,129.02,7,2024-01-30
+100,66,Customer 65,Phoenix,Dell Laptop,Books,1375.08,6,2024-05-10
+101,9,Customer 43,Chicago,Nike Shoes,Books,507.05,6,2024-07-03
+102,38,Customer 46,Philadelphia,Sony Headphones,Electronics,312.95,5,2024-03-07
+103,41,Customer 100,Phoenix,Sony Headphones,Electronics,486.77,4,2024-05-09
+104,52,Customer 29,Phoenix,Dell Laptop,Electronics,1428.17,2,2024-07-29
+105,81,Customer 53,Philadelphia,iPhone 14,Movies,562.58,4,2024-02-17
+106,85,Customer 49,Chicago,Dell Laptop,Electronics,216.81,3,2024-11-13
+107,85,Customer 61,Philadelphia,Adidas Jacket,Movies,565.04,1,2024-05-13
+108,41,Customer 95,Philadelphia,HP Printer,Music,91.71,7,2024-09-22
+109,60,Customer 64,Chicago,Adidas Jacket,Movies,1016.07,7,2024-10-10
+110,51,Customer 59,Chicago,Samsung TV,Clothing,537.87,8,2024-03-02
+111,53,Customer 44,New York,iPhone 14,Music,431.35,3,2024-12-07
+112,99,Customer 9,Houston,Nike Shoes,Computers,316.79,1,2024-09-30
+113,98,Customer 42,Houston,HP Printer,Music,443.01,7,2024-03-02
+114,3,Customer 26,Philadelphia,Nike Shoes,Music,445.93,8,2024-06-17
+115,20,Customer 80,Phoenix,Sony Headphones,Music,768.14,3,2024-05-26
+116,22,Customer 31,New York,iPhone 14,Music,133.85,2,2024-11-22
+117,88,Customer 91,New York,Adidas Jacket,Books,268.52,4,2024-12-02
+118,43,Customer 53,Philadelphia,Dell Laptop,Music,1064.21,8,2024-06-06
+119,49,Customer 53,Los Angeles,HP Printer,Computers,1043.34,2,2024-08-13
+120,29,Customer 22,Los Angeles,Samsung TV,Books,681.53,2,2024-04-30
+121,76,Customer 63,Houston,Sony Headphones,Books,847.13,8,2024-01-03
+122,35,Customer 74,New York,Adidas Jacket,Books,1414.89,4,2024-02-17
+123,87,Customer 87,Chicago,Adidas Jacket,Computers,292.25,5,2024-02-27
+124,78,Customer 69,Phoenix,Dell Laptop,Books,1144.26,6,2024-11-13
+125,57,Customer 49,Los Angeles,iPhone 14,Music,1075.51,1,2024-02-21
+126,31,Customer 10,Chicago,Dell Laptop,Clothing,179.96,7,2024-08-13
+127,54,Customer 77,Phoenix,Adidas Jacket,Computers,1208.75,1,2024-07-17
+128,39,Customer 57,New York,Adidas Jacket,Music,1031.13,5,2024-07-02
+129,88,Customer 54,Los Angeles,Adidas Jacket,Electronics,1231.83,2,2024-12-11
+130,40,Customer 97,Los Angeles,Dell Laptop,Books,103.93,2,2024-04-02
+131,98,Customer 70,Houston,Adidas Jacket,Movies,869.2,7,2024-03-08
+132,80,Customer 44,Los Angeles,Adidas Jacket,Clothing,649.12,3,2024-07-17
+133,65,Customer 99,Philadelphia,Sony Headphones,Electronics,1326.27,8,2024-01-01
+134,22,Customer 49,New York,Samsung TV,Movies,887.4,2,2024-07-31
+135,14,Customer 98,Houston,HP Printer,Electronics,641.43,4,2024-04-17
+136,99,Customer 20,Phoenix,HP Printer,Electronics,1487.44,1,2024-05-02
+137,14,Customer 2,Philadelphia,HP Printer,Electronics,463.25,5,2024-01-03
+138,59,Customer 24,Philadelphia,Sony Headphones,Electronics,1274.62,5,2024-08-01
+139,67,Customer 82,Los Angeles,Sony Headphones,Electronics,1154.62,6,2024-03-07
+140,70,Customer 10,Houston,Samsung TV,Electronics,488.05,1,2024-02-12
+141,45,Customer 32,New York,Adidas Jacket,Books,965.32,5,2024-03-30
+142,75,Customer 76,New York,Sony Headphones,Clothing,1442.78,6,2024-10-01
+143,91,Customer 66,Chicago,Samsung TV,Movies,688.87,2,2024-05-16
+144,93,Customer 5,Philadelphia,Samsung TV,Movies,1368.21,7,2024-08-03
+145,11,Customer 96,Philadelphia,iPhone 14,Electronics,289.58,7,2024-03-27
+146,66,Customer 91,Houston,iPhone 14,Electronics,361.78,6,2024-07-18
+147,60,Customer 78,Phoenix,Nike Shoes,Books,1001.65,4,2024-06-05
+148,76,Customer 75,New York,iPhone 14,Books,1192.22,7,2024-02-03
+149,57,Customer 92,Philadelphia,Dell Laptop,Books,253.81,2,2024-01-13
+150,64,Customer 60,New York,Sony Headphones,Electronics,1499.52,2,2024-03-03
+151,88,Customer 96,Chicago,Sony Headphones,Clothing,827.63,1,2024-10-18
+152,24,Customer 83,Philadelphia,HP Printer,Books,1109.74,3,2024-07-20
+153,97,Customer 13,Houston,Samsung TV,Clothing,1169.26,5,2024-05-16
+154,18,Customer 81,Phoenix,Sony Headphones,Books,1491.62,3,2024-10-18
+155,21,Customer 93,Los Angeles,Nike Shoes,Computers,491.01,5,2024-01-28
+156,86,Customer 59,Chicago,Samsung TV,Movies,493.53,8,2024-11-22
+157,83,Customer 46,New York,Nike Shoes,Clothing,134.15,4,2024-12-11
+158,66,Customer 83,Los Angeles,Adidas Jacket,Electronics,1280.2,8,2024-10-05
+159,81,Customer 25,Houston,Sony Headphones,Books,491.87,4,2024-12-31
+160,55,Customer 56,Chicago,iPhone 14,Computers,163.68,7,2024-04-06
+161,63,Customer 81,Phoenix,Nike Shoes,Books,299.82,6,2024-06-07
+162,68,Customer 78,New York,Samsung TV,Music,414.51,6,2024-06-08
+163,74,Customer 20,New York,Nike Shoes,Movies,770.42,6,2024-11-01
+164,43,Customer 37,Phoenix,Samsung TV,Computers,1118.96,7,2024-10-07
+165,14,Customer 31,New York,Dell Laptop,Movies,499.81,6,2024-12-04
+166,78,Customer 6,Los Angeles,Dell Laptop,Movies,696.28,4,2024-06-22
+167,26,Customer 76,Houston,Sony Headphones,Computers,997.09,8,2024-01-12
+168,11,Customer 90,New York,HP Printer,Movies,625.59,7,2024-12-06
+169,89,Customer 91,Chicago,Sony Headphones,Computers,1322.63,8,2024-03-15
+170,95,Customer 15,Philadelphia,Samsung TV,Music,1365.47,3,2024-06-06
+171,31,Customer 75,Los Angeles,Sony Headphones,Computers,242.68,1,2024-05-25
+172,31,Customer 90,Chicago,Dell Laptop,Books,1220.7,2,2024-04-12
+173,43,Customer 71,Houston,Nike Shoes,Music,1064.89,4,2024-08-06
+174,100,Customer 38,Houston,HP Printer,Movies,713.34,4,2024-04-18
+175,89,Customer 88,New York,Nike Shoes,Books,587.96,7,2024-09-11
+176,31,Customer 91,New York,HP Printer,Music,162.68,6,2024-01-24
+177,87,Customer 87,Philadelphia,Sony Headphones,Computers,425.44,4,2024-08-04
+178,42,Customer 3,New York,Sony Headphones,Music,1345.51,2,2024-02-03
+179,14,Customer 47,Los Angeles,HP Printer,Electronics,927.99,4,2024-03-19
+180,50,Customer 18,Philadelphia,Dell Laptop,Computers,1316.78,2,2024-03-28
+181,17,Customer 12,Chicago,iPhone 14,Computers,314.66,3,2024-12-07
+182,70,Customer 49,Phoenix,iPhone 14,Books,453.17,2,2024-01-25
+183,5,Customer 4,Philadelphia,Nike Shoes,Electronics,616.11,4,2024-10-08
+184,83,Customer 18,Los Angeles,HP Printer,Movies,1374.15,4,2024-04-23
+185,43,Customer 21,Phoenix,Sony Headphones,Clothing,726.74,5,2024-02-02
+186,76,Customer 87,Philadelphia,Samsung TV,Computers,569.47,2,2024-08-17
+187,64,Customer 79,Phoenix,iPhone 14,Computers,1488.95,4,2024-10-23
+188,35,Customer 87,Phoenix,Sony Headphones,Electronics,782.31,6,2024-04-07
+189,15,Customer 89,Philadelphia,Nike Shoes,Clothing,1176.03,2,2024-07-24
+190,56,Customer 14,New York,Dell Laptop,Clothing,180.03,6,2024-10-18
+191,100,Customer 53,Phoenix,HP Printer,Computers,628.76,4,2024-08-10
+192,86,Customer 67,Philadelphia,Sony Headphones,Movies,462.32,6,2024-12-30
+193,77,Customer 23,Philadelphia,Dell Laptop,Music,490.24,4,2024-09-30
+194,78,Customer 15,Chicago,Samsung TV,Music,245.2,1,2024-07-05
+195,70,Customer 37,New York,Adidas Jacket,Books,869.66,6,2024-02-08
+196,11,Customer 70,Chicago,Nike Shoes,Books,1428.35,5,2024-04-20
+197,30,Customer 39,Houston,Dell Laptop,Electronics,571.85,1,2024-02-15
+198,67,Customer 61,Chicago,Adidas Jacket,Movies,1126.44,4,2024-08-12
+199,9,Customer 8,Phoenix,Nike Shoes,Music,322.0,1,2024-01-22
+200,15,Customer 75,Houston,Samsung TV,Books,867.61,8,2024-09-30
+201,7,Customer 87,Philadelphia,iPhone 14,Computers,979.23,8,2024-06-08
+202,4,Customer 17,Philadelphia,Adidas Jacket,Clothing,1154.91,7,2024-12-25
+203,32,Customer 28,Phoenix,Adidas Jacket,Computers,1011.0,2,2024-01-16
+204,12,Customer 63,Los Angeles,Sony Headphones,Clothing,446.82,7,2024-04-16
+205,89,Customer 87,Phoenix,Adidas Jacket,Books,644.95,7,2024-12-11
+206,96,Customer 17,Houston,iPhone 14,Movies,525.91,5,2024-01-19
+207,79,Customer 69,Philadelphia,iPhone 14,Electronics,904.49,2,2024-03-20
+208,30,Customer 74,Phoenix,iPhone 14,Movies,81.27,4,2024-11-25
+209,27,Customer 18,Philadelphia,HP Printer,Electronics,551.16,1,2024-09-25
+210,8,Customer 59,Houston,Dell Laptop,Clothing,890.11,5,2024-02-20
+211,27,Customer 52,Philadelphia,Samsung TV,Books,391.17,7,2024-12-31
+212,79,Customer 87,Los Angeles,Dell Laptop,Clothing,1437.43,7,2024-01-26
+213,70,Customer 92,Phoenix,iPhone 14,Computers,866.79,7,2024-07-29
+214,49,Customer 21,Houston,Nike Shoes,Electronics,514.75,4,2024-08-29
+215,51,Customer 76,Houston,HP Printer,Books,847.22,8,2024-11-11
+216,33,Customer 66,Houston,Samsung TV,Computers,493.89,7,2024-07-15
+217,85,Customer 53,Philadelphia,HP Printer,Clothing,1393.51,8,2024-06-19
+218,24,Customer 39,Houston,Dell Laptop,Electronics,957.29,4,2024-12-04
+219,23,Customer 24,Phoenix,Adidas Jacket,Movies,235.06,4,2024-04-03
+220,78,Customer 9,Philadelphia,Samsung TV,Books,820.9,5,2024-11-25
+221,24,Customer 54,New York,Sony Headphones,Computers,424.71,5,2024-12-02
+222,62,Customer 25,Chicago,Samsung TV,Clothing,623.34,5,2024-07-26
+223,41,Customer 73,Houston,Sony Headphones,Movies,529.65,2,2024-08-07
+224,31,Customer 24,Philadelphia,Samsung TV,Electronics,116.06,8,2024-12-02
+225,3,Customer 15,New York,Sony Headphones,Music,1133.73,1,2024-12-14
+226,85,Customer 23,Phoenix,Dell Laptop,Computers,215.33,4,2024-02-23
+227,20,Customer 18,Los Angeles,Adidas Jacket,Movies,667.5,8,2024-02-14
+228,28,Customer 94,Houston,Adidas Jacket,Music,459.68,4,2024-01-23
+229,37,Customer 9,New York,Dell Laptop,Electronics,1138.7,4,2024-04-20
+230,5,Customer 92,New York,Samsung TV,Electronics,533.08,5,2024-03-18
+231,16,Customer 90,Los Angeles,Adidas Jacket,Electronics,1445.64,1,2024-12-02
+232,91,Customer 11,New York,Dell Laptop,Computers,1470.3,1,2024-11-25
+233,23,Customer 47,New York,Adidas Jacket,Electronics,825.83,7,2024-03-10
+234,96,Customer 91,Chicago,Sony Headphones,Books,1034.45,3,2024-12-27
+235,94,Customer 12,Phoenix,Samsung TV,Electronics,940.1,3,2024-12-04
+236,6,Customer 29,Los Angeles,Dell Laptop,Books,1024.36,3,2024-10-25
+237,62,Customer 54,Houston,HP Printer,Music,1403.78,4,2024-06-03
+238,7,Customer 39,Chicago,Sony Headphones,Books,589.71,8,2024-07-05
+239,79,Customer 10,Houston,HP Printer,Clothing,769.09,4,2024-09-18
+240,62,Customer 100,Chicago,HP Printer,Electronics,178.55,8,2024-08-03
+241,18,Customer 85,Philadelphia,Dell Laptop,Clothing,491.55,1,2024-12-27
+242,41,Customer 6,New York,Sony Headphones,Books,261.12,4,2024-05-14
+243,46,Customer 85,Los Angeles,Sony Headphones,Clothing,1423.52,3,2024-05-25
+244,79,Customer 49,Chicago,Dell Laptop,Clothing,1453.94,5,2024-07-29
+245,3,Customer 97,New York,Nike Shoes,Computers,82.05,1,2024-04-04
+246,51,Customer 11,Chicago,Adidas Jacket,Movies,1060.51,7,2024-09-30
+247,7,Customer 37,Phoenix,HP Printer,Computers,546.49,4,2024-09-27
+248,98,Customer 23,Los Angeles,Adidas Jacket,Books,1015.05,1,2024-12-04
+249,95,Customer 94,Phoenix,iPhone 14,Books,394.12,7,2024-10-08
+250,1,Customer 83,Houston,HP Printer,Movies,237.79,1,2024-02-16
+251,70,Customer 69,Phoenix,Adidas Jacket,Electronics,277.7,3,2024-01-02
+252,64,Customer 15,New York,Dell Laptop,Music,305.12,2,2024-10-24
+253,30,Customer 90,Houston,Dell Laptop,Books,1153.3,5,2024-11-05
+254,67,Customer 99,Houston,HP Printer,Clothing,1027.15,1,2024-12-29
+255,78,Customer 64,Houston,Dell Laptop,Books,535.79,4,2024-03-14
+256,51,Customer 58,Los Angeles,Dell Laptop,Electronics,883.89,7,2024-09-23
+257,5,Customer 45,Houston,HP Printer,Clothing,1249.3,7,2024-11-01
+258,43,Customer 98,Philadelphia,iPhone 14,Clothing,720.84,2,2024-12-05
+259,23,Customer 16,Philadelphia,Adidas Jacket,Clothing,1333.49,4,2024-11-03
+260,56,Customer 54,Philadelphia,Adidas Jacket,Books,521.39,4,2024-02-21
+261,27,Customer 80,Phoenix,HP Printer,Movies,1422.31,3,2024-08-20
+262,4,Customer 35,Philadelphia,Nike Shoes,Books,360.99,5,2024-12-01
+263,69,Customer 14,Philadelphia,Adidas Jacket,Electronics,330.42,8,2024-05-06
+264,76,Customer 54,Houston,Nike Shoes,Computers,1365.62,2,2024-11-16
+265,79,Customer 92,Philadelphia,Samsung TV,Movies,715.21,6,2024-10-09
+266,33,Customer 98,Philadelphia,Dell Laptop,Music,1376.67,4,2024-09-02
+267,90,Customer 44,Los Angeles,Adidas Jacket,Electronics,216.36,6,2024-01-16
+268,71,Customer 81,Chicago,HP Printer,Music,1105.76,2,2024-07-09
+269,88,Customer 72,Los Angeles,Nike Shoes,Clothing,238.9,7,2024-05-31
+270,84,Customer 90,Los Angeles,Adidas Jacket,Electronics,406.06,5,2024-08-26
+271,89,Customer 43,Phoenix,HP Printer,Computers,1070.57,4,2024-07-10
+272,20,Customer 23,Chicago,HP Printer,Books,895.48,5,2024-11-27
+273,81,Customer 72,New York,Sony Headphones,Clothing,304.54,6,2024-05-25
+274,91,Customer 1,Houston,Adidas Jacket,Movies,1132.28,1,2024-10-02
+275,100,Customer 83,Philadelphia,Samsung TV,Music,36.37,4,2024-10-15
+276,35,Customer 68,Houston,Adidas Jacket,Clothing,314.71,8,2024-10-27
+277,48,Customer 52,Phoenix,HP Printer,Clothing,1286.07,1,2024-11-29
+278,73,Customer 47,New York,Samsung TV,Electronics,1270.57,7,2024-06-22
+279,93,Customer 91,Chicago,Samsung TV,Books,654.35,4,2024-04-11
+280,17,Customer 77,Los Angeles,HP Printer,Movies,77.02,7,2024-03-27
+281,7,Customer 18,Houston,Sony Headphones,Electronics,1295.11,2,2024-01-21
+282,48,Customer 69,Chicago,Dell Laptop,Books,37.33,6,2024-07-10
+283,77,Customer 44,Phoenix,Samsung TV,Electronics,728.18,2,2024-01-27
+284,82,Customer 48,Los Angeles,Nike Shoes,Books,1094.01,6,2024-10-26
+285,40,Customer 18,Phoenix,HP Printer,Computers,518.49,4,2024-02-19
+286,34,Customer 21,Los Angeles,Nike Shoes,Books,1380.35,2,2024-09-08
+287,11,Customer 65,Los Angeles,Samsung TV,Computers,695.28,3,2024-07-09
+288,78,Customer 21,Houston,iPhone 14,Electronics,393.37,1,2024-08-03
+289,16,Customer 27,Phoenix,Samsung TV,Books,936.96,8,2024-12-05
+290,19,Customer 32,Chicago,iPhone 14,Movies,266.67,6,2024-03-31
+291,9,Customer 20,Chicago,Adidas Jacket,Computers,1316.92,4,2024-02-23
+292,29,Customer 46,Houston,HP Printer,Music,834.69,4,2024-12-02
+293,73,Customer 65,New York,iPhone 14,Computers,1284.33,8,2024-11-12
+294,2,Customer 20,Los Angeles,Nike Shoes,Computers,1104.69,7,2024-02-07
+295,40,Customer 30,Los Angeles,Nike Shoes,Electronics,938.98,4,2024-04-28
+296,56,Customer 68,Chicago,Samsung TV,Clothing,54.92,8,2024-10-20
+297,7,Customer 18,Chicago,iPhone 14,Computers,1487.43,2,2024-07-15
+298,57,Customer 71,New York,Samsung TV,Books,599.98,6,2024-03-10
+299,36,Customer 16,Phoenix,Samsung TV,Electronics,708.66,6,2024-09-16
+300,85,Customer 82,Philadelphia,Samsung TV,Books,664.62,6,2024-12-13
+301,23,Customer 33,New York,Sony Headphones,Computers,206.62,8,2024-12-30
+302,100,Customer 92,Phoenix,Samsung TV,Electronics,238.82,3,2024-02-20
+303,95,Customer 36,Phoenix,Nike Shoes,Clothing,992.51,5,2024-09-06
+304,28,Customer 18,Houston,Adidas Jacket,Clothing,502.01,6,2024-09-26
+305,80,Customer 27,Houston,HP Printer,Movies,583.86,3,2024-04-28
+306,89,Customer 87,Phoenix,Nike Shoes,Books,184.44,7,2024-11-17
+307,36,Customer 98,Philadelphia,HP Printer,Electronics,116.39,5,2024-09-25
+308,9,Customer 11,Phoenix,HP Printer,Movies,726.38,7,2024-09-11
+309,67,Customer 37,Phoenix,Nike Shoes,Books,792.5,2,2024-06-20
+310,60,Customer 43,New York,Nike Shoes,Clothing,323.46,5,2024-06-10
+311,55,Customer 70,Houston,Dell Laptop,Books,996.67,5,2024-11-05
+312,10,Customer 22,New York,Samsung TV,Movies,1364.74,3,2024-11-19
+313,36,Customer 98,Houston,Samsung TV,Music,803.93,6,2024-08-01
+314,73,Customer 33,Los Angeles,Dell Laptop,Computers,798.78,1,2024-11-28
+315,1,Customer 95,Philadelphia,Adidas Jacket,Clothing,27.66,2,2024-05-16
+316,65,Customer 98,Los Angeles,Sony Headphones,Music,697.35,3,2024-06-21
+317,73,Customer 11,Chicago,Nike Shoes,Clothing,1407.51,1,2024-12-12
+318,27,Customer 32,Houston,iPhone 14,Computers,64.58,2,2024-09-03
+319,31,Customer 74,Houston,Samsung TV,Movies,411.66,5,2024-03-31
+320,67,Customer 6,Phoenix,iPhone 14,Clothing,435.02,5,2024-04-30
+321,43,Customer 84,Chicago,Nike Shoes,Clothing,1230.65,1,2024-02-22
+322,83,Customer 27,Los Angeles,Sony Headphones,Electronics,539.52,7,2024-12-30
+323,33,Customer 13,Los Angeles,Sony Headphones,Movies,357.76,8,2024-01-28
+324,6,Customer 69,New York,iPhone 14,Music,139.91,1,2024-12-19
+325,26,Customer 43,Los Angeles,Samsung TV,Books,41.59,7,2024-09-21
+326,43,Customer 2,New York,Nike Shoes,Clothing,760.69,1,2024-12-30
+327,52,Customer 91,New York,Samsung TV,Movies,1165.45,7,2024-03-14
+328,24,Customer 51,New York,Nike Shoes,Computers,1349.46,5,2024-07-07
+329,20,Customer 66,Los Angeles,Nike Shoes,Clothing,619.12,5,2024-01-21
+330,52,Customer 81,Houston,Adidas Jacket,Computers,469.06,3,2024-03-12
+331,52,Customer 87,Phoenix,Nike Shoes,Music,286.74,8,2024-03-16
+332,42,Customer 75,Phoenix,Adidas Jacket,Books,361.38,6,2024-11-28
+333,54,Customer 54,New York,Nike Shoes,Clothing,179.93,3,2024-03-26
+334,77,Customer 99,Houston,Samsung TV,Books,1240.02,4,2024-12-16
+335,64,Customer 88,Chicago,Dell Laptop,Books,1318.32,5,2024-12-17
+336,82,Customer 46,Los Angeles,Nike Shoes,Computers,1220.45,1,2024-07-23
+337,29,Customer 80,Los Angeles,Adidas Jacket,Clothing,1027.87,2,2024-04-01
+338,29,Customer 71,Phoenix,Samsung TV,Electronics,784.41,8,2024-10-12
+339,41,Customer 11,New York,Nike Shoes,Clothing,220.97,1,2024-05-07
+340,54,Customer 60,Houston,Dell Laptop,Electronics,1005.32,2,2024-09-17
+341,47,Customer 36,Houston,Sony Headphones,Electronics,1469.91,3,2024-11-30
+342,16,Customer 8,Los Angeles,Nike Shoes,Music,318.62,5,2024-04-03
+343,68,Customer 27,Houston,Dell Laptop,Music,1007.8,6,2024-09-05
+344,54,Customer 44,Houston,Sony Headphones,Electronics,1222.95,7,2024-09-13
+345,44,Customer 27,Los Angeles,Samsung TV,Movies,1446.47,8,2024-12-08
+346,64,Customer 46,Houston,Nike Shoes,Clothing,916.81,8,2024-01-03
+347,54,Customer 71,Houston,Dell Laptop,Music,910.46,3,2024-08-28
+348,94,Customer 47,Phoenix,iPhone 14,Music,1011.0,4,2024-03-20
+349,11,Customer 3,Los Angeles,Sony Headphones,Music,504.76,4,2024-05-21
+350,1,Customer 46,New York,Nike Shoes,Movies,738.02,6,2024-06-28
+351,47,Customer 6,New York,Nike Shoes,Computers,246.96,2,2024-12-12
+352,92,Customer 59,Philadelphia,Sony Headphones,Electronics,313.01,2,2024-09-15
+353,72,Customer 18,Phoenix,Dell Laptop,Clothing,469.41,4,2024-11-22
+354,74,Customer 65,Los Angeles,Dell Laptop,Movies,478.25,7,2024-08-12
+355,6,Customer 3,Phoenix,Samsung TV,Music,1228.42,1,2024-04-25
+356,92,Customer 67,Philadelphia,Sony Headphones,Computers,84.31,2,2024-02-04
+357,53,Customer 21,New York,Dell Laptop,Clothing,676.41,4,2024-08-06
+358,15,Customer 2,Los Angeles,Sony Headphones,Clothing,808.13,6,2024-08-29
+359,90,Customer 73,Philadelphia,HP Printer,Movies,1082.86,5,2024-07-21
+360,39,Customer 11,Los Angeles,iPhone 14,Clothing,84.03,4,2024-06-12
+361,52,Customer 40,Phoenix,iPhone 14,Clothing,1038.23,1,2024-01-25
+362,47,Customer 11,Los Angeles,HP Printer,Clothing,1170.46,4,2024-11-22
+363,69,Customer 14,Los Angeles,HP Printer,Music,765.57,5,2024-08-07
+364,67,Customer 95,Houston,HP Printer,Computers,739.94,3,2024-08-01
+365,40,Customer 1,New York,Sony Headphones,Clothing,1004.78,1,2024-12-22
+366,77,Customer 41,Philadelphia,Sony Headphones,Clothing,1246.05,8,2024-02-15
+367,60,Customer 21,Chicago,Samsung TV,Electronics,1294.14,7,2024-06-16
+368,59,Customer 82,Phoenix,Samsung TV,Books,1168.35,2,2024-08-15
+369,61,Customer 19,Houston,Dell Laptop,Clothing,1051.02,7,2024-08-25
+370,82,Customer 56,Los Angeles,HP Printer,Computers,185.86,3,2024-01-08
+371,50,Customer 44,Chicago,Samsung TV,Electronics,167.74,2,2024-02-27
+372,29,Customer 72,Philadelphia,iPhone 14,Clothing,984.27,8,2024-01-20
+373,24,Customer 5,Los Angeles,HP Printer,Books,897.16,7,2024-12-31
+374,82,Customer 57,Philadelphia,Dell Laptop,Movies,1076.88,5,2024-06-29
+375,51,Customer 64,Chicago,HP Printer,Books,986.8,5,2024-07-05
+376,81,Customer 45,Philadelphia,Adidas Jacket,Books,1204.99,7,2024-06-13
+377,32,Customer 75,Phoenix,HP Printer,Electronics,878.24,1,2024-05-02
+378,53,Customer 83,Philadelphia,iPhone 14,Movies,1484.31,3,2024-12-24
+379,100,Customer 1,Phoenix,Sony Headphones,Electronics,154.62,7,2024-10-07
+380,70,Customer 1,Los Angeles,HP Printer,Movies,1075.9,1,2024-12-21
+381,22,Customer 19,Philadelphia,Nike Shoes,Computers,192.98,2,2024-12-10
+382,16,Customer 62,New York,iPhone 14,Electronics,1163.5,1,2024-10-14
+383,74,Customer 76,Los Angeles,Samsung TV,Computers,594.66,7,2024-08-31
+384,42,Customer 97,Chicago,Dell Laptop,Books,1459.42,3,2024-10-28
+385,28,Customer 26,Houston,iPhone 14,Music,1183.48,8,2024-12-21
+386,72,Customer 13,New York,Nike Shoes,Books,1167.23,4,2024-06-23
+387,91,Customer 85,Chicago,HP Printer,Electronics,929.88,7,2024-12-06
+388,43,Customer 58,New York,HP Printer,Clothing,1291.34,6,2024-04-29
+389,89,Customer 1,New York,Sony Headphones,Electronics,584.87,3,2024-01-17
+390,91,Customer 48,Phoenix,Samsung TV,Computers,1211.88,4,2024-04-04
+391,18,Customer 76,Philadelphia,HP Printer,Music,861.8,6,2024-03-05
+392,67,Customer 50,New York,Nike Shoes,Movies,1416.41,8,2024-11-30
+393,98,Customer 96,Phoenix,Samsung TV,Electronics,1327.99,8,2024-08-17
+394,13,Customer 17,Houston,Nike Shoes,Electronics,413.87,5,2024-04-13
+395,31,Customer 89,New York,Nike Shoes,Movies,171.84,5,2024-12-12
+396,78,Customer 99,Houston,Adidas Jacket,Movies,1146.78,2,2024-08-28
+397,99,Customer 37,Los Angeles,iPhone 14,Clothing,633.92,6,2024-08-07
+398,29,Customer 26,New York,Nike Shoes,Books,404.37,1,2024-11-23
+399,15,Customer 76,New York,Sony Headphones,Computers,462.73,3,2024-01-08
+400,30,Customer 40,Chicago,iPhone 14,Computers,396.36,8,2024-06-27
+401,13,Customer 13,Philadelphia,Dell Laptop,Computers,937.37,7,2024-11-28
+402,44,Customer 84,Los Angeles,Nike Shoes,Books,712.66,2,2024-03-05
+403,12,Customer 47,New York,Nike Shoes,Electronics,69.27,4,2024-05-17
+404,86,Customer 41,Los Angeles,Dell Laptop,Music,1326.42,6,2024-07-01
+405,6,Customer 94,Los Angeles,iPhone 14,Music,232.78,8,2024-10-05
+406,7,Customer 49,Phoenix,iPhone 14,Movies,60.21,7,2024-06-08
+407,30,Customer 29,Philadelphia,iPhone 14,Movies,366.07,4,2024-12-11
+408,32,Customer 63,New York,Nike Shoes,Clothing,1070.39,7,2024-02-06
+409,1,Customer 32,Chicago,HP Printer,Movies,371.68,7,2024-06-26
+410,100,Customer 33,Houston,Samsung TV,Computers,1100.77,8,2024-04-15
+411,91,Customer 6,New York,HP Printer,Electronics,1025.02,4,2024-01-25
+412,49,Customer 79,Phoenix,Adidas Jacket,Clothing,288.41,3,2024-03-01
+413,44,Customer 4,Los Angeles,Sony Headphones,Movies,119.46,7,2024-10-12
+414,12,Customer 95,New York,Adidas Jacket,Books,848.47,7,2024-03-06
+415,57,Customer 51,Chicago,Adidas Jacket,Books,167.33,2,2024-09-21
+416,39,Customer 15,Houston,Nike Shoes,Movies,95.61,7,2024-01-06
+417,70,Customer 97,Phoenix,Dell Laptop,Clothing,118.64,1,2024-11-03
+418,63,Customer 47,Philadelphia,Nike Shoes,Clothing,1161.95,6,2024-09-05
+419,39,Customer 84,New York,HP Printer,Movies,1055.07,6,2024-09-20
+420,24,Customer 97,New York,Adidas Jacket,Books,670.5,7,2024-08-03
+421,4,Customer 18,New York,Nike Shoes,Movies,1425.0,8,2024-07-23
+422,68,Customer 39,New York,iPhone 14,Music,915.05,1,2024-12-26
+423,40,Customer 74,Los Angeles,Dell Laptop,Music,838.98,2,2024-09-12
+424,4,Customer 3,New York,Sony Headphones,Computers,887.0,6,2024-02-02
+425,81,Customer 98,Philadelphia,Sony Headphones,Music,1257.96,8,2024-04-06
+426,86,Customer 25,Los Angeles,Dell Laptop,Books,806.39,6,2024-04-03
+427,91,Customer 92,Phoenix,Sony Headphones,Computers,161.21,4,2024-06-27
+428,73,Customer 53,Phoenix,Samsung TV,Clothing,1433.74,2,2024-04-27
+429,25,Customer 48,New York,HP Printer,Computers,761.71,7,2024-06-17
+430,36,Customer 85,Los Angeles,iPhone 14,Computers,1433.31,3,2024-12-23
+431,42,Customer 15,Los Angeles,Adidas Jacket,Music,351.05,5,2024-07-31
+432,62,Customer 4,Los Angeles,Sony Headphones,Books,1259.22,8,2024-09-07
+433,38,Customer 27,Phoenix,Samsung TV,Movies,148.13,7,2024-02-29
+434,93,Customer 100,Phoenix,Nike Shoes,Electronics,312.11,4,2024-07-21
+435,58,Customer 94,Houston,Samsung TV,Clothing,1277.05,6,2024-02-07
+436,4,Customer 11,Phoenix,Sony Headphones,Books,521.01,7,2024-07-02
+437,82,Customer 25,Philadelphia,Adidas Jacket,Movies,450.55,8,2024-09-17
+438,15,Customer 58,Philadelphia,Adidas Jacket,Computers,264.62,4,2024-07-11
+439,91,Customer 30,Chicago,Dell Laptop,Music,1032.76,7,2024-02-22
+440,99,Customer 35,New York,Sony Headphones,Computers,498.09,8,2024-04-10
+441,75,Customer 92,New York,Sony Headphones,Computers,152.75,3,2024-05-11
+442,36,Customer 94,Phoenix,Dell Laptop,Music,290.43,8,2024-02-15
+443,72,Customer 13,Los Angeles,iPhone 14,Movies,818.87,5,2024-12-20
+444,92,Customer 44,New York,HP Printer,Computers,393.96,1,2024-03-02
+445,57,Customer 25,Philadelphia,iPhone 14,Movies,662.13,2,2024-07-07
+446,65,Customer 6,Phoenix,Samsung TV,Movies,1426.21,4,2024-03-30
+447,92,Customer 96,Philadelphia,HP Printer,Music,160.64,5,2024-04-07
+448,5,Customer 74,Houston,HP Printer,Movies,432.08,6,2024-02-12
+449,13,Customer 99,Chicago,iPhone 14,Electronics,981.39,8,2024-02-03
+450,69,Customer 51,Chicago,HP Printer,Clothing,1340.49,1,2024-08-04
+451,18,Customer 20,Houston,HP Printer,Computers,972.35,6,2024-11-26
+452,33,Customer 16,Phoenix,Dell Laptop,Clothing,722.45,2,2024-12-01
+453,66,Customer 56,New York,iPhone 14,Clothing,300.76,4,2024-08-17
+454,23,Customer 71,Phoenix,HP Printer,Electronics,554.39,5,2024-08-11
+455,3,Customer 67,Phoenix,iPhone 14,Clothing,1411.17,8,2024-08-17
+456,81,Customer 40,Philadelphia,Dell Laptop,Books,378.96,1,2024-12-31
+457,30,Customer 54,Chicago,Sony Headphones,Electronics,1296.63,2,2024-01-21
+458,63,Customer 92,Houston,iPhone 14,Music,1223.24,4,2024-07-31
+459,95,Customer 32,Chicago,Sony Headphones,Music,1144.37,2,2024-01-27
+460,73,Customer 40,Los Angeles,Nike Shoes,Computers,691.52,4,2024-02-18
+461,74,Customer 4,Chicago,Dell Laptop,Books,104.27,3,2024-06-02
+462,73,Customer 15,Phoenix,Sony Headphones,Electronics,67.87,2,2024-09-16
+463,30,Customer 45,Houston,HP Printer,Books,512.48,2,2024-07-20
+464,84,Customer 83,Philadelphia,HP Printer,Movies,42.53,3,2024-07-11
+465,50,Customer 69,Houston,HP Printer,Electronics,975.72,8,2024-06-19
+466,70,Customer 94,New York,Sony Headphones,Music,142.28,4,2024-07-07
+467,38,Customer 4,Los Angeles,Nike Shoes,Clothing,1326.34,3,2024-06-27
+468,32,Customer 47,Los Angeles,Dell Laptop,Books,1456.72,2,2024-02-02
+469,85,Customer 31,Los Angeles,Sony Headphones,Computers,1400.34,7,2024-06-19
+470,26,Customer 92,Phoenix,HP Printer,Books,1098.41,1,2024-11-06
+471,20,Customer 51,New York,Nike Shoes,Electronics,574.09,8,2024-04-04
+472,35,Customer 23,Los Angeles,Samsung TV,Music,422.83,1,2024-03-02
+473,76,Customer 29,New York,HP Printer,Movies,40.69,4,2024-01-14
+474,100,Customer 94,Chicago,Dell Laptop,Computers,1284.31,7,2024-08-15
+475,95,Customer 63,Los Angeles,iPhone 14,Computers,1396.56,8,2024-07-19
+476,3,Customer 43,Chicago,Sony Headphones,Computers,908.84,2,2024-09-13
+477,72,Customer 50,New York,Adidas Jacket,Books,35.01,4,2024-06-13
+478,84,Customer 24,Houston,Nike Shoes,Movies,1382.09,7,2024-01-17
+479,83,Customer 10,Houston,Dell Laptop,Books,1473.27,1,2024-04-14
+480,70,Customer 30,Houston,Nike Shoes,Electronics,527.65,7,2024-05-26
+481,67,Customer 87,Philadelphia,HP Printer,Clothing,1155.99,1,2024-06-10
+482,95,Customer 39,Chicago,Samsung TV,Computers,121.22,4,2024-12-25
+483,94,Customer 60,Phoenix,Sony Headphones,Computers,1148.92,4,2024-05-26
+484,50,Customer 85,Houston,Nike Shoes,Clothing,1313.62,6,2024-03-18
+485,73,Customer 57,Philadelphia,Sony Headphones,Music,442.03,1,2024-06-12
+486,30,Customer 1,Phoenix,Samsung TV,Books,347.76,4,2024-11-05
+487,68,Customer 74,Houston,Samsung TV,Computers,519.51,2,2024-08-29
+488,82,Customer 29,Chicago,Sony Headphones,Movies,850.32,6,2024-07-03
+489,60,Customer 31,Chicago,iPhone 14,Movies,536.64,3,2024-04-25
+490,83,Customer 94,Los Angeles,Nike Shoes,Electronics,709.8,6,2024-09-30
+491,14,Customer 75,Chicago,HP Printer,Books,1007.09,3,2024-01-18
+492,66,Customer 43,Chicago,Adidas Jacket,Computers,362.38,7,2024-11-11
+493,75,Customer 50,Los Angeles,Dell Laptop,Clothing,1082.04,7,2024-08-29
+494,93,Customer 22,Houston,Samsung TV,Movies,1368.35,3,2024-03-20
+495,48,Customer 25,Chicago,Sony Headphones,Movies,915.25,3,2024-04-16
+496,92,Customer 25,Chicago,iPhone 14,Movies,865.93,3,2024-06-18
+497,21,Customer 64,Phoenix,Nike Shoes,Electronics,90.06,6,2024-05-03
+498,89,Customer 25,New York,Sony Headphones,Electronics,700.12,2,2024-12-24
+499,77,Customer 99,Chicago,HP Printer,Books,1388.73,5,2024-08-31
+500,84,Customer 50,New York,Adidas Jacket,Computers,304.36,3,2024-10-12

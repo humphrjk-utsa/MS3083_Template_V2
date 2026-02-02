@@ -1,0 +1,76 @@
+ProductID,Product_Description,Category,Price,In_Stock
+1,Apple iPhone 14 Pro - 128GB - Space Black,TV,963.53,Limited
+2,samsung galaxy s23 ultra 256gb,TV,1817.44,Yes
+3,Apple iPhone 14 Pro - 128GB - Space Black,Audio,852.79,Yes
+4,Apple iPhone 14 Pro - 128GB - Space Black,Shoes,648.58,Yes
+5,samsung galaxy s23 ultra 256gb,Electronics,586.35,Limited
+6,Apple iPhone 14 Pro - 128GB - Space Black,Computers,1044.64,Yes
+7,DELL XPS 13 Laptop - Intel i7 - 16GB RAM,Audio,1509.18,Limited
+8,hp envy printer - wireless - color,Electronics,1226.05,Yes
+9,Nike Air Max 270 - Size 10 - Black/White,Computers,1262.01,Limited
+10,"LG 55"" 4K Smart TV - OLED Display",Shoes,333.15,No
+11,sony WH-1000XM4 wireless headphones,Computers,1208.41,Limited
+12,adidas ultraboost 22 running shoes,Electronics,472.54,No
+13,"LG 55"" 4K Smart TV - OLED Display",Audio,1582.97,No
+14,sony WH-1000XM4 wireless headphones,Electronics,422.73,No
+15,hp envy printer - wireless - color,Shoes,634.51,No
+16,adidas ultraboost 22 running shoes,Computers,230.23,No
+17,adidas ultraboost 22 running shoes,TV,1814.42,Limited
+18,samsung galaxy s23 ultra 256gb,Electronics,502.05,Limited
+19,DELL XPS 13 Laptop - Intel i7 - 16GB RAM,Electronics,231.29,Yes
+20,"LG 55"" 4K Smart TV - OLED Display",Shoes,562.5,Limited
+21,samsung galaxy s23 ultra 256gb,Computers,817.63,No
+22,adidas ultraboost 22 running shoes,Shoes,414.08,Yes
+23,sony WH-1000XM4 wireless headphones,Computers,969.21,Yes
+24,"LG 55"" 4K Smart TV - OLED Display",Audio,1972.46,No
+25,Apple iPhone 14 Pro - 128GB - Space Black,Electronics,1928.3,Yes
+26,"LG 55"" 4K Smart TV - OLED Display",Computers,373.75,Limited
+27,Apple iPhone 14 Pro - 128GB - Space Black,Electronics,1478.36,Limited
+28,"LG 55"" 4K Smart TV - OLED Display",Electronics,503.15,Yes
+29,hp envy printer - wireless - color,Audio,1912.78,Limited
+30,samsung galaxy s23 ultra 256gb,Audio,863.22,Limited
+31,DELL XPS 13 Laptop - Intel i7 - 16GB RAM,Electronics,789.78,Limited
+32,Nike Air Max 270 - Size 10 - Black/White,Shoes,1965.09,Yes
+33,Nike Air Max 270 - Size 10 - Black/White,Electronics,1060.79,Yes
+34,hp envy printer - wireless - color,Computers,380.29,No
+35,DELL XPS 13 Laptop - Intel i7 - 16GB RAM,Electronics,1177.84,No
+36,"LG 55"" 4K Smart TV - OLED Display",TV,1475.78,Limited
+37,"LG 55"" 4K Smart TV - OLED Display",Audio,1414.12,Yes
+38,adidas ultraboost 22 running shoes,Electronics,1497.34,Yes
+39,Apple iPhone 14 Pro - 128GB - Space Black,Audio,1529.77,Limited
+40,samsung galaxy s23 ultra 256gb,TV,1885.26,Limited
+41,samsung galaxy s23 ultra 256gb,Electronics,1202.83,Yes
+42,hp envy printer - wireless - color,Computers,1090.18,Limited
+43,adidas ultraboost 22 running shoes,TV,1607.63,No
+44,sony WH-1000XM4 wireless headphones,Computers,215.41,No
+45,sony WH-1000XM4 wireless headphones,Electronics,765.25,No
+46,"LG 55"" 4K Smart TV - OLED Display",Shoes,1261.29,Limited
+47,"LG 55"" 4K Smart TV - OLED Display",Shoes,847.82,No
+48,"LG 55"" 4K Smart TV - OLED Display",Audio,1470.51,Limited
+49,hp envy printer - wireless - color,Computers,1110.36,Limited
+50,sony WH-1000XM4 wireless headphones,Electronics,1493.15,No
+51,Apple iPhone 14 Pro - 128GB - Space Black,Audio,1579.39,Limited
+52,Apple iPhone 14 Pro - 128GB - Space Black,Shoes,1039.67,Limited
+53,Apple iPhone 14 Pro - 128GB - Space Black,TV,1491.57,Limited
+54,hp envy printer - wireless - color,Audio,383.53,No
+55,Nike Air Max 270 - Size 10 - Black/White,Audio,776.67,Limited
+56,samsung galaxy s23 ultra 256gb,Audio,1555.36,Limited
+57,Nike Air Max 270 - Size 10 - Black/White,TV,83.89,No
+58,Apple iPhone 14 Pro - 128GB - Space Black,Computers,545.07,No
+59,samsung galaxy s23 ultra 256gb,TV,697.12,Limited
+60,sony WH-1000XM4 wireless headphones,TV,1728.87,No
+61,"LG 55"" 4K Smart TV - OLED Display",Shoes,279.72,Yes
+62,sony WH-1000XM4 wireless headphones,Electronics,492.38,Yes
+63,adidas ultraboost 22 running shoes,TV,945.71,No
+64,hp envy printer - wireless - color,Computers,875.61,Yes
+65,adidas ultraboost 22 running shoes,Audio,899.63,Limited
+66,Apple iPhone 14 Pro - 128GB - Space Black,TV,729.85,Limited
+67,DELL XPS 13 Laptop - Intel i7 - 16GB RAM,Electronics,217.28,Yes
+68,adidas ultraboost 22 running shoes,Computers,928.3,Limited
+69,samsung galaxy s23 ultra 256gb,TV,696.2,No
+70,Apple iPhone 14 Pro - 128GB - Space Black,Shoes,1454.08,Limited
+71,sony WH-1000XM4 wireless headphones,Electronics,1955.39,Limited
+72,adidas ultraboost 22 running shoes,Electronics,1260.92,Yes
+73,"LG 55"" 4K Smart TV - OLED Display",TV,1292.48,Limited
+74,adidas ultraboost 22 running shoes,Computers,151.24,Yes
+75,DELL XPS 13 Laptop - Intel i7 - 16GB RAM,Electronics,1288.19,No

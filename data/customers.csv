@@ -1,0 +1,101 @@
+CustomerID,Name,Email,City,Registration_Date
+1,Customer 1,customer1@email.com,Phoenix,2020-10-03
+2,Customer 2,customer2@email.com,Los Angeles,2020-06-02
+3,Customer 3,customer3@email.com,Chicago,2021-04-20
+4,Customer 4,customer4@email.com,Houston,2022-06-16
+5,Customer 5,customer5@email.com,Phoenix,2023-08-22
+6,Customer 6,customer6@email.com,Houston,2021-09-10
+7,Customer 7,customer7@email.com,Houston,2020-07-07
+8,Customer 8,customer8@email.com,Phoenix,2022-01-20
+9,Customer 9,customer9@email.com,New York,2020-12-09
+10,Customer 10,customer10@email.com,Phoenix,2022-05-04
+11,Customer 11,customer11@email.com,Chicago,2021-07-22
+12,Customer 12,customer12@email.com,Chicago,2022-07-25
+13,Customer 13,customer13@email.com,Phoenix,2023-01-18
+14,Customer 14,customer14@email.com,New York,2022-09-12
+15,Customer 15,customer15@email.com,Chicago,2023-06-22
+16,Customer 16,customer16@email.com,Los Angeles,2020-03-23
+17,Customer 17,customer17@email.com,Phoenix,2020-04-23
+18,Customer 18,customer18@email.com,Los Angeles,2021-05-04
+19,Customer 19,customer19@email.com,Chicago,2020-10-30
+20,Customer 20,customer20@email.com,Los Angeles,2022-08-08
+21,Customer 21,customer21@email.com,Houston,2022-05-26
+22,Customer 22,customer22@email.com,Los Angeles,2021-04-14
+23,Customer 23,customer23@email.com,Chicago,2020-07-29
+24,Customer 24,customer24@email.com,Los Angeles,2022-11-26
+25,Customer 25,customer25@email.com,Phoenix,2022-10-09
+26,Customer 26,customer26@email.com,New York,2020-03-24
+27,Customer 27,customer27@email.com,Houston,2023-06-26
+28,Customer 28,customer28@email.com,Los Angeles,2023-06-27
+29,Customer 29,customer29@email.com,Phoenix,2022-02-03
+30,Customer 30,customer30@email.com,Houston,2020-09-25
+31,Customer 31,customer31@email.com,New York,2021-01-30
+32,Customer 32,customer32@email.com,New York,2021-03-30
+33,Customer 33,customer33@email.com,Phoenix,2020-02-10
+34,Customer 34,customer34@email.com,New York,2023-11-11
+35,Customer 35,customer35@email.com,Phoenix,2020-05-15
+36,Customer 36,customer36@email.com,New York,2020-05-28
+37,Customer 37,customer37@email.com,Los Angeles,2022-11-11
+38,Customer 38,customer38@email.com,Chicago,2023-01-06
+39,Customer 39,customer39@email.com,Chicago,2022-10-29
+40,Customer 40,customer40@email.com,Chicago,2022-09-10
+41,Customer 41,customer41@email.com,Chicago,2023-01-05
+42,Customer 42,customer42@email.com,Los Angeles,2023-07-07
+43,Customer 43,customer43@email.com,Houston,2022-10-13
+44,Customer 44,customer44@email.com,Phoenix,2021-08-19
+45,Customer 45,customer45@email.com,Houston,2023-07-30
+46,Customer 46,customer46@email.com,Houston,2021-01-27
+47,Customer 47,customer47@email.com,New York,2021-10-26
+48,Customer 48,customer48@email.com,Houston,2022-03-14
+49,Customer 49,customer49@email.com,Phoenix,2023-07-09
+50,Customer 50,customer50@email.com,Los Angeles,2023-08-21
+51,Customer 51,customer51@email.com,New York,2021-02-11
+52,Customer 52,customer52@email.com,Los Angeles,2022-11-23
+53,Customer 53,customer53@email.com,Chicago,2023-06-28
+54,Customer 54,customer54@email.com,Houston,2021-03-13
+55,Customer 55,customer55@email.com,Los Angeles,2021-01-29
+56,Customer 56,customer56@email.com,Los Angeles,2020-03-12
+57,Customer 57,customer57@email.com,Los Angeles,2023-09-21
+58,Customer 58,customer58@email.com,Phoenix,2023-10-19
+59,Customer 59,customer59@email.com,Chicago,2022-11-24
+60,Customer 60,customer60@email.com,Chicago,2021-02-01
+61,Customer 61,customer61@email.com,Phoenix,2023-07-06
+62,Customer 62,customer62@email.com,New York,2021-09-04
+63,Customer 63,customer63@email.com,Chicago,2021-07-26
+64,Customer 64,customer64@email.com,Phoenix,2022-08-21
+65,Customer 65,customer65@email.com,Chicago,2021-08-10
+66,Customer 66,customer66@email.com,Chicago,2020-10-07
+67,Customer 67,customer67@email.com,Phoenix,2023-01-08
+68,Customer 68,customer68@email.com,Los Angeles,2022-03-11
+69,Customer 69,customer69@email.com,Los Angeles,2021-10-18
+70,Customer 70,customer70@email.com,Chicago,2020-09-15
+71,Customer 71,customer71@email.com,Phoenix,2021-05-21
+72,Customer 72,customer72@email.com,New York,2020-11-08
+73,Customer 73,customer73@email.com,Los Angeles,2020-06-06
+74,Customer 74,customer74@email.com,Los Angeles,2022-02-01
+75,Customer 75,customer75@email.com,Chicago,2023-07-22
+76,Customer 76,customer76@email.com,Houston,2021-04-21
+77,Customer 77,customer77@email.com,Chicago,2022-01-17
+78,Customer 78,customer78@email.com,New York,2020-08-05
+79,Customer 79,customer79@email.com,Houston,2023-06-17
+80,Customer 80,customer80@email.com,Los Angeles,2022-06-16
+81,Customer 81,customer81@email.com,Houston,2020-04-25
+82,Customer 82,customer82@email.com,New York,2023-12-30
+83,Customer 83,customer83@email.com,Houston,2020-02-12
+84,Customer 84,customer84@email.com,New York,2022-01-27
+85,Customer 85,customer85@email.com,Houston,2023-06-11
+86,Customer 86,customer86@email.com,Los Angeles,2023-03-02
+87,Customer 87,customer87@email.com,Chicago,2020-03-26
+88,Customer 88,customer88@email.com,Los Angeles,2023-08-20
+89,Customer 89,customer89@email.com,New York,2023-06-30
+90,Customer 90,customer90@email.com,Los Angeles,2022-03-11
+91,Customer 91,customer91@email.com,Chicago,2021-11-25
+92,Customer 92,customer92@email.com,Chicago,2023-09-04
+93,Customer 93,customer93@email.com,Phoenix,2020-08-05
+94,Customer 94,customer94@email.com,Houston,2020-12-16
+95,Customer 95,customer95@email.com,Houston,2023-07-25
+96,Customer 96,customer96@email.com,Phoenix,2021-02-05
+97,Customer 97,customer97@email.com,New York,2021-09-12
+98,Customer 98,customer98@email.com,Chicago,2023-08-07
+99,Customer 99,customer99@email.com,Houston,2022-04-23
+100,Customer 100,customer100@email.com,Chicago,2021-05-18
