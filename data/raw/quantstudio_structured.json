@@ -1,0 +1,5758 @@
+{
+  "experiment_info": {
+    "name": "GI_09122025_002",
+    "run_state": "COMPLETE",
+    "experiment_type": "Standard Curve",
+    "chemistry": "TaqMan® Reagents",
+    "plate_type": "384-Well Plate (16x24)",
+    "created_time": "2025-09-12T11:46:48.748000",
+    "run_start_time": "2025-09-12T12:44:10.658000",
+    "run_end_time": "2025-09-12T13:54:52.938000",
+    "run_duration_minutes": 70.70466666666667
+  },
+  "instrument_info": {
+    "blockid": "8",
+    "numofrow": "16",
+    "numofcol": "24",
+    "coversn": "278159097",
+    "version": "1.5.0",
+    "coverid": "1",
+    "lamphours": "0",
+    "blocksn": "278037154",
+    "type": "paragon",
+    "sn": "285881926"
+  },
+  "detectors": [
+    {
+      "name": "ADENOB_C",
+      "reporter_dye": "CY5",
+      "quencher": "NFQ-MGB"
+    },
+    {
+      "name": "ANCDUO",
+      "reporter_dye": "CY5",
+      "quencher": "NFQ-MGB"
+    },
+    {
+      "name": "ASTROVIR",
+      "reporter_dye": "CY5",
+      "quencher": "NFQ-MGB"
+    },
+    {
+      "name": "CAMSPP",
+      "reporter_dye": "FAM",
+      "quencher": "None"
+    },
+    {
+      "name": "CLODIF",
+      "reporter_dye": "VIC",
+      "quencher": "None"
+    },
+    {
+      "name": "CRYPSPP",
+      "reporter_dye": "CY5",
+      "quencher": "NFQ-MGB"
+    },
+    {
+      "name": "EEC",
+      "reporter_dye": "ROX",
+      "quencher": "NFQ-MGB"
+    },
+    {
+      "name": "EHEC",
+      "reporter_dye": "VIC",
+      "quencher": "None"
+    },
+    {
+      "name": "EIEC",
+      "reporter_dye": "CY5",
+      "quencher": "NFQ-MGB"
+    },
+    {
+      "name": "ENTHIS",
+      "reporter_dye": "ROX",
+      "quencher": "None"
+    },
+    {
+      "name": "ENTVER",
+      "reporter_dye": "FAM",
+      "quencher": "None"
+    },
+    {
+      "name": "GAPDH",
+      "reporter_dye": "ROX",
+      "quencher": "None"
+    },
+    {
+      "name": "GIALAM",
+      "reporter_dye": "ROX",
+      "quencher": "None"
+    },
+    {
+      "name": "HELPYL",
+      "reporter_dye": "VIC",
+      "quencher": "None"
+    },
+    {
+      "name": "MS2_RT",
+      "reporter_dye": "VIC",
+      "quencher": "None"
+    },
+    {
+      "name": "NECAME",
+      "reporter_dye": "FAM",
+      "quencher": "None"
+    },
+    {
+      "name": "NOROVIRG1",
+      "reporter_dye": "FAM",
+      "quencher": "None"
+    },
+    {
+      "name": "NOROVIRG2",
+      "reporter_dye": "VIC",
+      "quencher": "None"
+    },
+    {
+      "name": "ROTAVIRB",
+      "reporter_dye": "ROX",
+      "quencher": "None"
+    },
+    {
+      "name": "ROTAVIRA",
+      "reporter_dye": "FAM",
+      "quencher": "None"
+    },
+    {
+      "name": "SALSPP",
+      "reporter_dye": "CY5",
+      "quencher": "NFQ-MGB"
+    },
+    {
+      "name": "SAPVIR",
+      "reporter_dye": "VIC",
+      "quencher": "None"
+    },
+    {
+      "name": "SHISPP",
+      "reporter_dye": "FAM",
+      "quencher": "None"
+    },
+    {
+      "name": "YERENT",
+      "reporter_dye": "ROX",
+      "quencher": "None"
+    }
+  ],
+  "samples": [
+    {
+      "name": "0",
+      "concentration": 100.0,
+      "color": "-5236961"
+    },
+    {
+      "name": "35125",
+      "concentration": 100.0,
+      "color": "-16776961"
+    }
+  ],
+  "wells": [
+    {
+      "well_info": {
+        "well_position": "0",
+        "sample_name": "35125",
+        "detector_name": "EIEC",
+        "task": "Target"
+      },
+      "results": {
+        "ct_value": null,
+        "avg_ct": null,
+        "ct_sd": null,
+        "quantity": null,
+        "avg_quantity": null,
+        "amplification_status": -1,
+        "cq_confidence": 0.0
+      },
+      "fluorescence_data": [
+        {
+          "cycle": 1,
+          "fluorescence": 111360.32,
+          "delta_rn": 1535.2825
+        },
+        {
+          "cycle": 2,
+          "fluorescence": 110884.99,
+          "delta_rn": 1013.8938
+        },
+        {
+          "cycle": 3,
+          "fluorescence": 109999.96,
+          "delta_rn": 82.80193
+        },
+        {
+          "cycle": 4,
+          "fluorescence": 109806.64,
+          "delta_rn": -156.579
+        },
+        {
+          "cycle": 5,
+          "fluorescence": 109902.38,
+          "delta_rn": -106.897415
+        },
+        {
+          "cycle": 6,
+          "fluorescence": 110071.81,
+          "delta_rn": 16.471663
+        },
+        {
+          "cycle": 7,
+          "fluorescence": 110577.72,
+          "delta_rn": 476.3173
+        },
+        {
+          "cycle": 8,
+          "fluorescence": 109578.38,
+          "delta_rn": -569.0792
+        },
+        {
+          "cycle": 9,
+          "fluorescence": 109419.79,
+          "delta_rn": -773.7336
+        },
+        {
+          "cycle": 10,
+          "fluorescence": 110020.26,
+          "delta_rn": -219.32547
+        },
+        {
+          "cycle": 11,
+          "fluorescence": 110264.39,
+          "delta_rn": -21.253267
+        },
+        {
+          "cycle": 12,
+          "fluorescence": 110270.2,
+          "delta_rn": -61.501377
+        },
+        {
+          "cycle": 13,
+          "fluorescence": 110505.95,
+          "delta_rn": 128.18802
+        },
+        {
+          "cycle": 14,
+          "fluorescence": 110687.445,
+          "delta_rn": 263.6196
+        },
+        {
+          "cycle": 15,
+          "fluorescence": 110764.336,
+          "delta_rn": 294.44962
+        },
+        {
+          "cycle": 16,
+          "fluorescence": 110775.16,
+          "delta_rn": 259.2093
+        },
+        {
+          "cycle": 17,
+          "fluorescence": 110807.24,
+          "delta_rn": 245.23463
+        },
+        {
+          "cycle": 18,
+          "fluorescence": 110739.266,
+          "delta_rn": 131.19746
+        },
+        {
+          "cycle": 19,
+          "fluorescence": 110824.97,
+          "delta_rn": 170.83997
+        },
+        {
+          "cycle": 20,
+          "fluorescence": 111076.06,
+          "delta_rn": 375.8731
+        },
+        {
+          "cycle": 21,
+          "fluorescence": 111402.914,
+          "delta_rn": 656.66406
+        },
+        {
+          "cycle": 22,
+          "fluorescence": 111294.98,
+          "delta_rn": 502.66595
+        },
+        {
+          "cycle": 23,
+          "fluorescence": 110782.94,
+          "delta_rn": -55.433723
+        },
+        {
+          "cycle": 24,
+          "fluorescence": 110539.06,
+          "delta_rn": -345.36932
+        },
+        {
+          "cycle": 25,
+          "fluorescence": 110469.695,
+          "delta_rn": -460.79712
+        },
+        {
+          "cycle": 26,
+          "fluorescence": 110782.6,
+          "delta_rn": -193.95149
+        },
+        {
+          "cycle": 27,
+          "fluorescence": 111255.086,
+          "delta_rn": 232.47227
+        },
+        {
+          "cycle": 28,
+          "fluorescence": 110696.56,
+          "delta_rn": -372.1118
+        },
+        {
+          "cycle": 29,
+          "fluorescence": 110705.16,
+          "delta_rn": -409.57864
+        },
+        {
+          "cycle": 30,
+          "fluorescence": 111658.016,
+          "delta_rn": 497.22012
+        },
+        {
+          "cycle": 31,
+          "fluorescence": 111460.09,
+          "delta_rn": 253.23764
+        },
+        {
+          "cycle": 32,
+          "fluorescence": 111126.44,
+          "delta_rn": -126.47922
+        },
+        {
+          "cycle": 33,
+          "fluorescence": 110637.69,
+          "delta_rn": -661.28986
+        },
+        {
+          "cycle": 34,
+          "fluorescence": 110622.74,
+          "delta_rn": -722.2958
+        },
+        {
+          "cycle": 35,
+          "fluorescence": 111328.62,
+          "delta_rn": -62.481365
+        },
+        {
+          "cycle": 36,
+          "fluorescence": 111454.84,
+          "delta_rn": 17.684587
+        },
+        {
+          "cycle": 37,
+          "fluorescence": 111524.36,
+          "delta_rn": 41.139603
+        },
+        {
+          "cycle": 38,
+          "fluorescence": 111838.69,
+          "delta_rn": 309.4071
+        },
+        {
+          "cycle": 39,
+          "fluorescence": 111938.805,
+          "delta_rn": 363.46368
+        },
+        {
+          "cycle": 40,
+          "fluorescence": 112424.05,
+          "delta_rn": 802.64526
+        }
+      ],
+      "data_quality": {
+        "total_cycles": 40,
+        "data_points": 40,
+        "has_complete_data": true,
+        "max_fluorescence": 112424.05,
+        "min_fluorescence": 109419.79,
+        "max_delta_rn": 1535.2825,
+        "min_delta_rn": -773.7336
+      }
+    },
+    {
+      "well_info": {
+        "well_position": "0",
+        "sample_name": "35125",
+        "detector_name": "CAMSPP",
+        "task": "Target"
+      },
+      "results": {
+        "ct_value": null,
+        "avg_ct": null,
+        "ct_sd": null,
+        "quantity": null,
+        "avg_quantity": null,
+        "amplification_status": -1,
+        "cq_confidence": 0.0
+      },
+      "fluorescence_data": [
+        {
+          "cycle": 1,
+          "fluorescence": 115187.19,
+          "delta_rn": -3753.3337
+        },
+        {
+          "cycle": 2,
+          "fluorescence": 116256.45,
+          "delta_rn": -2745.0615
+        },
+        {
+          "cycle": 3,
+          "fluorescence": 118088.95,
+          "delta_rn": -973.5546
+        },
+        {
+          "cycle": 4,
+          "fluorescence": 119000.695,
+          "delta_rn": -122.805664
+        },
+        {
+          "cycle": 5,
+          "fluorescence": 118948.89,
+          "delta_rn": -235.60358
+        },
+        {
+          "cycle": 6,
+          "fluorescence": 118785.445,
+          "delta_rn": -460.0421
+        },
+        {
+          "cycle": 7,
+          "fluorescence": 118589.94,
+          "delta_rn": -716.54315
+        },
+        {
+          "cycle": 8,
+          "fluorescence": 118377.17,
+          "delta_rn": -990.302
+        },
+        {
+          "cycle": 9,
+          "fluorescence": 118501.44,
+          "delta_rn": -927.0296
+        },
+        {
+          "cycle": 10,
+          "fluorescence": 119092.33,
+          "delta_rn": -397.1322
+        },
+        {
+          "cycle": 11,
+          "fluorescence": 119050.09,
+          "delta_rn": -500.3598
+        },
+        {
+          "cycle": 12,
+          "fluorescence": 119175.125,
+          "delta_rn": -436.32178
+        },
+        {
+          "cycle": 13,
+          "fluorescence": 119890.45,
+          "delta_rn": 218.01314
+        },
+        {
+          "cycle": 14,
+          "fluorescence": 120060.32,
+          "delta_rn": 326.88712
+        },
+        {
+          "cycle": 15,
+          "fluorescence": 120464.57,
+          "delta_rn": 670.14386
+        },
+        {
+          "cycle": 16,
+          "fluorescence": 120467.14,
+          "delta_rn": 611.72095
+        },
+        {
+          "cycle": 17,
+          "fluorescence": 120920.23,
+          "delta_rn": 1003.81366
+        },
+        {
+          "cycle": 18,
+          "fluorescence": 121277.46,
+          "delta_rn": 1300.0548
+        },
+        {
+          "cycle": 19,
+          "fluorescence": 120675.31,
+          "delta_rn": 636.91315
+        },
+        {
+          "cycle": 20,
+          "fluorescence": 120504.445,
+          "delta_rn": 405.05276
+        },
+        {
+          "cycle": 21,
+          "fluorescence": 121235.16,
+          "delta_rn": 1074.7705
+        },
+        {
+          "cycle": 22,
+          "fluorescence": 121255.98,
+          "delta_rn": 1034.5975
+        },
+        {
+          "cycle": 23,
+          "fluorescence": 121323.4,
+          "delta_rn": 1041.0262
+        },
+        {
+          "cycle": 24,
+          "fluorescence": 121154.19,
+          "delta_rn": 810.8221
+        },
+        {
+          "cycle": 25,
+          "fluorescence": 121116.266,
+          "delta_rn": 711.907
+        },
+        {
+          "cycle": 26,
+          "fluorescence": 120912.15,
+          "delta_rn": 446.79657
+        },
+        {
+          "cycle": 27,
+          "fluorescence": 120703.74,
+          "delta_rn": 177.39708
+        },
+        {
+          "cycle": 28,
+          "fluorescence": 120319.0,
+          "delta_rn": -268.33832
+        },
+        {
+          "cycle": 29,
+          "fluorescence": 120157.28,
+          "delta_rn": -491.0503
+        },
+        {
+          "cycle": 30,
+          "fluorescence": 120571.11,
+          "delta_rn": -138.2154
+        },
+        {
+          "cycle": 31,
+          "fluorescence": 120595.14,
+          "delta_rn": -175.17737
+        },
+        {
+          "cycle": 32,
+          "fluorescence": 120996.95,
+          "delta_rn": 165.6419
+        },
+        {
+          "cycle": 33,
+          "fluorescence": 121005.33,
+          "delta_rn": 113.02368
+        },
+        {
+          "cycle": 34,
+          "fluorescence": 120738.06,
+          "delta_rn": -215.23517
+        },
+        {
+          "cycle": 35,
+          "fluorescence": 120511.71,
+          "delta_rn": -502.57996
+        },
+        {
+          "cycle": 36,
+          "fluorescence": 120328.44,
+          "delta_rn": -746.8466
+        },
+        {
+          "cycle": 37,
+          "fluorescence": 120475.664,
+          "delta_rn": -660.6133
+        },
+        {
+          "cycle": 38,
+          "fluorescence": 120331.31,
+          "delta_rn": -865.95807
+        },
+        {
+          "cycle": 39,
+          "fluorescence": 120333.39,
+          "delta_rn": -924.87317
+        },
+        {
+          "cycle": 40,
+          "fluorescence": 120393.78,
+          "delta_rn": -925.47577
+        }
+      ],
+      "data_quality": {
+        "total_cycles": 40,
+        "data_points": 40,
+        "has_complete_data": true,
+        "max_fluorescence": 121323.4,
+        "min_fluorescence": 115187.19,
+        "max_delta_rn": 1300.0548,
+        "min_delta_rn": -3753.3337
+      }
+    },
+    {
+      "well_info": {
+        "well_position": "0",
+        "sample_name": "35125",
+        "detector_name": "YERENT",
+        "task": "Target"
+      },
+      "results": {
+        "ct_value": null,
+        "avg_ct": null,
+        "ct_sd": null,
+        "quantity": null,
+        "avg_quantity": null,
+        "amplification_status": -1,
+        "cq_confidence": 0.0
+      },
+      "fluorescence_data": [
+        {
+          "cycle": 1,
+          "fluorescence": 288391.38,
+          "delta_rn": 6023.3945
+        },
+        {
+          "cycle": 2,
+          "fluorescence": 287149.1,
+          "delta_rn": 4552.7417
+        },
+        {
+          "cycle": 3,
+          "fluorescence": 286158.47,
+          "delta_rn": 3333.7449
+        },
+        {
+          "cycle": 4,
+          "fluorescence": 285098.06,
+          "delta_rn": 2044.967
+        },
+        {
+          "cycle": 5,
+          "fluorescence": 284167.16,
+          "delta_rn": 885.6892
+        },
+        {
+          "cycle": 6,
+          "fluorescence": 282840.6,
+          "delta_rn": -669.24493
+        },
+        {
+          "cycle": 7,
+          "fluorescence": 282505.38,
+          "delta_rn": -1232.8353
+        },
+        {
+          "cycle": 8,
+          "fluorescence": 282511.5,
+          "delta_rn": -1455.0819
+        },
+        {
+          "cycle": 9,
+          "fluorescence": 282574.0,
+          "delta_rn": -1620.9535
+        },
+        {
+          "cycle": 10,
+          "fluorescence": 282742.56,
+          "delta_rn": -1680.7627
+        },
+        {
+          "cycle": 11,
+          "fluorescence": 283481.22,
+          "delta_rn": -1170.478
+        },
+        {
+          "cycle": 12,
+          "fluorescence": 283796.7,
+          "delta_rn": -1083.3809
+        },
+        {
+          "cycle": 13,
+          "fluorescence": 284120.5,
+          "delta_rn": -987.94006
+        },
+        {
+          "cycle": 14,
+          "fluorescence": 285583.5,
+          "delta_rn": 246.68834
+        },
+        {
+          "cycle": 15,
+          "fluorescence": 285835.47,
+          "delta_rn": 270.28546
+        },
+        {
+          "cycle": 16,
+          "fluorescence": 285874.7,
+          "delta_rn": 81.1326
+        },
+        {
+          "cycle": 17,
+          "fluorescence": 286105.56,
+          "delta_rn": 83.63598
+        },
+        {
+          "cycle": 18,
+          "fluorescence": 287616.53,
+          "delta_rn": 1366.2332
+        },
+        {
+          "cycle": 19,
+          "fluorescence": 288386.12,
+          "delta_rn": 1907.4552
+        },
+        {
+          "cycle": 20,
+          "fluorescence": 288243.8,
+          "delta_rn": 1536.7711
+        },
+        {
+          "cycle": 21,
+          "fluorescence": 287956.53,
+          "delta_rn": 1021.1182
+        },
+        {
+          "cycle": 22,
+          "fluorescence": 287779.12,
+          "delta_rn": 615.3404
+        },
+        {
+          "cycle": 23,
+          "fluorescence": 287634.3,
+          "delta_rn": 242.15625
+        },
+        {
+          "cycle": 24,
+          "fluorescence": 286775.9,
+          "delta_rn": -844.62164
+        },
+        {
+          "cycle": 25,
+          "fluorescence": 286448.25,
+          "delta_rn": -1400.6495
+        },
+        {
+          "cycle": 26,
+          "fluorescence": 286556.34,
+          "delta_rn": -1520.9274
+        },
+        {
+          "cycle": 27,
+          "fluorescence": 286504.0,
+          "delta_rn": -1801.6427
+        },
+        {
+          "cycle": 28,
+          "fluorescence": 287140.56,
+          "delta_rn": -1393.4519
+        },
+        {
+          "cycle": 29,
+          "fluorescence": 288979.06,
+          "delta_rn": 216.67651
+        },
+        {
+          "cycle": 30,
+          "fluorescence": 289880.2,
+          "delta_rn": 889.4299
+        },
+        {
+          "cycle": 31,
+          "fluorescence": 289762.12,
+          "delta_rn": 542.9958
+        },
+        {
+          "cycle": 32,
+          "fluorescence": 289604.94,
+          "delta_rn": 157.43666
+        },
+        {
+          "cycle": 33,
+          "fluorescence": 289591.9,
+          "delta_rn": -83.96622
+        },
+        {
+          "cycle": 34,
+          "fluorescence": 289450.88,
+          "delta_rn": -453.36908
+        },
+        {
+          "cycle": 35,
+          "fluorescence": 289647.16,
+          "delta_rn": -485.45947
+        },
+        {
+          "cycle": 36,
+          "fluorescence": 291186.78,
+          "delta_rn": 825.79395
+        },
+        {
+          "cycle": 37,
+          "fluorescence": 290841.06,
+          "delta_rn": 251.70355
+        },
+        {
+          "cycle": 38,
+          "fluorescence": 290838.84,
+          "delta_rn": 21.113176
+        },
+        {
+          "cycle": 39,
+          "fluorescence": 292390.5,
+          "delta_rn": 1344.3978
+        },
+        {
+          "cycle": 40,
+          "fluorescence": 292531.1,
+          "delta_rn": 1256.6199
+        }
+      ],
+      "data_quality": {
+        "total_cycles": 40,
+        "data_points": 40,
+        "has_complete_data": true,
+        "max_fluorescence": 292531.1,
+        "min_fluorescence": 282505.38,
+        "max_delta_rn": 6023.3945,
+        "min_delta_rn": -1801.6427
+      }
+    },
+    {
+      "well_info": {
+        "well_position": "0",
+        "sample_name": "35125",
+        "detector_name": "CLODIF",
+        "task": "Target"
+      },
+      "results": {
+        "ct_value": null,
+        "avg_ct": null,
+        "ct_sd": null,
+        "quantity": null,
+        "avg_quantity": null,
+        "amplification_status": -1,
+        "cq_confidence": 0.0
+      },
+      "fluorescence_data": [
+        {
+          "cycle": 1,
+          "fluorescence": 54316.918,
+          "delta_rn": 1084.9644
+        },
+        {
+          "cycle": 2,
+          "fluorescence": 54048.773,
+          "delta_rn": 764.3404
+        },
+        {
+          "cycle": 3,
+          "fluorescence": 53351.59,
+          "delta_rn": 14.67736
+        },
+        {
+          "cycle": 4,
+          "fluorescence": 53221.977,
+          "delta_rn": -167.41536
+        },
+        {
+          "cycle": 5,
+          "fluorescence": 53378.59,
+          "delta_rn": -63.281513
+        },
+        {
+          "cycle": 6,
+          "fluorescence": 53535.305,
+          "delta_rn": 40.953896
+        },
+        {
+          "cycle": 7,
+          "fluorescence": 53556.09,
+          "delta_rn": 9.259615
+        },
+        {
+          "cycle": 8,
+          "fluorescence": 53648.008,
+          "delta_rn": 48.698147
+        },
+        {
+          "cycle": 9,
+          "fluorescence": 53455.242,
+          "delta_rn": -196.54692
+        },
+        {
+          "cycle": 10,
+          "fluorescence": 53210.0,
+          "delta_rn": -494.26852
+        },
+        {
+          "cycle": 11,
+          "fluorescence": 53271.617,
+          "delta_rn": -485.1308
+        },
+        {
+          "cycle": 12,
+          "fluorescence": 53759.477,
+          "delta_rn": -49.750847
+        },
+        {
+          "cycle": 13,
+          "fluorescence": 53978.36,
+          "delta_rn": 116.65253
+        },
+        {
+          "cycle": 14,
+          "fluorescence": 54040.863,
+          "delta_rn": 126.677
+        },
+        {
+          "cycle": 15,
+          "fluorescence": 54266.105,
+          "delta_rn": 299.43976
+        },
+        {
+          "cycle": 16,
+          "fluorescence": 54054.07,
+          "delta_rn": 34.92516
+        },
+        {
+          "cycle": 17,
+          "fluorescence": 53968.906,
+          "delta_rn": -102.71834
+        },
+        {
+          "cycle": 18,
+          "fluorescence": 54149.3,
+          "delta_rn": 25.196754
+        },
+        {
+          "cycle": 19,
+          "fluorescence": 54225.062,
+          "delta_rn": 48.47904
+        },
+        {
+          "cycle": 20,
+          "fluorescence": 54600.027,
+          "delta_rn": 370.96445
+        },
+        {
+          "cycle": 21,
+          "fluorescence": 54583.66,
+          "delta_rn": 302.11783
+        },
+        {
+          "cycle": 22,
+          "fluorescence": 54457.746,
+          "delta_rn": 123.72432
+        },
+        {
+          "cycle": 23,
+          "fluorescence": 54432.85,
+          "delta_rn": 46.350353
+        },
+        {
+          "cycle": 24,
+          "fluorescence": 54731.902,
+          "delta_rn": 292.9217
+        },
+        {
+          "cycle": 25,
+          "fluorescence": 54760.668,
+          "delta_rn": 269.2079
+        },
+        {
+          "cycle": 26,
+          "fluorescence": 54843.207,
+          "delta_rn": 299.26752
+        },
+        {
+          "cycle": 27,
+          "fluorescence": 54528.965,
+          "delta_rn": -67.45411
+        },
+        {
+          "cycle": 28,
+          "fluorescence": 54431.895,
+          "delta_rn": -217.00386
+        },
+        {
+          "cycle": 29,
+          "fluorescence": 54733.426,
+          "delta_rn": 32.04796
+        },
+        {
+          "cycle": 30,
+          "fluorescence": 54825.156,
+          "delta_rn": 71.29899
+        },
+        {
+          "cycle": 31,
+          "fluorescence": 54829.105,
+          "delta_rn": 22.768772
+        },
+        {
+          "cycle": 32,
+          "fluorescence": 55021.562,
+          "delta_rn": 162.74637
+        },
+        {
+          "cycle": 33,
+          "fluorescence": 55004.777,
+          "delta_rn": 93.48177
+        },
+        {
+          "cycle": 34,
+          "fluorescence": 54897.27,
+          "delta_rn": -66.50548
+        },
+        {
+          "cycle": 35,
+          "fluorescence": 54922.8,
+          "delta_rn": -93.45366
+        },
+        {
+          "cycle": 36,
+          "fluorescence": 55013.312,
+          "delta_rn": -55.42138
+        },
+        {
+          "cycle": 37,
+          "fluorescence": 55238.66,
+          "delta_rn": 117.446846
+        },
+        {
+          "cycle": 38,
+          "fluorescence": 54832.676,
+          "delta_rn": -341.01697
+        },
+        {
+          "cycle": 39,
+          "fluorescence": 54656.836,
+          "delta_rn": -569.33624
+        },
+        {
+          "cycle": 40,
+          "fluorescence": 54800.27,
+          "delta_rn": -478.38208
+        }
+      ],
+      "data_quality": {
+        "total_cycles": 40,
+        "data_points": 40,
+        "has_complete_data": true,
+        "max_fluorescence": 55238.66,
+        "min_fluorescence": 53210.0,
+        "max_delta_rn": 1084.9644,
+        "min_delta_rn": -569.33624
+      }
+    },
+    {
+      "well_info": {
+        "well_position": "1",
+        "sample_name": "35125",
+        "detector_name": "HELPYL",
+        "task": "Target"
+      },
+      "results": {
+        "ct_value": null,
+        "avg_ct": null,
+        "ct_sd": null,
+        "quantity": null,
+        "avg_quantity": null,
+        "amplification_status": -1,
+        "cq_confidence": 0.0
+      },
+      "fluorescence_data": [
+        {
+          "cycle": 1,
+          "fluorescence": 118493.03,
+          "delta_rn": -370.22202
+        },
+        {
+          "cycle": 2,
+          "fluorescence": 118480.62,
+          "delta_rn": -518.0159
+        },
+        {
+          "cycle": 3,
+          "fluorescence": 118624.81,
+          "delta_rn": -509.2004
+        },
+        {
+          "cycle": 4,
+          "fluorescence": 119231.54,
+          "delta_rn": -37.853672
+        },
+        {
+          "cycle": 5,
+          "fluorescence": 119286.875,
+          "delta_rn": -117.89755
+        },
+        {
+          "cycle": 6,
+          "fluorescence": 119038.99,
+          "delta_rn": -501.1602
+        },
+        {
+          "cycle": 7,
+          "fluorescence": 119100.586,
+          "delta_rn": -574.9462
+        },
+        {
+          "cycle": 8,
+          "fluorescence": 119840.88,
+          "delta_rn": 29.970802
+        },
+        {
+          "cycle": 9,
+          "fluorescence": 120223.45,
+          "delta_rn": 277.1613
+        },
+        {
+          "cycle": 10,
+          "fluorescence": 120332.14,
+          "delta_rn": 250.46898
+        },
+        {
+          "cycle": 11,
+          "fluorescence": 120724.414,
+          "delta_rn": 507.36258
+        },
+        {
+          "cycle": 12,
+          "fluorescence": 120952.38,
+          "delta_rn": 599.95154
+        },
+        {
+          "cycle": 13,
+          "fluorescence": 120858.45,
+          "delta_rn": 370.64203
+        },
+        {
+          "cycle": 14,
+          "fluorescence": 120691.22,
+          "delta_rn": 68.027824
+        },
+        {
+          "cycle": 15,
+          "fluorescence": 120631.33,
+          "delta_rn": -127.24262
+        },
+        {
+          "cycle": 16,
+          "fluorescence": 120975.74,
+          "delta_rn": 81.791626
+        },
+        {
+          "cycle": 17,
+          "fluorescence": 121098.66,
+          "delta_rn": 69.32587
+        },
+        {
+          "cycle": 18,
+          "fluorescence": 120993.16,
+          "delta_rn": -171.55396
+        },
+        {
+          "cycle": 19,
+          "fluorescence": 121200.09,
+          "delta_rn": -99.99628
+        },
+        {
+          "cycle": 20,
+          "fluorescence": 121862.58,
+          "delta_rn": 427.10828
+        },
+        {
+          "cycle": 21,
+          "fluorescence": 121464.97,
+          "delta_rn": -105.88091
+        },
+        {
+          "cycle": 22,
+          "fluorescence": 121312.555,
+          "delta_rn": -393.6748
+        },
+        {
+          "cycle": 23,
+          "fluorescence": 121899.0,
+          "delta_rn": 57.390697
+        },
+        {
+          "cycle": 24,
+          "fluorescence": 122458.6,
+          "delta_rn": 481.61246
+        },
+        {
+          "cycle": 25,
+          "fluorescence": 122453.46,
+          "delta_rn": 341.092
+        },
+        {
+          "cycle": 26,
+          "fluorescence": 122597.195,
+          "delta_rn": 349.44656
+        },
+        {
+          "cycle": 27,
+          "fluorescence": 122626.5,
+          "delta_rn": 243.37141
+        },
+        {
+          "cycle": 28,
+          "fluorescence": 122430.11,
+          "delta_rn": -88.399025
+        },
+        {
+          "cycle": 29,
+          "fluorescence": 122240.266,
+          "delta_rn": -413.6226
+        },
+        {
+          "cycle": 30,
+          "fluorescence": 122135.18,
+          "delta_rn": -654.0884
+        },
+        {
+          "cycle": 31,
+          "fluorescence": 122158.125,
+          "delta_rn": -766.5228
+        },
+        {
+          "cycle": 32,
+          "fluorescence": 123051.555,
+          "delta_rn": -8.472988
+        },
+        {
+          "cycle": 33,
+          "fluorescence": 123817.18,
+          "delta_rn": 621.7722
+        },
+        {
+          "cycle": 34,
+          "fluorescence": 123473.695,
+          "delta_rn": 142.908
+        },
+        {
+          "cycle": 35,
+          "fluorescence": 123235.2,
+          "delta_rn": -230.964
+        },
+        {
+          "cycle": 36,
+          "fluorescence": 123446.664,
+          "delta_rn": -154.88289
+        },
+        {
+          "cycle": 37,
+          "fluorescence": 123622.65,
+          "delta_rn": -114.278336
+        },
+        {
+          "cycle": 38,
+          "fluorescence": 123934.8,
+          "delta_rn": 62.490284
+        },
+        {
+          "cycle": 39,
+          "fluorescence": 124096.43,
+          "delta_rn": 88.74328
+        },
+        {
+          "cycle": 40,
+          "fluorescence": 123930.46,
+          "delta_rn": -212.60529
+        }
+      ],
+      "data_quality": {
+        "total_cycles": 40,
+        "data_points": 40,
+        "has_complete_data": true,
+        "max_fluorescence": 124096.43,
+        "min_fluorescence": 118480.62,
+        "max_delta_rn": 621.7722,
+        "min_delta_rn": -766.5228
+      }
+    },
+    {
+      "well_info": {
+        "well_position": "1",
+        "sample_name": "35125",
+        "detector_name": "GIALAM",
+        "task": "Target"
+      },
+      "results": {
+        "ct_value": null,
+        "avg_ct": null,
+        "ct_sd": null,
+        "quantity": null,
+        "avg_quantity": null,
+        "amplification_status": -1,
+        "cq_confidence": 0.0
+      },
+      "fluorescence_data": [
+        {
+          "cycle": 1,
+          "fluorescence": 379791.56,
+          "delta_rn": 4808.9062
+        },
+        {
+          "cycle": 2,
+          "fluorescence": 378948.38,
+          "delta_rn": 3050.1145
+        },
+        {
+          "cycle": 3,
+          "fluorescence": 378582.8,
+          "delta_rn": 1768.9475
+        },
+        {
+          "cycle": 4,
+          "fluorescence": 379057.22,
+          "delta_rn": 1327.7493
+        },
+        {
+          "cycle": 5,
+          "fluorescence": 380298.56,
+          "delta_rn": 1653.4885
+        },
+        {
+          "cycle": 6,
+          "fluorescence": 381028.34,
+          "delta_rn": 1467.6653
+        },
+        {
+          "cycle": 7,
+          "fluorescence": 382109.0,
+          "delta_rn": 1632.717
+        },
+        {
+          "cycle": 8,
+          "fluorescence": 382772.4,
+          "delta_rn": 1380.5188
+        },
+        {
+          "cycle": 9,
+          "fluorescence": 384035.28,
+          "delta_rn": 1727.7893
+        },
+        {
+          "cycle": 10,
+          "fluorescence": 383994.4,
+          "delta_rn": 771.3098
+        },
+        {
+          "cycle": 11,
+          "fluorescence": 384038.25,
+          "delta_rn": -100.45093
+        },
+        {
+          "cycle": 12,
+          "fluorescence": 385321.4,
+          "delta_rn": 267.10083
+        },
+        {
+          "cycle": 13,
+          "fluorescence": 385812.7,
+          "delta_rn": -157.2224
+        },
+        {
+          "cycle": 14,
+          "fluorescence": 386016.9,
+          "delta_rn": -868.60815
+        },
+        {
+          "cycle": 15,
+          "fluorescence": 387402.1,
+          "delta_rn": -399.02512
+        },
+        {
+          "cycle": 16,
+          "fluorescence": 387871.47,
+          "delta_rn": -845.2546
+        },
+        {
+          "cycle": 17,
+          "fluorescence": 389158.5,
+          "delta_rn": -473.82785
+        },
+        {
+          "cycle": 18,
+          "fluorescence": 389727.5,
+          "delta_rn": -820.4323
+        },
+        {
+          "cycle": 19,
+          "fluorescence": 391564.1,
+          "delta_rn": 100.556946
+        },
+        {
+          "cycle": 20,
+          "fluorescence": 391601.28,
+          "delta_rn": -777.86005
+        },
+        {
+          "cycle": 21,
+          "fluorescence": 391642.22,
+          "delta_rn": -1652.527
+        },
+        {
+          "cycle": 22,
+          "fluorescence": 393316.94,
+          "delta_rn": -893.4128
+        },
+        {
+          "cycle": 23,
+          "fluorescence": 393749.28,
+          "delta_rn": -1376.6735
+        },
+        {
+          "cycle": 24,
+          "fluorescence": 393870.56,
+          "delta_rn": -2170.9968
+        },
+        {
+          "cycle": 25,
+          "fluorescence": 393877.3,
+          "delta_rn": -3079.8513
+        },
+        {
+          "cycle": 26,
+          "fluorescence": 395148.34,
+          "delta_rn": -2724.4246
+        },
+        {
+          "cycle": 27,
+          "fluorescence": 396216.2,
+          "delta_rn": -2572.1853
+        },
+        {
+          "cycle": 28,
+          "fluorescence": 396337.0,
+          "delta_rn": -3366.9773
+        },
+        {
+          "cycle": 29,
+          "fluorescence": 397390.75,
+          "delta_rn": -3228.8315
+        },
+        {
+          "cycle": 30,
+          "fluorescence": 398530.3,
+          "delta_rn": -3004.8735
+        },
+        {
+          "cycle": 31,
+          "fluorescence": 400932.1,
+          "delta_rn": -1518.6969
+        },
+        {
+          "cycle": 32,
+          "fluorescence": 402961.34,
+          "delta_rn": -405.05136
+        },
+        {
+          "cycle": 33,
+          "fluorescence": 404303.72,
+          "delta_rn": 21.71915
+        },
+        {
+          "cycle": 34,
+          "fluorescence": 405450.2,
+          "delta_rn": 252.58342
+        },
+        {
+          "cycle": 35,
+          "fluorescence": 407111.34,
+          "delta_rn": 998.1352
+        },
+        {
+          "cycle": 36,
+          "fluorescence": 410000.03,
+          "delta_rn": 2971.2183
+        },
+        {
+          "cycle": 37,
+          "fluorescence": 411984.62,
+          "delta_rn": 4040.2075
+        },
+        {
+          "cycle": 38,
+          "fluorescence": 413554.2,
+          "delta_rn": 4694.1655
+        },
+        {
+          "cycle": 39,
+          "fluorescence": 415136.94,
+          "delta_rn": 5361.311
+        },
+        {
+          "cycle": 40,
+          "fluorescence": 416055.28,
+          "delta_rn": 5364.0503
+        }
+      ],
+      "data_quality": {
+        "total_cycles": 40,
+        "data_points": 40,
+        "has_complete_data": true,
+        "max_fluorescence": 416055.28,
+        "min_fluorescence": 378582.8,
+        "max_delta_rn": 5364.0503,
+        "min_delta_rn": -3366.9773
+      }
+    },
+    {
+      "well_info": {
+        "well_position": "1",
+        "sample_name": "35125",
+        "detector_name": "SALSPP",
+        "task": "Target"
+      },
+      "results": {
+        "ct_value": null,
+        "avg_ct": null,
+        "ct_sd": null,
+        "quantity": null,
+        "avg_quantity": null,
+        "amplification_status": 0,
+        "cq_confidence": 0.0
+      },
+      "fluorescence_data": [
+        {
+          "cycle": 1,
+          "fluorescence": 140055.73,
+          "delta_rn": 1682.1263
+        },
+        {
+          "cycle": 2,
+          "fluorescence": 140035.22,
+          "delta_rn": 1309.3467
+        },
+        {
+          "cycle": 3,
+          "fluorescence": 140018.62,
+          "delta_rn": 940.48883
+        },
+        {
+          "cycle": 4,
+          "fluorescence": 139587.97,
+          "delta_rn": 157.56851
+        },
+        {
+          "cycle": 5,
+          "fluorescence": 139489.7,
+          "delta_rn": -292.96118
+        },
+        {
+          "cycle": 6,
+          "fluorescence": 139720.72,
+          "delta_rn": -414.20963
+        },
+        {
+          "cycle": 7,
+          "fluorescence": 140397.62,
+          "delta_rn": -89.567444
+        },
+        {
+          "cycle": 8,
+          "fluorescence": 140679.72,
+          "delta_rn": -159.73776
+        },
+        {
+          "cycle": 9,
+          "fluorescence": 140986.95,
+          "delta_rn": -204.76744
+        },
+        {
+          "cycle": 10,
+          "fluorescence": 141146.08,
+          "delta_rn": -397.90652
+        },
+        {
+          "cycle": 11,
+          "fluorescence": 141938.06,
+          "delta_rn": 41.813797
+        },
+        {
+          "cycle": 12,
+          "fluorescence": 142455.56,
+          "delta_rn": 207.04973
+        },
+        {
+          "cycle": 13,
+          "fluorescence": 142528.84,
+          "delta_rn": -71.93308
+        },
+        {
+          "cycle": 14,
+          "fluorescence": 142565.66,
+          "delta_rn": -387.38464
+        },
+        {
+          "cycle": 15,
+          "fluorescence": 143224.33,
+          "delta_rn": -80.97684
+        },
+        {
+          "cycle": 16,
+          "fluorescence": 143623.72,
+          "delta_rn": -33.85028
+        },
+        {
+          "cycle": 17,
+          "fluorescence": 144438.28,
+          "delta_rn": 428.44815
+        },
+        {
+          "cycle": 18,
+          "fluorescence": 144579.58,
+          "delta_rn": 217.48096
+        },
+        {
+          "cycle": 19,
+          "fluorescence": 145107.44,
+          "delta_rn": 393.07626
+        },
+        {
+          "cycle": 20,
+          "fluorescence": 145577.53,
+          "delta_rn": 510.90594
+        },
+        {
+          "cycle": 21,
+          "fluorescence": 145477.5,
+          "delta_rn": 58.61064
+        },
+        {
+          "cycle": 22,
+          "fluorescence": 145592.73,
+          "delta_rn": -178.41905
+        },
+        {
+          "cycle": 23,
+          "fluorescence": 146349.2,
+          "delta_rn": 225.78563
+        },
+        {
+          "cycle": 24,
+          "fluorescence": 146401.14,
+          "delta_rn": -74.54093
+        },
+        {
+          "cycle": 25,
+          "fluorescence": 146710.64,
+          "delta_rn": -117.30499
+        },
+        {
+          "cycle": 26,
+          "fluorescence": 147202.05,
+          "delta_rn": 21.837189
+        },
+        {
+          "cycle": 27,
+          "fluorescence": 147620.94,
+          "delta_rn": 88.46375
+        },
+        {
+          "cycle": 28,
+          "fluorescence": 147646.28,
+          "delta_rn": -238.45657
+        },
+        {
+          "cycle": 29,
+          "fluorescence": 147824.45,
+          "delta_rn": -412.54877
+        },
+        {
+          "cycle": 30,
+          "fluorescence": 148277.94,
+          "delta_rn": -311.32846
+        },
+        {
+          "cycle": 31,
+          "fluorescence": 148729.1,
+          "delta_rn": -212.43626
+        },
+        {
+          "cycle": 32,
+          "fluorescence": 149140.66,
+          "delta_rn": -153.13783
+        },
+        {
+          "cycle": 33,
+          "fluorescence": 149761.17,
+          "delta_rn": 115.11373
+        },
+        {
+          "cycle": 34,
+          "fluorescence": 149732.39,
+          "delta_rn": -265.93158
+        },
+        {
+          "cycle": 35,
+          "fluorescence": 150023.03,
+          "delta_rn": -327.55502
+        },
+        {
+          "cycle": 36,
+          "fluorescence": 150339.81,
+          "delta_rn": -363.03784
+        },
+        {
+          "cycle": 37,
+          "fluorescence": 151095.03,
+          "delta_rn": 39.916843
+        },
+        {
+          "cycle": 38,
+          "fluorescence": 152179.77,
+          "delta_rn": 772.38715
+        },
+        {
+          "cycle": 39,
+          "fluorescence": 152328.69,
+          "delta_rn": 569.045
+        },
+        {
+          "cycle": 40,
+          "fluorescence": 153047.17,
+          "delta_rn": 935.26526
+        }
+      ],
+      "data_quality": {
+        "total_cycles": 40,
+        "data_points": 40,
+        "has_complete_data": true,
+        "max_fluorescence": 153047.17,
+        "min_fluorescence": 139489.7,
+        "max_delta_rn": 1682.1263,
+        "min_delta_rn": -414.20963
+      }
+    },
+    {
+      "well_info": {
+        "well_position": "1",
+        "sample_name": "35125",
+        "detector_name": "SHISPP",
+        "task": "Target"
+      },
+      "results": {
+        "ct_value": null,
+        "avg_ct": null,
+        "ct_sd": null,
+        "quantity": null,
+        "avg_quantity": null,
+        "amplification_status": -1,
+        "cq_confidence": 0.0
+      },
+      "fluorescence_data": [
+        {
+          "cycle": 1,
+          "fluorescence": 165779.92,
+          "delta_rn": -966.7517
+        },
+        {
+          "cycle": 2,
+          "fluorescence": 166119.67,
+          "delta_rn": -627.0017
+        },
+        {
+          "cycle": 3,
+          "fluorescence": 166071.3,
+          "delta_rn": -675.3767
+        },
+        {
+          "cycle": 4,
+          "fluorescence": 166227.8,
+          "delta_rn": -518.8767
+        },
+        {
+          "cycle": 5,
+          "fluorescence": 167204.14,
+          "delta_rn": 457.46707
+        },
+        {
+          "cycle": 6,
+          "fluorescence": 166962.97,
+          "delta_rn": 216.29518
+        },
+        {
+          "cycle": 7,
+          "fluorescence": 166797.23,
+          "delta_rn": 50.56081
+        },
+        {
+          "cycle": 8,
+          "fluorescence": 166934.98,
+          "delta_rn": 188.3108
+        },
+        {
+          "cycle": 9,
+          "fluorescence": 166694.6,
+          "delta_rn": -52.079815
+        },
+        {
+          "cycle": 10,
+          "fluorescence": 166660.38,
+          "delta_rn": -86.29856
+        },
+        {
+          "cycle": 11,
+          "fluorescence": 167136.97,
+          "delta_rn": 390.2952
+        },
+        {
+          "cycle": 12,
+          "fluorescence": 167156.7,
+          "delta_rn": 410.02957
+        },
+        {
+          "cycle": 13,
+          "fluorescence": 166857.38,
+          "delta_rn": 110.70144
+        },
+        {
+          "cycle": 14,
+          "fluorescence": 166428.84,
+          "delta_rn": -317.8298
+        },
+        {
+          "cycle": 15,
+          "fluorescence": 166397.81,
+          "delta_rn": -348.86105
+        },
+        {
+          "cycle": 16,
+          "fluorescence": 166918.25,
+          "delta_rn": 171.57643
+        },
+        {
+          "cycle": 17,
+          "fluorescence": 167022.5,
+          "delta_rn": 275.82645
+        },
+        {
+          "cycle": 18,
+          "fluorescence": 167141.56,
+          "delta_rn": 394.88895
+        },
+        {
+          "cycle": 19,
+          "fluorescence": 166601.45,
+          "delta_rn": -145.22044
+        },
+        {
+          "cycle": 20,
+          "fluorescence": 166426.98,
+          "delta_rn": -319.68918
+        },
+        {
+          "cycle": 21,
+          "fluorescence": 166765.67,
+          "delta_rn": 18.99831
+        },
+        {
+          "cycle": 22,
+          "fluorescence": 167189.86,
+          "delta_rn": 443.18582
+        },
+        {
+          "cycle": 23,
+          "fluorescence": 166759.5,
+          "delta_rn": 12.826436
+        },
+        {
+          "cycle": 24,
+          "fluorescence": 166614.17,
+          "delta_rn": -132.5017
+        },
+        {
+          "cycle": 25,
+          "fluorescence": 166885.86,
+          "delta_rn": 139.1858
+        },
+        {
+          "cycle": 26,
+          "fluorescence": 166869.73,
+          "delta_rn": 123.060814
+        },
+        {
+          "cycle": 27,
+          "fluorescence": 166892.89,
+          "delta_rn": 146.21706
+        },
+        {
+          "cycle": 28,
+          "fluorescence": 166917.08,
+          "delta_rn": 170.40456
+        },
+        {
+          "cycle": 29,
+          "fluorescence": 166887.64,
+          "delta_rn": 140.96706
+        },
+        {
+          "cycle": 30,
+          "fluorescence": 167133.11,
+          "delta_rn": 386.43582
+        },
+        {
+          "cycle": 31,
+          "fluorescence": 167235.47,
+          "delta_rn": 488.7952
+        },
+        {
+          "cycle": 32,
+          "fluorescence": 167127.62,
+          "delta_rn": 380.95145
+        },
+        {
+          "cycle": 33,
+          "fluorescence": 166665.73,
+          "delta_rn": -80.939186
+        },
+        {
+          "cycle": 34,
+          "fluorescence": 166467.31,
+          "delta_rn": -279.36105
+        },
+        {
+          "cycle": 35,
+          "fluorescence": 166381.1,
+          "delta_rn": -365.5798
+        },
+        {
+          "cycle": 36,
+          "fluorescence": 166096.02,
+          "delta_rn": -650.65796
+        },
+        {
+          "cycle": 37,
+          "fluorescence": 166060.28,
+          "delta_rn": -686.39233
+        },
+        {
+          "cycle": 38,
+          "fluorescence": 166422.69,
+          "delta_rn": -323.98605
+        },
+        {
+          "cycle": 39,
+          "fluorescence": 166613.34,
+          "delta_rn": -133.32982
+        },
+        {
+          "cycle": 40,
+          "fluorescence": 167341.3,
+          "delta_rn": 594.6233
+        }
+      ],
+      "data_quality": {
+        "total_cycles": 40,
+        "data_points": 40,
+        "has_complete_data": true,
+        "max_fluorescence": 167341.3,
+        "min_fluorescence": 165779.92,
+        "max_delta_rn": 594.6233,
+        "min_delta_rn": -966.7517
+      }
+    },
+    {
+      "well_info": {
+        "well_position": "2",
+        "sample_name": "35125",
+        "detector_name": "ANCDUO",
+        "task": "Target"
+      },
+      "results": {
+        "ct_value": null,
+        "avg_ct": null,
+        "ct_sd": null,
+        "quantity": null,
+        "avg_quantity": null,
+        "amplification_status": -1,
+        "cq_confidence": 0.0
+      },
+      "fluorescence_data": [
+        {
+          "cycle": 1,
+          "fluorescence": 382404.78,
+          "delta_rn": 5281.495
+        },
+        {
+          "cycle": 2,
+          "fluorescence": 382417.97,
+          "delta_rn": 3406.8474
+        },
+        {
+          "cycle": 3,
+          "fluorescence": 382562.94,
+          "delta_rn": 1663.9811
+        },
+        {
+          "cycle": 4,
+          "fluorescence": 383064.56,
+          "delta_rn": 277.77097
+        },
+        {
+          "cycle": 5,
+          "fluorescence": 385038.84,
+          "delta_rn": 364.21713
+        },
+        {
+          "cycle": 6,
+          "fluorescence": 385932.2,
+          "delta_rn": -630.27423
+        },
+        {
+          "cycle": 7,
+          "fluorescence": 388214.8,
+          "delta_rn": -235.48433
+        },
+        {
+          "cycle": 8,
+          "fluorescence": 389697.4,
+          "delta_rn": -640.72565
+        },
+        {
+          "cycle": 9,
+          "fluorescence": 391764.22,
+          "delta_rn": -461.74826
+        },
+        {
+          "cycle": 10,
+          "fluorescence": 393890.2,
+          "delta_rn": -223.61461
+        },
+        {
+          "cycle": 11,
+          "fluorescence": 395953.25,
+          "delta_rn": -48.38721
+        },
+        {
+          "cycle": 12,
+          "fluorescence": 396954.44,
+          "delta_rn": -935.0348
+        },
+        {
+          "cycle": 13,
+          "fluorescence": 399806.78,
+          "delta_rn": 29.473846
+        },
+        {
+          "cycle": 14,
+          "fluorescence": 400943.47,
+          "delta_rn": -721.67377
+        },
+        {
+          "cycle": 15,
+          "fluorescence": 403759.0,
+          "delta_rn": 206.0224
+        },
+        {
+          "cycle": 16,
+          "fluorescence": 405488.2,
+          "delta_rn": 47.37481
+        },
+        {
+          "cycle": 17,
+          "fluorescence": 407524.06,
+          "delta_rn": 195.4147
+        },
+        {
+          "cycle": 18,
+          "fluorescence": 409400.38,
+          "delta_rn": 183.89212
+        },
+        {
+          "cycle": 19,
+          "fluorescence": 411159.25,
+          "delta_rn": 54.93202
+        },
+        {
+          "cycle": 20,
+          "fluorescence": 411566.5,
+          "delta_rn": -1425.6531
+        },
+        {
+          "cycle": 21,
+          "fluorescence": 413864.88,
+          "delta_rn": -1015.11316
+        },
+        {
+          "cycle": 22,
+          "fluorescence": 417160.03,
+          "delta_rn": 392.20798
+        },
+        {
+          "cycle": 23,
+          "fluorescence": 420253.72,
+          "delta_rn": 1598.0604
+        },
+        {
+          "cycle": 24,
+          "fluorescence": 420969.78,
+          "delta_rn": 426.28778
+        },
+        {
+          "cycle": 25,
+          "fluorescence": 423214.56,
+          "delta_rn": 783.23395
+        },
+        {
+          "cycle": 26,
+          "fluorescence": 424484.06,
+          "delta_rn": 164.89883
+        },
+        {
+          "cycle": 27,
+          "fluorescence": 426762.0,
+          "delta_rn": 555.0012
+        },
+        {
+          "cycle": 28,
+          "fluorescence": 428744.66,
+          "delta_rn": 649.8224
+        },
+        {
+          "cycle": 29,
+          "fluorescence": 429879.78,
+          "delta_rn": -102.887695
+        },
+        {
+          "cycle": 30,
+          "fluorescence": 431643.78,
+          "delta_rn": -226.7228
+        },
+        {
+          "cycle": 31,
+          "fluorescence": 433886.53,
+          "delta_rn": 128.19211
+        },
+        {
+          "cycle": 32,
+          "fluorescence": 435008.78,
+          "delta_rn": -637.393
+        },
+        {
+          "cycle": 33,
+          "fluorescence": 437856.72,
+          "delta_rn": 322.7094
+        },
+        {
+          "cycle": 34,
+          "fluorescence": 439517.88,
+          "delta_rn": 96.03057
+        },
+        {
+          "cycle": 35,
+          "fluorescence": 441056.5,
+          "delta_rn": -253.17953
+        },
+        {
+          "cycle": 36,
+          "fluorescence": 442793.8,
+          "delta_rn": -403.70212
+        },
+        {
+          "cycle": 37,
+          "fluorescence": 445610.5,
+          "delta_rn": 525.15027
+        },
+        {
+          "cycle": 38,
+          "fluorescence": 447155.78,
+          "delta_rn": 182.59644
+        },
+        {
+          "cycle": 39,
+          "fluorescence": 447975.34,
+          "delta_rn": -885.67615
+        },
+        {
+          "cycle": 40,
+          "fluorescence": 450031.75,
+          "delta_rn": -717.10504
+        }
+      ],
+      "data_quality": {
+        "total_cycles": 40,
+        "data_points": 40,
+        "has_complete_data": true,
+        "max_fluorescence": 450031.75,
+        "min_fluorescence": 382404.78,
+        "max_delta_rn": 5281.495,
+        "min_delta_rn": -1425.6531
+      }
+    },
+    {
+      "well_info": {
+        "well_position": "2",
+        "sample_name": "35125",
+        "detector_name": "ROTAVIRB",
+        "task": "Target"
+      },
+      "results": {
+        "ct_value": null,
+        "avg_ct": null,
+        "ct_sd": null,
+        "quantity": null,
+        "avg_quantity": null,
+        "amplification_status": 0,
+        "cq_confidence": 0.0
+      },
+      "fluorescence_data": [
+        {
+          "cycle": 1,
+          "fluorescence": 561063.94,
+          "delta_rn": 10343.505
+        },
+        {
+          "cycle": 2,
+          "fluorescence": 560538.3,
+          "delta_rn": 8805.908
+        },
+        {
+          "cycle": 3,
+          "fluorescence": 556949.1,
+          "delta_rn": 4204.7485
+        },
+        {
+          "cycle": 4,
+          "fluorescence": 556256.3,
+          "delta_rn": 2499.964
+        },
+        {
+          "cycle": 5,
+          "fluorescence": 557287.5,
+          "delta_rn": 2519.1797
+        },
+        {
+          "cycle": 6,
+          "fluorescence": 558758.2,
+          "delta_rn": 2977.895
+        },
+        {
+          "cycle": 7,
+          "fluorescence": 558846.1,
+          "delta_rn": 2053.8606
+        },
+        {
+          "cycle": 8,
+          "fluorescence": 558380.1,
+          "delta_rn": 575.88873
+        },
+        {
+          "cycle": 9,
+          "fluorescence": 558316.8,
+          "delta_rn": -499.39572
+        },
+        {
+          "cycle": 10,
+          "fluorescence": 559193.3,
+          "delta_rn": -634.8677
+        },
+        {
+          "cycle": 11,
+          "fluorescence": 560573.4,
+          "delta_rn": -266.77713
+        },
+        {
+          "cycle": 12,
+          "fluorescence": 561542.06,
+          "delta_rn": -310.06155
+        },
+        {
+          "cycle": 13,
+          "fluorescence": 562367.9,
+          "delta_rn": -496.221
+        },
+        {
+          "cycle": 14,
+          "fluorescence": 562130.94,
+          "delta_rn": -1745.1305
+        },
+        {
+          "cycle": 15,
+          "fluorescence": 562160.94,
+          "delta_rn": -2727.1025
+        },
+        {
+          "cycle": 16,
+          "fluorescence": 563590.5,
+          "delta_rn": -2309.512
+        },
+        {
+          "cycle": 17,
+          "fluorescence": 564697.75,
+          "delta_rn": -2214.234
+        },
+        {
+          "cycle": 18,
+          "fluorescence": 565742.8,
+          "delta_rn": -2181.1433
+        },
+        {
+          "cycle": 19,
+          "fluorescence": 567036.5,
+          "delta_rn": -1899.4277
+        },
+        {
+          "cycle": 20,
+          "fluorescence": 567425.56,
+          "delta_rn": -2522.3372
+        },
+        {
+          "cycle": 21,
+          "fluorescence": 569053.56,
+          "delta_rn": -1906.3091
+        },
+        {
+          "cycle": 22,
+          "fluorescence": 570636.75,
+          "delta_rn": -1335.0936
+        },
+        {
+          "cycle": 23,
+          "fluorescence": 572439.5,
+          "delta_rn": -544.31555
+        },
+        {
+          "cycle": 24,
+          "fluorescence": 573219.7,
+          "delta_rn": -776.1
+        },
+        {
+          "cycle": 25,
+          "fluorescence": 573486.7,
+          "delta_rn": -1521.0719
+        },
+        {
+          "cycle": 26,
+          "fluorescence": 575289.8,
+          "delta_rn": -729.9189
+        },
+        {
+          "cycle": 27,
+          "fluorescence": 575473.1,
+          "delta_rn": -1558.5784
+        },
+        {
+          "cycle": 28,
+          "fluorescence": 576170.2,
+          "delta_rn": -1873.4878
+        },
+        {
+          "cycle": 29,
+          "fluorescence": 578737.3,
+          "delta_rn": -318.33472
+        },
+        {
+          "cycle": 30,
+          "fluorescence": 580947.2,
+          "delta_rn": 879.5683
+        },
+        {
+          "cycle": 31,
+          "fluorescence": 582374.4,
+          "delta_rn": 1294.7838
+        },
+        {
+          "cycle": 32,
+          "fluorescence": 583762.5,
+          "delta_rn": 1670.9369
+        },
+        {
+          "cycle": 33,
+          "fluorescence": 583648.0,
+          "delta_rn": 544.46497
+        },
+        {
+          "cycle": 34,
+          "fluorescence": 584044.94,
+          "delta_rn": -70.56948
+        },
+        {
+          "cycle": 35,
+          "fluorescence": 586843.44,
+          "delta_rn": 1715.9586
+        },
+        {
+          "cycle": 36,
+          "fluorescence": 587834.3,
+          "delta_rn": 1694.8616
+        },
+        {
+          "cycle": 37,
+          "fluorescence": 588080.7,
+          "delta_rn": 929.26465
+        },
+        {
+          "cycle": 38,
+          "fluorescence": 590506.25,
+          "delta_rn": 2342.8552
+        },
+        {
+          "cycle": 39,
+          "fluorescence": 591711.1,
+          "delta_rn": 2535.7583
+        },
+        {
+          "cycle": 40,
+          "fluorescence": 593154.25,
+          "delta_rn": 2966.9114
+        }
+      ],
+      "data_quality": {
+        "total_cycles": 40,
+        "data_points": 40,
+        "has_complete_data": true,
+        "max_fluorescence": 593154.25,
+        "min_fluorescence": 556256.3,
+        "max_delta_rn": 10343.505,
+        "min_delta_rn": -2727.1025
+      }
+    },
+    {
+      "well_info": {
+        "well_position": "2",
+        "sample_name": "35125",
+        "detector_name": "ENTVER",
+        "task": "Target"
+      },
+      "results": {
+        "ct_value": null,
+        "avg_ct": null,
+        "ct_sd": null,
+        "quantity": null,
+        "avg_quantity": null,
+        "amplification_status": -1,
+        "cq_confidence": 0.0
+      },
+      "fluorescence_data": [
+        {
+          "cycle": 1,
+          "fluorescence": 399309.28,
+          "delta_rn": 2889.327
+        },
+        {
+          "cycle": 2,
+          "fluorescence": 399054.34,
+          "delta_rn": 1932.7975
+        },
+        {
+          "cycle": 3,
+          "fluorescence": 398638.0,
+          "delta_rn": 814.86163
+        },
+        {
+          "cycle": 4,
+          "fluorescence": 397794.22,
+          "delta_rn": -730.5117
+        },
+        {
+          "cycle": 5,
+          "fluorescence": 397804.6,
+          "delta_rn": -1421.7288
+        },
+        {
+          "cycle": 6,
+          "fluorescence": 399017.1,
+          "delta_rn": -910.82086
+        },
+        {
+          "cycle": 7,
+          "fluorescence": 400574.5,
+          "delta_rn": -55.006653
+        },
+        {
+          "cycle": 8,
+          "fluorescence": 400973.12,
+          "delta_rn": -357.97372
+        },
+        {
+          "cycle": 9,
+          "fluorescence": 401864.47,
+          "delta_rn": -168.22205
+        },
+        {
+          "cycle": 10,
+          "fluorescence": 402516.88,
+          "delta_rn": -217.40785
+        },
+        {
+          "cycle": 11,
+          "fluorescence": 402722.03,
+          "delta_rn": -713.8437
+        },
+        {
+          "cycle": 12,
+          "fluorescence": 403806.97,
+          "delta_rn": -330.49823
+        },
+        {
+          "cycle": 13,
+          "fluorescence": 404303.53,
+          "delta_rn": -535.52783
+        },
+        {
+          "cycle": 14,
+          "fluorescence": 404928.16,
+          "delta_rn": -612.4949
+        },
+        {
+          "cycle": 15,
+          "fluorescence": 406928.16,
+          "delta_rn": 685.913
+        },
+        {
+          "cycle": 16,
+          "fluorescence": 407885.56,
+          "delta_rn": 941.72723
+        },
+        {
+          "cycle": 17,
+          "fluorescence": 408322.56,
+          "delta_rn": 677.1352
+        },
+        {
+          "cycle": 18,
+          "fluorescence": 408772.22,
+          "delta_rn": 425.19934
+        },
+        {
+          "cycle": 19,
+          "fluorescence": 409703.6,
+          "delta_rn": 654.9823
+        },
+        {
+          "cycle": 20,
+          "fluorescence": 410899.53,
+          "delta_rn": 1149.3278
+        },
+        {
+          "cycle": 21,
+          "fluorescence": 411665.53,
+          "delta_rn": 1213.7356
+        },
+        {
+          "cycle": 22,
+          "fluorescence": 411802.2,
+          "delta_rn": 648.7998
+        },
+        {
+          "cycle": 23,
+          "fluorescence": 412714.4,
+          "delta_rn": 859.4265
+        },
+        {
+          "cycle": 24,
+          "fluorescence": 413297.84,
+          "delta_rn": 741.2719
+        },
+        {
+          "cycle": 25,
+          "fluorescence": 413454.78,
+          "delta_rn": 196.61737
+        },
+        {
+          "cycle": 26,
+          "fluorescence": 414270.62,
+          "delta_rn": 310.86905
+        },
+        {
+          "cycle": 27,
+          "fluorescence": 414661.97,
+          "delta_rn": 0.62073255
+        },
+        {
+          "cycle": 28,
+          "fluorescence": 415052.53,
+          "delta_rn": -310.40884
+        },
+        {
+          "cycle": 29,
+          "fluorescence": 416020.47,
+          "delta_rn": -44.063404
+        },
+        {
+          "cycle": 30,
+          "fluorescence": 417444.06,
+          "delta_rn": 677.9383
+        },
+        {
+          "cycle": 31,
+          "fluorescence": 417554.7,
+          "delta_rn": 86.97121
+        },
+        {
+          "cycle": 32,
+          "fluorescence": 418133.8,
+          "delta_rn": -35.495857
+        },
+        {
+          "cycle": 33,
+          "fluorescence": 418763.28,
+          "delta_rn": -107.61918
+        },
+        {
+          "cycle": 34,
+          "fluorescence": 419512.06,
+          "delta_rn": -60.429996
+        },
+        {
+          "cycle": 35,
+          "fluorescence": 419844.06,
+          "delta_rn": -430.02206
+        },
+        {
+          "cycle": 36,
+          "fluorescence": 420434.1,
+          "delta_rn": -541.5829
+        },
+        {
+          "cycle": 37,
+          "fluorescence": 420696.2,
+          "delta_rn": -981.0812
+        },
+        {
+          "cycle": 38,
+          "fluorescence": 421492.12,
+          "delta_rn": -886.7358
+        },
+        {
+          "cycle": 39,
+          "fluorescence": 422446.53,
+          "delta_rn": -633.9216
+        },
+        {
+          "cycle": 40,
+          "fluorescence": 423296.9,
+          "delta_rn": -485.13864
+        }
+      ],
+      "data_quality": {
+        "total_cycles": 40,
+        "data_points": 40,
+        "has_complete_data": true,
+        "max_fluorescence": 423296.9,
+        "min_fluorescence": 397794.22,
+        "max_delta_rn": 2889.327,
+        "min_delta_rn": -1421.7288
+      }
+    },
+    {
+      "well_info": {
+        "well_position": "2",
+        "sample_name": "35125",
+        "detector_name": "SAPVIR",
+        "task": "Target"
+      },
+      "results": {
+        "ct_value": null,
+        "avg_ct": null,
+        "ct_sd": null,
+        "quantity": null,
+        "avg_quantity": null,
+        "amplification_status": -1,
+        "cq_confidence": 0.0
+      },
+      "fluorescence_data": [
+        {
+          "cycle": 1,
+          "fluorescence": 173737.19,
+          "delta_rn": 1930.8551
+        },
+        {
+          "cycle": 2,
+          "fluorescence": 173315.38,
+          "delta_rn": 1326.8608
+        },
+        {
+          "cycle": 3,
+          "fluorescence": 173090.67,
+          "delta_rn": 919.97595
+        },
+        {
+          "cycle": 4,
+          "fluorescence": 173226.8,
+          "delta_rn": 873.9191
+        },
+        {
+          "cycle": 5,
+          "fluorescence": 173239.98,
+          "delta_rn": 704.9248
+        },
+        {
+          "cycle": 6,
+          "fluorescence": 173070.02,
+          "delta_rn": 352.7743
+        },
+        {
+          "cycle": 7,
+          "fluorescence": 172642.97,
+          "delta_rn": -256.4544
+        },
+        {
+          "cycle": 8,
+          "fluorescence": 172724.0,
+          "delta_rn": -357.60495
+        },
+        {
+          "cycle": 9,
+          "fluorescence": 173497.64,
+          "delta_rn": 233.85388
+        },
+        {
+          "cycle": 10,
+          "fluorescence": 173686.5,
+          "delta_rn": 240.53146
+        },
+        {
+          "cycle": 11,
+          "fluorescence": 173289.39,
+          "delta_rn": -338.7597
+        },
+        {
+          "cycle": 12,
+          "fluorescence": 173300.89,
+          "delta_rn": -509.4415
+        },
+        {
+          "cycle": 13,
+          "fluorescence": 173972.0,
+          "delta_rn": -20.513935
+        },
+        {
+          "cycle": 14,
+          "fluorescence": 174066.17,
+          "delta_rn": -108.52386
+        },
+        {
+          "cycle": 15,
+          "fluorescence": 174100.62,
+          "delta_rn": -256.25253
+        },
+        {
+          "cycle": 16,
+          "fluorescence": 174126.55,
+          "delta_rn": -412.51245
+        },
+        {
+          "cycle": 17,
+          "fluorescence": 174643.02,
+          "delta_rn": -78.22551
+        },
+        {
+          "cycle": 18,
+          "fluorescence": 175156.61,
+          "delta_rn": 253.18645
+        },
+        {
+          "cycle": 19,
+          "fluorescence": 175083.38,
+          "delta_rn": -2.2297297
+        },
+        {
+          "cycle": 20,
+          "fluorescence": 174830.94,
+          "delta_rn": -436.84903
+        },
+        {
+          "cycle": 21,
+          "fluorescence": 174781.84,
+          "delta_rn": -668.1246
+        },
+        {
+          "cycle": 22,
+          "fluorescence": 175203.25,
+          "delta_rn": -428.90012
+        },
+        {
+          "cycle": 23,
+          "fluorescence": 175287.64,
+          "delta_rn": -526.6913
+        },
+        {
+          "cycle": 24,
+          "fluorescence": 175669.23,
+          "delta_rn": -327.27936
+        },
+        {
+          "cycle": 25,
+          "fluorescence": 175921.53,
+          "delta_rn": -257.16428
+        },
+        {
+          "cycle": 26,
+          "fluorescence": 176322.25,
+          "delta_rn": -38.627323
+        },
+        {
+          "cycle": 27,
+          "fluorescence": 175950.97,
+          "delta_rn": -592.0904
+        },
+        {
+          "cycle": 28,
+          "fluorescence": 175865.92,
+          "delta_rn": -859.31903
+        },
+        {
+          "cycle": 29,
+          "fluorescence": 176507.4,
+          "delta_rn": -400.01648
+        },
+        {
+          "cycle": 30,
+          "fluorescence": 176727.94,
+          "delta_rn": -361.66702
+        },
+        {
+          "cycle": 31,
+          "fluorescence": 177571.17,
+          "delta_rn": 299.38556
+        },
+        {
+          "cycle": 32,
+          "fluorescence": 177964.55,
+          "delta_rn": 510.57877
+        },
+        {
+          "cycle": 33,
+          "fluorescence": 178136.5,
+          "delta_rn": 500.3501
+        },
+        {
+          "cycle": 34,
+          "fluorescence": 177970.19,
+          "delta_rn": 151.85579
+        },
+        {
+          "cycle": 35,
+          "fluorescence": 178075.56,
+          "delta_rn": 75.04899
+        },
+        {
+          "cycle": 36,
+          "fluorescence": 178889.17,
+          "delta_rn": 706.47656
+        },
+        {
+          "cycle": 37,
+          "fluorescence": 178865.42,
+          "delta_rn": 500.54477
+        },
+        {
+          "cycle": 38,
+          "fluorescence": 178824.08,
+          "delta_rn": 277.01923
+        },
+        {
+          "cycle": 39,
+          "fluorescence": 179366.06,
+          "delta_rn": 636.8218
+        },
+        {
+          "cycle": 40,
+          "fluorescence": 179686.1,
+          "delta_rn": 774.67126
+        }
+      ],
+      "data_quality": {
+        "total_cycles": 40,
+        "data_points": 40,
+        "has_complete_data": true,
+        "max_fluorescence": 179686.1,
+        "min_fluorescence": 172642.97,
+        "max_delta_rn": 1930.8551,
+        "min_delta_rn": -859.31903
+      }
+    },
+    {
+      "well_info": {
+        "well_position": "3",
+        "sample_name": "35125",
+        "detector_name": "GAPDH",
+        "task": "Target"
+      },
+      "results": {
+        "ct_value": 30.169352,
+        "avg_ct": 30.169352,
+        "ct_sd": null,
+        "quantity": null,
+        "avg_quantity": null,
+        "amplification_status": 1,
+        "cq_confidence": 0.9811806213155333
+      },
+      "fluorescence_data": [
+        {
+          "cycle": 1,
+          "fluorescence": 114523.74,
+          "delta_rn": 2276.0337
+        },
+        {
+          "cycle": 2,
+          "fluorescence": 113950.67,
+          "delta_rn": 1437.8398
+        },
+        {
+          "cycle": 3,
+          "fluorescence": 113342.03,
+          "delta_rn": 564.0758
+        },
+        {
+          "cycle": 4,
+          "fluorescence": 113476.42,
+          "delta_rn": 433.343
+        },
+        {
+          "cycle": 5,
+          "fluorescence": 114199.05,
+          "delta_rn": 890.84454
+        },
+        {
+          "cycle": 6,
+          "fluorescence": 113700.33,
+          "delta_rn": 127.00239
+        },
+        {
+          "cycle": 7,
+          "fluorescence": 113492.99,
+          "delta_rn": -345.45697
+        },
+        {
+          "cycle": 8,
+          "fluorescence": 113665.29,
+          "delta_rn": -438.28354
+        },
+        {
+          "cycle": 9,
+          "fluorescence": 114324.91,
+          "delta_rn": -43.789772
+        },
+        {
+          "cycle": 10,
+          "fluorescence": 114669.59,
+          "delta_rn": 35.7743
+        },
+        {
+          "cycle": 11,
+          "fluorescence": 114730.555,
+          "delta_rn": -168.38818
+        },
+        {
+          "cycle": 12,
+          "fluorescence": 115013.414,
+          "delta_rn": -150.65224
+        },
+        {
+          "cycle": 13,
+          "fluorescence": 115174.81,
+          "delta_rn": -254.37723
+        },
+        {
+          "cycle": 14,
+          "fluorescence": 115353.68,
+          "delta_rn": -340.63348
+        },
+        {
+          "cycle": 15,
+          "fluorescence": 115382.54,
+          "delta_rn": -576.8975
+        },
+        {
+          "cycle": 16,
+          "fluorescence": 115744.484,
+          "delta_rn": -480.07565
+        },
+        {
+          "cycle": 17,
+          "fluorescence": 115789.82,
+          "delta_rn": -699.86316
+        },
+        {
+          "cycle": 18,
+          "fluorescence": 115866.97,
+          "delta_rn": -887.83813
+        },
+        {
+          "cycle": 19,
+          "fluorescence": 116497.875,
+          "delta_rn": -522.0553
+        },
+        {
+          "cycle": 20,
+          "fluorescence": 117280.25,
+          "delta_rn": -4.803724
+        },
+        {
+          "cycle": 21,
+          "fluorescence": 118210.99,
+          "delta_rn": 660.81506
+        },
+        {
+          "cycle": 22,
+          "fluorescence": 119037.97,
+          "delta_rn": 1222.6682
+        },
+        {
+          "cycle": 23,
+          "fluorescence": 119059.016,
+          "delta_rn": 978.5916
+        },
+        {
+          "cycle": 24,
+          "fluorescence": 119044.31,
+          "delta_rn": 698.7651
+        },
+        {
+          "cycle": 25,
+          "fluorescence": 119890.42,
+          "delta_rn": 1279.751
+        },
+        {
+          "cycle": 26,
+          "fluorescence": 121062.28,
+          "delta_rn": 2186.487
+        },
+        {
+          "cycle": 27,
+          "fluorescence": 123773.58,
+          "delta_rn": 4632.6606
+        },
+        {
+          "cycle": 28,
+          "fluorescence": 128360.92,
+          "delta_rn": 8954.881
+        },
+        {
+          "cycle": 29,
+          "fluorescence": 137697.38,
+          "delta_rn": 18026.21
+        },
+        {
+          "cycle": 30,
+          "fluorescence": 153735.9,
+          "delta_rn": 33799.617
+        },
+        {
+          "cycle": 31,
+          "fluorescence": 180925.8,
+          "delta_rn": 60724.387
+        },
+        {
+          "cycle": 32,
+          "fluorescence": 222943.58,
+          "delta_rn": 102477.05
+        },
+        {
+          "cycle": 33,
+          "fluorescence": 276394.75,
+          "delta_rn": 155663.1
+        },
+        {
+          "cycle": 34,
+          "fluorescence": 333207.3,
+          "delta_rn": 212210.53
+        },
+        {
+          "cycle": 35,
+          "fluorescence": 381130.78,
+          "delta_rn": 259868.88
+        },
+        {
+          "cycle": 36,
+          "fluorescence": 415192.3,
+          "delta_rn": 293665.28
+        },
+        {
+          "cycle": 37,
+          "fluorescence": 437355.5,
+          "delta_rn": 315563.34
+        },
+        {
+          "cycle": 38,
+          "fluorescence": 454663.0,
+          "delta_rn": 332605.72
+        },
+        {
+          "cycle": 39,
+          "fluorescence": 468883.03,
+          "delta_rn": 346560.62
+        },
+        {
+          "cycle": 40,
+          "fluorescence": 478612.2,
+          "delta_rn": 356024.66
+        }
+      ],
+      "data_quality": {
+        "total_cycles": 40,
+        "data_points": 40,
+        "has_complete_data": true,
+        "max_fluorescence": 478612.2,
+        "min_fluorescence": 113342.03,
+        "max_delta_rn": 356024.66,
+        "min_delta_rn": -887.83813
+      }
+    },
+    {
+      "well_info": {
+        "well_position": "3",
+        "sample_name": "35125",
+        "detector_name": "NECAME",
+        "task": "Target"
+      },
+      "results": {
+        "ct_value": null,
+        "avg_ct": null,
+        "ct_sd": null,
+        "quantity": null,
+        "avg_quantity": null,
+        "amplification_status": -1,
+        "cq_confidence": 0.0
+      },
+      "fluorescence_data": [
+        {
+          "cycle": 1,
+          "fluorescence": 115899.836,
+          "delta_rn": 1901.337
+        },
+        {
+          "cycle": 2,
+          "fluorescence": 115971.89,
+          "delta_rn": 1973.3917
+        },
+        {
+          "cycle": 3,
+          "fluorescence": 116246.875,
+          "delta_rn": 2248.376
+        },
+        {
+          "cycle": 4,
+          "fluorescence": 116691.52,
+          "delta_rn": 2693.0244
+        },
+        {
+          "cycle": 5,
+          "fluorescence": 116820.64,
+          "delta_rn": 2822.1416
+        },
+        {
+          "cycle": 6,
+          "fluorescence": 117046.95,
+          "delta_rn": 3048.454
+        },
+        {
+          "cycle": 7,
+          "fluorescence": 117545.12,
+          "delta_rn": 3546.6182
+        },
+        {
+          "cycle": 8,
+          "fluorescence": 117497.04,
+          "delta_rn": 3498.54
+        },
+        {
+          "cycle": 9,
+          "fluorescence": 117210.94,
+          "delta_rn": 3212.4385
+        },
+        {
+          "cycle": 10,
+          "fluorescence": 117180.5,
+          "delta_rn": 3182.001
+        },
+        {
+          "cycle": 11,
+          "fluorescence": 117446.805,
+          "delta_rn": 3448.3057
+        },
+        {
+          "cycle": 12,
+          "fluorescence": 117167.44,
+          "delta_rn": 3168.9385
+        },
+        {
+          "cycle": 13,
+          "fluorescence": 117314.14,
+          "delta_rn": 3315.6416
+        },
+        {
+          "cycle": 14,
+          "fluorescence": 117836.64,
+          "delta_rn": 3838.1416
+        },
+        {
+          "cycle": 15,
+          "fluorescence": 117903.5,
+          "delta_rn": 3905.001
+        },
+        {
+          "cycle": 16,
+          "fluorescence": 118250.16,
+          "delta_rn": 4251.657
+        },
+        {
+          "cycle": 17,
+          "fluorescence": 118045.516,
+          "delta_rn": 4047.0166
+        },
+        {
+          "cycle": 18,
+          "fluorescence": 118341.875,
+          "delta_rn": 4343.376
+        },
+        {
+          "cycle": 19,
+          "fluorescence": 118690.99,
+          "delta_rn": 4692.493
+        },
+        {
+          "cycle": 20,
+          "fluorescence": 118738.86,
+          "delta_rn": 4740.3604
+        },
+        {
+          "cycle": 21,
+          "fluorescence": 118732.2,
+          "delta_rn": 4733.704
+        },
+        {
+          "cycle": 22,
+          "fluorescence": 118861.32,
+          "delta_rn": 4862.8213
+        },
+        {
+          "cycle": 23,
+          "fluorescence": 119051.23,
+          "delta_rn": 5052.7275
+        },
+        {
+          "cycle": 24,
+          "fluorescence": 119553.36,
+          "delta_rn": 5554.8604
+        },
+        {
+          "cycle": 25,
+          "fluorescence": 119633.89,
+          "delta_rn": 5635.3916
+        },
+        {
+          "cycle": 26,
+          "fluorescence": 119550.27,
+          "delta_rn": 5551.7744
+        },
+        {
+          "cycle": 27,
+          "fluorescence": 119592.81,
+          "delta_rn": 5594.3135
+        },
+        {
+          "cycle": 28,
+          "fluorescence": 119137.664,
+          "delta_rn": 5139.165
+        },
+        {
+          "cycle": 29,
+          "fluorescence": 117950.8,
+          "delta_rn": 3952.2979
+        },
+        {
+          "cycle": 30,
+          "fluorescence": 116252.164,
+          "delta_rn": 2253.665
+        },
+        {
+          "cycle": 31,
+          "fluorescence": 113219.914,
+          "delta_rn": -778.5849
+        },
+        {
+          "cycle": 32,
+          "fluorescence": 109366.43,
+          "delta_rn": -4632.0693
+        },
+        {
+          "cycle": 33,
+          "fluorescence": 105015.64,
+          "delta_rn": -8982.858
+        },
+        {
+          "cycle": 34,
+          "fluorescence": 101890.52,
+          "delta_rn": -12107.976
+        },
+        {
+          "cycle": 35,
+          "fluorescence": 99687.234,
+          "delta_rn": -14311.265
+        },
+        {
+          "cycle": 36,
+          "fluorescence": 97765.51,
+          "delta_rn": -16232.991
+        },
+        {
+          "cycle": 37,
+          "fluorescence": 96514.305,
+          "delta_rn": -17484.193
+        },
+        {
+          "cycle": 38,
+          "fluorescence": 95493.87,
+          "delta_rn": -18504.63
+        },
+        {
+          "cycle": 39,
+          "fluorescence": 94699.82,
+          "delta_rn": -19298.678
+        },
+        {
+          "cycle": 40,
+          "fluorescence": 94542.734,
+          "delta_rn": -19455.764
+        }
+      ],
+      "data_quality": {
+        "total_cycles": 40,
+        "data_points": 40,
+        "has_complete_data": true,
+        "max_fluorescence": 119633.89,
+        "min_fluorescence": 94542.734,
+        "max_delta_rn": 5635.3916,
+        "min_delta_rn": -19455.764
+      }
+    },
+    {
+      "well_info": {
+        "well_position": "3",
+        "sample_name": "35125",
+        "detector_name": "ADENOB_C",
+        "task": "Target"
+      },
+      "results": {
+        "ct_value": null,
+        "avg_ct": null,
+        "ct_sd": null,
+        "quantity": null,
+        "avg_quantity": null,
+        "amplification_status": 1,
+        "cq_confidence": 0.0
+      },
+      "fluorescence_data": [
+        {
+          "cycle": 1,
+          "fluorescence": 90058.305,
+          "delta_rn": 2525.5488
+        },
+        {
+          "cycle": 2,
+          "fluorescence": 89330.76,
+          "delta_rn": 1576.3313
+        },
+        {
+          "cycle": 3,
+          "fluorescence": 88876.16,
+          "delta_rn": 900.0592
+        },
+        {
+          "cycle": 4,
+          "fluorescence": 88645.14,
+          "delta_rn": 447.37308
+        },
+        {
+          "cycle": 5,
+          "fluorescence": 88618.71,
+          "delta_rn": 199.27286
+        },
+        {
+          "cycle": 6,
+          "fluorescence": 88811.54,
+          "delta_rn": 170.43045
+        },
+        {
+          "cycle": 7,
+          "fluorescence": 89130.8,
+          "delta_rn": 268.01773
+        },
+        {
+          "cycle": 8,
+          "fluorescence": 89223.02,
+          "delta_rn": 138.57376
+        },
+        {
+          "cycle": 9,
+          "fluorescence": 89306.04,
+          "delta_rn": -0.081148505
+        },
+        {
+          "cycle": 10,
+          "fluorescence": 89420.625,
+          "delta_rn": -107.16574
+        },
+        {
+          "cycle": 11,
+          "fluorescence": 89559.516,
+          "delta_rn": -189.94565
+        },
+        {
+          "cycle": 12,
+          "fluorescence": 89544.45,
+          "delta_rn": -426.67868
+        },
+        {
+          "cycle": 13,
+          "fluorescence": 89625.86,
+          "delta_rn": -566.94293
+        },
+        {
+          "cycle": 14,
+          "fluorescence": 89631.64,
+          "delta_rn": -782.8322
+        },
+        {
+          "cycle": 15,
+          "fluorescence": 89886.15,
+          "delta_rn": -749.99493
+        },
+        {
+          "cycle": 16,
+          "fluorescence": 90225.01,
+          "delta_rn": -632.8061
+        },
+        {
+          "cycle": 17,
+          "fluorescence": 90754.484,
+          "delta_rn": -325.0001
+        },
+        {
+          "cycle": 18,
+          "fluorescence": 90861.89,
+          "delta_rn": -439.26437
+        },
+        {
+          "cycle": 19,
+          "fluorescence": 91279.35,
+          "delta_rn": -243.47397
+        },
+        {
+          "cycle": 20,
+          "fluorescence": 91686.64,
+          "delta_rn": -57.855434
+        },
+        {
+          "cycle": 21,
+          "fluorescence": 92383.0,
+          "delta_rn": 416.8334
+        },
+        {
+          "cycle": 22,
+          "fluorescence": 92541.98,
+          "delta_rn": 354.13943
+        },
+        {
+          "cycle": 23,
+          "fluorescence": 92522.79,
+          "delta_rn": 113.28141
+        },
+        {
+          "cycle": 24,
+          "fluorescence": 93073.75,
+          "delta_rn": 442.5718
+        },
+        {
+          "cycle": 25,
+          "fluorescence": 93343.68,
+          "delta_rn": 490.83096
+        },
+        {
+          "cycle": 26,
+          "fluorescence": 93268.8,
+          "delta_rn": 194.27763
+        },
+        {
+          "cycle": 27,
+          "fluorescence": 93500.37,
+          "delta_rn": 204.17741
+        },
+        {
+          "cycle": 28,
+          "fluorescence": 93700.06,
+          "delta_rn": 182.2022
+        },
+        {
+          "cycle": 29,
+          "fluorescence": 93723.97,
+          "delta_rn": -15.562091
+        },
+        {
+          "cycle": 30,
+          "fluorescence": 94498.055,
+          "delta_rn": 536.85333
+        },
+        {
+          "cycle": 31,
+          "fluorescence": 95273.31,
+          "delta_rn": 1090.4406
+        },
+        {
+          "cycle": 32,
+          "fluorescence": 95606.625,
+          "delta_rn": 1202.0825
+        },
+        {
+          "cycle": 33,
+          "fluorescence": 96658.875,
+          "delta_rn": 2032.662
+        },
+        {
+          "cycle": 34,
+          "fluorescence": 97576.22,
+          "delta_rn": 2728.3352
+        },
+        {
+          "cycle": 35,
+          "fluorescence": 98333.51,
+          "delta_rn": 3263.9539
+        },
+        {
+          "cycle": 36,
+          "fluorescence": 98763.53,
+          "delta_rn": 3472.3066
+        },
+        {
+          "cycle": 37,
+          "fluorescence": 99050.03,
+          "delta_rn": 3537.1362
+        },
+        {
+          "cycle": 38,
+          "fluorescence": 99566.27,
+          "delta_rn": 3831.7078
+        },
+        {
+          "cycle": 39,
+          "fluorescence": 100110.14,
+          "delta_rn": 4153.9043
+        },
+        {
+          "cycle": 40,
+          "fluorescence": 100469.164,
+          "delta_rn": 4291.2573
+        }
+      ],
+      "data_quality": {
+        "total_cycles": 40,
+        "data_points": 40,
+        "has_complete_data": true,
+        "max_fluorescence": 100469.164,
+        "min_fluorescence": 88618.71,
+        "max_delta_rn": 4291.2573,
+        "min_delta_rn": -782.8322
+      }
+    },
+    {
+      "well_info": {
+        "well_position": "3",
+        "sample_name": "35125",
+        "detector_name": "NOROVIRG2",
+        "task": "Target"
+      },
+      "results": {
+        "ct_value": null,
+        "avg_ct": null,
+        "ct_sd": null,
+        "quantity": null,
+        "avg_quantity": null,
+        "amplification_status": -1,
+        "cq_confidence": 0.0
+      },
+      "fluorescence_data": [
+        {
+          "cycle": 1,
+          "fluorescence": 79271.54,
+          "delta_rn": -0.58132184
+        },
+        {
+          "cycle": 2,
+          "fluorescence": 78738.62,
+          "delta_rn": -591.3551
+        },
+        {
+          "cycle": 3,
+          "fluorescence": 78442.51,
+          "delta_rn": -945.3164
+        },
+        {
+          "cycle": 4,
+          "fluorescence": 78403.58,
+          "delta_rn": -1042.098
+        },
+        {
+          "cycle": 5,
+          "fluorescence": 78212.11,
+          "delta_rn": -1291.4187
+        },
+        {
+          "cycle": 6,
+          "fluorescence": 78224.83,
+          "delta_rn": -1336.5519
+        },
+        {
+          "cycle": 7,
+          "fluorescence": 78475.82,
+          "delta_rn": -1143.4116
+        },
+        {
+          "cycle": 8,
+          "fluorescence": 78529.72,
+          "delta_rn": -1147.3651
+        },
+        {
+          "cycle": 9,
+          "fluorescence": 78706.33,
+          "delta_rn": -1028.6077
+        },
+        {
+          "cycle": 10,
+          "fluorescence": 79233.31,
+          "delta_rn": -559.47516
+        },
+        {
+          "cycle": 11,
+          "fluorescence": 79514.055,
+          "delta_rn": -336.5849
+        },
+        {
+          "cycle": 12,
+          "fluorescence": 79646.73,
+          "delta_rn": -261.76495
+        },
+        {
+          "cycle": 13,
+          "fluorescence": 79747.7,
+          "delta_rn": -218.6403
+        },
+        {
+          "cycle": 14,
+          "fluorescence": 79924.43,
+          "delta_rn": -99.765656
+        },
+        {
+          "cycle": 15,
+          "fluorescence": 80131.766,
+          "delta_rn": 49.71836
+        },
+        {
+          "cycle": 16,
+          "fluorescence": 80691.11,
+          "delta_rn": 551.2102
+        },
+        {
+          "cycle": 17,
+          "fluorescence": 80722.73,
+          "delta_rn": 524.97546
+        },
+        {
+          "cycle": 18,
+          "fluorescence": 80897.125,
+          "delta_rn": 641.522
+        },
+        {
+          "cycle": 19,
+          "fluorescence": 81410.234,
+          "delta_rn": 1096.7794
+        },
+        {
+          "cycle": 20,
+          "fluorescence": 81481.75,
+          "delta_rn": 1110.4431
+        },
+        {
+          "cycle": 21,
+          "fluorescence": 81507.87,
+          "delta_rn": 1078.7084
+        },
+        {
+          "cycle": 22,
+          "fluorescence": 81789.41,
+          "delta_rn": 1302.3955
+        },
+        {
+          "cycle": 23,
+          "fluorescence": 81909.36,
+          "delta_rn": 1364.4967
+        },
+        {
+          "cycle": 24,
+          "fluorescence": 82419.18,
+          "delta_rn": 1816.4651
+        },
+        {
+          "cycle": 25,
+          "fluorescence": 82798.2,
+          "delta_rn": 2137.6367
+        },
+        {
+          "cycle": 26,
+          "fluorescence": 82864.78,
+          "delta_rn": 2146.3628
+        },
+        {
+          "cycle": 27,
+          "fluorescence": 83010.41,
+          "delta_rn": 2234.136
+        },
+        {
+          "cycle": 28,
+          "fluorescence": 83167.71,
+          "delta_rn": 2333.5886
+        },
+        {
+          "cycle": 29,
+          "fluorescence": 83180.14,
+          "delta_rn": 2288.1665
+        },
+        {
+          "cycle": 30,
+          "fluorescence": 82852.11,
+          "delta_rn": 1902.2833
+        },
+        {
+          "cycle": 31,
+          "fluorescence": 82293.82,
+          "delta_rn": 1286.1423
+        },
+        {
+          "cycle": 32,
+          "fluorescence": 81482.2,
+          "delta_rn": 416.67322
+        },
+        {
+          "cycle": 33,
+          "fluorescence": 80545.4,
+          "delta_rn": -577.9834
+        },
+        {
+          "cycle": 34,
+          "fluorescence": 79701.0,
+          "delta_rn": -1480.2338
+        },
+        {
+          "cycle": 35,
+          "fluorescence": 79266.2,
+          "delta_rn": -1972.8826
+        },
+        {
+          "cycle": 36,
+          "fluorescence": 79046.42,
+          "delta_rn": -2250.5156
+        },
+        {
+          "cycle": 37,
+          "fluorescence": 78716.71,
+          "delta_rn": -2638.0786
+        },
+        {
+          "cycle": 38,
+          "fluorescence": 78551.82,
+          "delta_rn": -2860.821
+        },
+        {
+          "cycle": 39,
+          "fluorescence": 78380.305,
+          "delta_rn": -3090.1887
+        },
+        {
+          "cycle": 40,
+          "fluorescence": 78310.3,
+          "delta_rn": -3218.0483
+        }
+      ],
+      "data_quality": {
+        "total_cycles": 40,
+        "data_points": 40,
+        "has_complete_data": true,
+        "max_fluorescence": 83180.14,
+        "min_fluorescence": 78212.11,
+        "max_delta_rn": 2333.5886,
+        "min_delta_rn": -3218.0483
+      }
+    },
+    {
+      "well_info": {
+        "well_position": "4",
+        "sample_name": "35125",
+        "detector_name": "CRYPSPP",
+        "task": "Target"
+      },
+      "results": {
+        "ct_value": null,
+        "avg_ct": null,
+        "ct_sd": null,
+        "quantity": null,
+        "avg_quantity": null,
+        "amplification_status": -1,
+        "cq_confidence": 0.0
+      },
+      "fluorescence_data": [
+        {
+          "cycle": 1,
+          "fluorescence": 94571.81,
+          "delta_rn": -15.89713
+        },
+        {
+          "cycle": 2,
+          "fluorescence": 94588.055,
+          "delta_rn": -106.596634
+        },
+        {
+          "cycle": 3,
+          "fluorescence": 94781.625,
+          "delta_rn": -19.968016
+        },
+        {
+          "cycle": 4,
+          "fluorescence": 95010.336,
+          "delta_rn": 101.80123
+        },
+        {
+          "cycle": 5,
+          "fluorescence": 95443.57,
+          "delta_rn": 428.0939
+        },
+        {
+          "cycle": 6,
+          "fluorescence": 94856.69,
+          "delta_rn": -265.7306
+        },
+        {
+          "cycle": 7,
+          "fluorescence": 94777.66,
+          "delta_rn": -451.70355
+        },
+        {
+          "cycle": 8,
+          "fluorescence": 95272.31,
+          "delta_rn": -63.988983
+        },
+        {
+          "cycle": 9,
+          "fluorescence": 95385.1,
+          "delta_rn": -58.141613
+        },
+        {
+          "cycle": 10,
+          "fluorescence": 95582.26,
+          "delta_rn": 32.07294
+        },
+        {
+          "cycle": 11,
+          "fluorescence": 95602.5,
+          "delta_rn": -54.626564
+        },
+        {
+          "cycle": 12,
+          "fluorescence": 95800.016,
+          "delta_rn": 35.94737
+        },
+        {
+          "cycle": 13,
+          "fluorescence": 95949.48,
+          "delta_rn": 78.46661
+        },
+        {
+          "cycle": 14,
+          "fluorescence": 95905.555,
+          "delta_rn": -72.39696
+        },
+        {
+          "cycle": 15,
+          "fluorescence": 96061.445,
+          "delta_rn": -23.448025
+        },
+        {
+          "cycle": 16,
+          "fluorescence": 96425.63,
+          "delta_rn": 233.79778
+        },
+        {
+          "cycle": 17,
+          "fluorescence": 96461.73,
+          "delta_rn": 162.94984
+        },
+        {
+          "cycle": 18,
+          "fluorescence": 96662.914,
+          "delta_rn": 257.19565
+        },
+        {
+          "cycle": 19,
+          "fluorescence": 96655.266,
+          "delta_rn": 142.60551
+        },
+        {
+          "cycle": 20,
+          "fluorescence": 96578.19,
+          "delta_rn": -41.414303
+        },
+        {
+          "cycle": 21,
+          "fluorescence": 96755.766,
+          "delta_rn": 29.222128
+        },
+        {
+          "cycle": 22,
+          "fluorescence": 96837.52,
+          "delta_rn": 4.0382476
+        },
+        {
+          "cycle": 23,
+          "fluorescence": 96898.16,
+          "delta_rn": -42.270634
+        },
+        {
+          "cycle": 24,
+          "fluorescence": 96812.41,
+          "delta_rn": -234.96233
+        },
+        {
+          "cycle": 25,
+          "fluorescence": 96950.43,
+          "delta_rn": -203.88058
+        },
+        {
+          "cycle": 26,
+          "fluorescence": 97320.21,
+          "delta_rn": 58.958973
+        },
+        {
+          "cycle": 27,
+          "fluorescence": 97288.13,
+          "delta_rn": -80.060844
+        },
+        {
+          "cycle": 28,
+          "fluorescence": 97315.25,
+          "delta_rn": -159.88535
+        },
+        {
+          "cycle": 29,
+          "fluorescence": 97455.42,
+          "delta_rn": -126.65517
+        },
+        {
+          "cycle": 30,
+          "fluorescence": 97793.3,
+          "delta_rn": 104.27814
+        },
+        {
+          "cycle": 31,
+          "fluorescence": 98054.07,
+          "delta_rn": 258.1099
+        },
+        {
+          "cycle": 32,
+          "fluorescence": 98148.125,
+          "delta_rn": 245.22287
+        },
+        {
+          "cycle": 33,
+          "fluorescence": 98048.836,
+          "delta_rn": 38.992123
+        },
+        {
+          "cycle": 34,
+          "fluorescence": 97899.38,
+          "delta_rn": -217.4027
+        },
+        {
+          "cycle": 35,
+          "fluorescence": 98009.69,
+          "delta_rn": -214.0397
+        },
+        {
+          "cycle": 36,
+          "fluorescence": 98282.5,
+          "delta_rn": -48.168896
+        },
+        {
+          "cycle": 37,
+          "fluorescence": 98443.99,
+          "delta_rn": 6.3815975
+        },
+        {
+          "cycle": 38,
+          "fluorescence": 98430.516,
+          "delta_rn": -114.03666
+        },
+        {
+          "cycle": 39,
+          "fluorescence": 98926.14,
+          "delta_rn": 274.64664
+        },
+        {
+          "cycle": 40,
+          "fluorescence": 99364.55,
+          "delta_rn": 606.1112
+        }
+      ],
+      "data_quality": {
+        "total_cycles": 40,
+        "data_points": 40,
+        "has_complete_data": true,
+        "max_fluorescence": 99364.55,
+        "min_fluorescence": 94571.81,
+        "max_delta_rn": 606.1112,
+        "min_delta_rn": -451.70355
+      }
+    },
+    {
+      "well_info": {
+        "well_position": "4",
+        "sample_name": "35125",
+        "detector_name": "EHEC",
+        "task": "Target"
+      },
+      "results": {
+        "ct_value": 31.723581,
+        "avg_ct": 31.723581,
+        "ct_sd": null,
+        "quantity": null,
+        "avg_quantity": null,
+        "amplification_status": 1,
+        "cq_confidence": 0.559864796053041
+      },
+      "fluorescence_data": [
+        {
+          "cycle": 1,
+          "fluorescence": 79723.32,
+          "delta_rn": -535.44446
+        },
+        {
+          "cycle": 2,
+          "fluorescence": 79749.13,
+          "delta_rn": -597.1264
+        },
+        {
+          "cycle": 3,
+          "fluorescence": 80113.75,
+          "delta_rn": -320.00366
+        },
+        {
+          "cycle": 4,
+          "fluorescence": 80557.8,
+          "delta_rn": 36.548775
+        },
+        {
+          "cycle": 5,
+          "fluorescence": 80851.086,
+          "delta_rn": 242.34338
+        },
+        {
+          "cycle": 6,
+          "fluorescence": 80859.32,
+          "delta_rn": 163.08331
+        },
+        {
+          "cycle": 7,
+          "fluorescence": 80929.766,
+          "delta_rn": 146.03418
+        },
+        {
+          "cycle": 8,
+          "fluorescence": 80882.22,
+          "delta_rn": 10.992851
+        },
+        {
+          "cycle": 9,
+          "fluorescence": 80932.22,
+          "delta_rn": -26.501598
+        },
+        {
+          "cycle": 10,
+          "fluorescence": 80955.23,
+          "delta_rn": -90.988235
+        },
+        {
+          "cycle": 11,
+          "fluorescence": 80956.29,
+          "delta_rn": -177.42018
+        },
+        {
+          "cycle": 12,
+          "fluorescence": 81326.125,
+          "delta_rn": 104.9213
+        },
+        {
+          "cycle": 13,
+          "fluorescence": 81512.81,
+          "delta_rn": 204.11435
+        },
+        {
+          "cycle": 14,
+          "fluorescence": 81173.76,
+          "delta_rn": -222.43478
+        },
+        {
+          "cycle": 15,
+          "fluorescence": 81110.96,
+          "delta_rn": -372.7261
+        },
+        {
+          "cycle": 16,
+          "fluorescence": 81599.59,
+          "delta_rn": 28.412256
+        },
+        {
+          "cycle": 17,
+          "fluorescence": 81780.266,
+          "delta_rn": 121.58968
+        },
+        {
+          "cycle": 18,
+          "fluorescence": 81823.07,
+          "delta_rn": 76.89992
+        },
+        {
+          "cycle": 19,
+          "fluorescence": 81974.984,
+          "delta_rn": 141.31953
+        },
+        {
+          "cycle": 20,
+          "fluorescence": 81901.13,
+          "delta_rn": -20.02648
+        },
+        {
+          "cycle": 21,
+          "fluorescence": 81920.97,
+          "delta_rn": -87.68499
+        },
+        {
+          "cycle": 22,
+          "fluorescence": 82059.33,
+          "delta_rn": -36.820065
+        },
+        {
+          "cycle": 23,
+          "fluorescence": 82180.04,
+          "delta_rn": -3.6035774
+        },
+        {
+          "cycle": 24,
+          "fluorescence": 82370.07,
+          "delta_rn": 98.93322
+        },
+        {
+          "cycle": 25,
+          "fluorescence": 82341.65,
+          "delta_rn": -16.9831
+        },
+        {
+          "cycle": 26,
+          "fluorescence": 82536.52,
+          "delta_rn": 90.397446
+        },
+        {
+          "cycle": 27,
+          "fluorescence": 82696.89,
+          "delta_rn": 163.27019
+        },
+        {
+          "cycle": 28,
+          "fluorescence": 83048.73,
+          "delta_rn": 427.61166
+        },
+        {
+          "cycle": 29,
+          "fluorescence": 83434.91,
+          "delta_rn": 726.29694
+        },
+        {
+          "cycle": 30,
+          "fluorescence": 83901.02,
+          "delta_rn": 1104.9197
+        },
+        {
+          "cycle": 31,
+          "fluorescence": 84190.66,
+          "delta_rn": 1307.058
+        },
+        {
+          "cycle": 32,
+          "fluorescence": 84931.78,
+          "delta_rn": 1960.6886
+        },
+        {
+          "cycle": 33,
+          "fluorescence": 85458.47,
+          "delta_rn": 2399.8816
+        },
+        {
+          "cycle": 34,
+          "fluorescence": 86322.17,
+          "delta_rn": 3176.0903
+        },
+        {
+          "cycle": 35,
+          "fluorescence": 87632.234,
+          "delta_rn": 4398.658
+        },
+        {
+          "cycle": 36,
+          "fluorescence": 88206.31,
+          "delta_rn": 4885.242
+        },
+        {
+          "cycle": 37,
+          "fluorescence": 88790.2,
+          "delta_rn": 5381.638
+        },
+        {
+          "cycle": 38,
+          "fluorescence": 89629.984,
+          "delta_rn": 6133.925
+        },
+        {
+          "cycle": 39,
+          "fluorescence": 90484.8,
+          "delta_rn": 6901.243
+        },
+        {
+          "cycle": 40,
+          "fluorescence": 90581.31,
+          "delta_rn": 6910.264
+        }
+      ],
+      "data_quality": {
+        "total_cycles": 40,
+        "data_points": 40,
+        "has_complete_data": true,
+        "max_fluorescence": 90581.31,
+        "min_fluorescence": 79723.32,
+        "max_delta_rn": 6910.264,
+        "min_delta_rn": -597.1264
+      }
+    },
+    {
+      "well_info": {
+        "well_position": "4",
+        "sample_name": "35125",
+        "detector_name": "ENTHIS",
+        "task": "Target"
+      },
+      "results": {
+        "ct_value": null,
+        "avg_ct": null,
+        "ct_sd": null,
+        "quantity": null,
+        "avg_quantity": null,
+        "amplification_status": -1,
+        "cq_confidence": 0.0
+      },
+      "fluorescence_data": [
+        {
+          "cycle": 1,
+          "fluorescence": 608722.3,
+          "delta_rn": 834.2877
+        },
+        {
+          "cycle": 2,
+          "fluorescence": 608884.94,
+          "delta_rn": 304.28293
+        },
+        {
+          "cycle": 3,
+          "fluorescence": 610578.3,
+          "delta_rn": 1305.0282
+        },
+        {
+          "cycle": 4,
+          "fluorescence": 610823.9,
+          "delta_rn": 857.96094
+        },
+        {
+          "cycle": 5,
+          "fluorescence": 610915.6,
+          "delta_rn": 257.08118
+        },
+        {
+          "cycle": 6,
+          "fluorescence": 611946.2,
+          "delta_rn": 595.0139
+        },
+        {
+          "cycle": 7,
+          "fluorescence": 612461.3,
+          "delta_rn": 417.50916
+        },
+        {
+          "cycle": 8,
+          "fluorescence": 613055.25,
+          "delta_rn": 318.8169
+        },
+        {
+          "cycle": 9,
+          "fluorescence": 613507.1,
+          "delta_rn": 78.06214
+        },
+        {
+          "cycle": 10,
+          "fluorescence": 614328.5,
+          "delta_rn": 206.80739
+        },
+        {
+          "cycle": 11,
+          "fluorescence": 615654.4,
+          "delta_rn": 840.0526
+        },
+        {
+          "cycle": 12,
+          "fluorescence": 615092.0,
+          "delta_rn": -414.95212
+        },
+        {
+          "cycle": 13,
+          "fluorescence": 614994.5,
+          "delta_rn": -1205.0819
+        },
+        {
+          "cycle": 14,
+          "fluorescence": 616335.8,
+          "delta_rn": -556.3991
+        },
+        {
+          "cycle": 15,
+          "fluorescence": 616994.25,
+          "delta_rn": -590.5914
+        },
+        {
+          "cycle": 16,
+          "fluorescence": 617549.06,
+          "delta_rn": -728.4086
+        },
+        {
+          "cycle": 17,
+          "fluorescence": 619021.75,
+          "delta_rn": 51.649094
+        },
+        {
+          "cycle": 18,
+          "fluorescence": 619841.2,
+          "delta_rn": 178.45683
+        },
+        {
+          "cycle": 19,
+          "fluorescence": 619945.5,
+          "delta_rn": -409.8604
+        },
+        {
+          "cycle": 20,
+          "fluorescence": 620781.4,
+          "delta_rn": -266.61517
+        },
+        {
+          "cycle": 21,
+          "fluorescence": 621224.25,
+          "delta_rn": -516.36993
+        },
+        {
+          "cycle": 22,
+          "fluorescence": 622124.5,
+          "delta_rn": -308.7497
+        },
+        {
+          "cycle": 23,
+          "fluorescence": 622815.1,
+          "delta_rn": -310.75446
+        },
+        {
+          "cycle": 24,
+          "fluorescence": 622932.0,
+          "delta_rn": -886.5092
+        },
+        {
+          "cycle": 25,
+          "fluorescence": 623971.8,
+          "delta_rn": -539.3265
+        },
+        {
+          "cycle": 26,
+          "fluorescence": 625129.25,
+          "delta_rn": -74.518715
+        },
+        {
+          "cycle": 27,
+          "fluorescence": 625515.5,
+          "delta_rn": -380.89847
+        },
+        {
+          "cycle": 28,
+          "fluorescence": 625473.2,
+          "delta_rn": -1115.8407
+        },
+        {
+          "cycle": 29,
+          "fluorescence": 626134.94,
+          "delta_rn": -1146.7205
+        },
+        {
+          "cycle": 30,
+          "fluorescence": 626869.7,
+          "delta_rn": -1104.6002
+        },
+        {
+          "cycle": 31,
+          "fluorescence": 628242.0,
+          "delta_rn": -424.9175
+        },
+        {
+          "cycle": 32,
+          "fluorescence": 629074.3,
+          "delta_rn": -285.23474
+        },
+        {
+          "cycle": 33,
+          "fluorescence": 630563.94,
+          "delta_rn": 511.7605
+        },
+        {
+          "cycle": 34,
+          "fluorescence": 632380.44,
+          "delta_rn": 1635.6307
+        },
+        {
+          "cycle": 35,
+          "fluorescence": 632866.94,
+          "delta_rn": 1429.501
+        },
+        {
+          "cycle": 36,
+          "fluorescence": 632799.2,
+          "delta_rn": 669.1212
+        },
+        {
+          "cycle": 37,
+          "fluorescence": 633149.44,
+          "delta_rn": 326.74146
+        },
+        {
+          "cycle": 38,
+          "fluorescence": 634132.0,
+          "delta_rn": 616.6742
+        },
+        {
+          "cycle": 39,
+          "fluorescence": 635178.44,
+          "delta_rn": 970.48193
+        },
+        {
+          "cycle": 40,
+          "fluorescence": 635634.94,
+          "delta_rn": 734.3522
+        }
+      ],
+      "data_quality": {
+        "total_cycles": 40,
+        "data_points": 40,
+        "has_complete_data": true,
+        "max_fluorescence": 635634.94,
+        "min_fluorescence": 608722.3,
+        "max_delta_rn": 1635.6307,
+        "min_delta_rn": -1205.0819
+      }
+    },
+    {
+      "well_info": {
+        "well_position": "4",
+        "sample_name": "35125",
+        "detector_name": "ROTAVIRA",
+        "task": "Target"
+      },
+      "results": {
+        "ct_value": null,
+        "avg_ct": null,
+        "ct_sd": null,
+        "quantity": null,
+        "avg_quantity": null,
+        "amplification_status": -1,
+        "cq_confidence": 0.0
+      },
+      "fluorescence_data": [
+        {
+          "cycle": 1,
+          "fluorescence": 105834.18,
+          "delta_rn": -2693.4902
+        },
+        {
+          "cycle": 2,
+          "fluorescence": 106122.83,
+          "delta_rn": -2440.5342
+        },
+        {
+          "cycle": 3,
+          "fluorescence": 107405.99,
+          "delta_rn": -1193.0625
+        },
+        {
+          "cycle": 4,
+          "fluorescence": 108101.09,
+          "delta_rn": -533.65326
+        },
+        {
+          "cycle": 5,
+          "fluorescence": 108363.055,
+          "delta_rn": -307.38464
+        },
+        {
+          "cycle": 6,
+          "fluorescence": 108423.47,
+          "delta_rn": -282.66293
+        },
+        {
+          "cycle": 7,
+          "fluorescence": 108455.77,
+          "delta_rn": -286.0506
+        },
+        {
+          "cycle": 8,
+          "fluorescence": 108696.02,
+          "delta_rn": -81.49294
+        },
+        {
+          "cycle": 9,
+          "fluorescence": 108797.79,
+          "delta_rn": -15.419663
+        },
+        {
+          "cycle": 10,
+          "fluorescence": 108894.97,
+          "delta_rn": 46.067677
+        },
+        {
+          "cycle": 11,
+          "fluorescence": 108816.04,
+          "delta_rn": -68.55436
+        },
+        {
+          "cycle": 12,
+          "fluorescence": 109040.96,
+          "delta_rn": 120.67517
+        },
+        {
+          "cycle": 13,
+          "fluorescence": 109482.97,
+          "delta_rn": 526.99066
+        },
+        {
+          "cycle": 14,
+          "fluorescence": 109755.59,
+          "delta_rn": 763.9233
+        },
+        {
+          "cycle": 15,
+          "fluorescence": 109934.836,
+          "delta_rn": 907.47314
+        },
+        {
+          "cycle": 16,
+          "fluorescence": 109725.39,
+          "delta_rn": 662.33545
+        },
+        {
+          "cycle": 17,
+          "fluorescence": 109320.23,
+          "delta_rn": 221.47906
+        },
+        {
+          "cycle": 18,
+          "fluorescence": 109112.766,
+          "delta_rn": -21.674225
+        },
+        {
+          "cycle": 19,
+          "fluorescence": 109280.75,
+          "delta_rn": 110.617805
+        },
+        {
+          "cycle": 20,
+          "fluorescence": 109604.73,
+          "delta_rn": 398.902
+        },
+        {
+          "cycle": 21,
+          "fluorescence": 109612.98,
+          "delta_rn": 371.45966
+        },
+        {
+          "cycle": 22,
+          "fluorescence": 109330.52,
+          "delta_rn": 53.314198
+        },
+        {
+          "cycle": 23,
+          "fluorescence": 109165.17,
+          "delta_rn": -147.7297
+        },
+        {
+          "cycle": 24,
+          "fluorescence": 109382.305,
+          "delta_rn": 33.710754
+        },
+        {
+          "cycle": 25,
+          "fluorescence": 109523.32,
+          "delta_rn": 139.03403
+        },
+        {
+          "cycle": 26,
+          "fluorescence": 109408.24,
+          "delta_rn": -11.736441
+        },
+        {
+          "cycle": 27,
+          "fluorescence": 109337.27,
+          "delta_rn": -118.39754
+        },
+        {
+          "cycle": 28,
+          "fluorescence": 109496.9,
+          "delta_rn": 5.5351157
+        },
+        {
+          "cycle": 29,
+          "fluorescence": 109711.27,
+          "delta_rn": 184.21777
+        },
+        {
+          "cycle": 30,
+          "fluorescence": 109618.1,
+          "delta_rn": 55.353546
+        },
+        {
+          "cycle": 31,
+          "fluorescence": 109643.56,
+          "delta_rn": 45.122135
+        },
+        {
+          "cycle": 32,
+          "fluorescence": 109712.84,
+          "delta_rn": 78.71104
+        },
+        {
+          "cycle": 33,
+          "fluorescence": 109650.15,
+          "delta_rn": -19.67662
+        },
+        {
+          "cycle": 34,
+          "fluorescence": 109639.58,
+          "delta_rn": -65.93928
+        },
+        {
+          "cycle": 35,
+          "fluorescence": 109588.11,
+          "delta_rn": -153.10037
+        },
+        {
+          "cycle": 36,
+          "fluorescence": 109685.62,
+          "delta_rn": -91.28491
+        },
+        {
+          "cycle": 37,
+          "fluorescence": 109467.984,
+          "delta_rn": -344.61008
+        },
+        {
+          "cycle": 38,
+          "fluorescence": 109303.69,
+          "delta_rn": -544.5993
+        },
+        {
+          "cycle": 39,
+          "fluorescence": 109446.086,
+          "delta_rn": -437.8932
+        },
+        {
+          "cycle": 40,
+          "fluorescence": 109330.41,
+          "delta_rn": -589.26526
+        }
+      ],
+      "data_quality": {
+        "total_cycles": 40,
+        "data_points": 40,
+        "has_complete_data": true,
+        "max_fluorescence": 109934.836,
+        "min_fluorescence": 105834.18,
+        "max_delta_rn": 907.47314,
+        "min_delta_rn": -2693.4902
+      }
+    },
+    {
+      "well_info": {
+        "well_position": "5",
+        "sample_name": "35125",
+        "detector_name": "EEC",
+        "task": "Target"
+      },
+      "results": {
+        "ct_value": 20.89946,
+        "avg_ct": 20.89946,
+        "ct_sd": null,
+        "quantity": null,
+        "avg_quantity": null,
+        "amplification_status": 1,
+        "cq_confidence": 0.9858859890635695
+      },
+      "fluorescence_data": [
+        {
+          "cycle": 1,
+          "fluorescence": 424311.12,
+          "delta_rn": 1787.9073
+        },
+        {
+          "cycle": 2,
+          "fluorescence": 422719.8,
+          "delta_rn": 973.3404
+        },
+        {
+          "cycle": 3,
+          "fluorescence": 421149.16,
+          "delta_rn": 179.42969
+        },
+        {
+          "cycle": 4,
+          "fluorescence": 420534.0,
+          "delta_rn": 341.01898
+        },
+        {
+          "cycle": 5,
+          "fluorescence": 419360.3,
+          "delta_rn": -55.922993
+        },
+        {
+          "cycle": 6,
+          "fluorescence": 418319.72,
+          "delta_rn": -319.7712
+        },
+        {
+          "cycle": 7,
+          "fluorescence": 417503.75,
+          "delta_rn": -358.99442
+        },
+        {
+          "cycle": 8,
+          "fluorescence": 416794.9,
+          "delta_rn": -291.09262
+        },
+        {
+          "cycle": 9,
+          "fluorescence": 416225.0,
+          "delta_rn": -84.25335
+        },
+        {
+          "cycle": 10,
+          "fluorescence": 416122.1,
+          "delta_rn": 589.58594
+        },
+        {
+          "cycle": 11,
+          "fluorescence": 416176.94,
+          "delta_rn": 1421.1752
+        },
+        {
+          "cycle": 12,
+          "fluorescence": 416110.4,
+          "delta_rn": 2131.3894
+        },
+        {
+          "cycle": 13,
+          "fluorescence": 416177.78,
+          "delta_rn": 2975.51
+        },
+        {
+          "cycle": 14,
+          "fluorescence": 416797.75,
+          "delta_rn": 4372.224
+        },
+        {
+          "cycle": 15,
+          "fluorescence": 418222.34,
+          "delta_rn": 6573.5635
+        },
+        {
+          "cycle": 16,
+          "fluorescence": 420185.66,
+          "delta_rn": 9313.622
+        },
+        {
+          "cycle": 17,
+          "fluorescence": 423506.6,
+          "delta_rn": 13411.305
+        },
+        {
+          "cycle": 18,
+          "fluorescence": 430725.75,
+          "delta_rn": 21407.207
+        },
+        {
+          "cycle": 19,
+          "fluorescence": 443160.9,
+          "delta_rn": 34619.11
+        },
+        {
+          "cycle": 20,
+          "fluorescence": 467779.3,
+          "delta_rn": 60014.26
+        },
+        {
+          "cycle": 21,
+          "fluorescence": 508508.6,
+          "delta_rn": 101520.29
+        },
+        {
+          "cycle": 22,
+          "fluorescence": 570556.56,
+          "delta_rn": 164345.0
+        },
+        {
+          "cycle": 23,
+          "fluorescence": 654350.25,
+          "delta_rn": 248915.44
+        },
+        {
+          "cycle": 24,
+          "fluorescence": 749634.0,
+          "delta_rn": 344975.94
+        },
+        {
+          "cycle": 25,
+          "fluorescence": 843426.8,
+          "delta_rn": 439545.5
+        },
+        {
+          "cycle": 26,
+          "fluorescence": 929319.8,
+          "delta_rn": 526215.25
+        },
+        {
+          "cycle": 27,
+          "fluorescence": 997092.9,
+          "delta_rn": 594765.06
+        },
+        {
+          "cycle": 28,
+          "fluorescence": 1045549.75,
+          "delta_rn": 643998.7
+        },
+        {
+          "cycle": 29,
+          "fluorescence": 1078991.0,
+          "delta_rn": 678216.7
+        },
+        {
+          "cycle": 30,
+          "fluorescence": 1102450.8,
+          "delta_rn": 702453.1
+        },
+        {
+          "cycle": 31,
+          "fluorescence": 1122488.0,
+          "delta_rn": 723267.1
+        },
+        {
+          "cycle": 32,
+          "fluorescence": 1135452.4,
+          "delta_rn": 737008.25
+        },
+        {
+          "cycle": 33,
+          "fluorescence": 1146159.6,
+          "delta_rn": 748492.25
+        },
+        {
+          "cycle": 34,
+          "fluorescence": 1154583.2,
+          "delta_rn": 757692.6
+        },
+        {
+          "cycle": 35,
+          "fluorescence": 1159837.6,
+          "delta_rn": 763723.75
+        },
+        {
+          "cycle": 36,
+          "fluorescence": 1165737.6,
+          "delta_rn": 770400.5
+        },
+        {
+          "cycle": 37,
+          "fluorescence": 1170941.2,
+          "delta_rn": 776380.9
+        },
+        {
+          "cycle": 38,
+          "fluorescence": 1173033.9,
+          "delta_rn": 779250.25
+        },
+        {
+          "cycle": 39,
+          "fluorescence": 1175110.5,
+          "delta_rn": 782103.6
+        },
+        {
+          "cycle": 40,
+          "fluorescence": 1176856.6,
+          "delta_rn": 784626.5
+        }
+      ],
+      "data_quality": {
+        "total_cycles": 40,
+        "data_points": 40,
+        "has_complete_data": true,
+        "max_fluorescence": 1176856.6,
+        "min_fluorescence": 416110.4,
+        "max_delta_rn": 784626.5,
+        "min_delta_rn": -358.99442
+      }
+    },
+    {
+      "well_info": {
+        "well_position": "5",
+        "sample_name": "35125",
+        "detector_name": "NOROVIRG1",
+        "task": "Target"
+      },
+      "results": {
+        "ct_value": null,
+        "avg_ct": null,
+        "ct_sd": null,
+        "quantity": null,
+        "avg_quantity": null,
+        "amplification_status": -1,
+        "cq_confidence": 0.0
+      },
+      "fluorescence_data": [
+        {
+          "cycle": 1,
+          "fluorescence": 328238.97,
+          "delta_rn": 34715.15
+        },
+        {
+          "cycle": 2,
+          "fluorescence": 327791.06,
+          "delta_rn": 34267.242
+        },
+        {
+          "cycle": 3,
+          "fluorescence": 326619.28,
+          "delta_rn": 33095.46
+        },
+        {
+          "cycle": 4,
+          "fluorescence": 325521.8,
+          "delta_rn": 31997.994
+        },
+        {
+          "cycle": 5,
+          "fluorescence": 324628.66,
+          "delta_rn": 31104.838
+        },
+        {
+          "cycle": 6,
+          "fluorescence": 324030.6,
+          "delta_rn": 30506.775
+        },
+        {
+          "cycle": 7,
+          "fluorescence": 323557.28,
+          "delta_rn": 30033.463
+        },
+        {
+          "cycle": 8,
+          "fluorescence": 323137.1,
+          "delta_rn": 29613.275
+        },
+        {
+          "cycle": 9,
+          "fluorescence": 323022.9,
+          "delta_rn": 29499.088
+        },
+        {
+          "cycle": 10,
+          "fluorescence": 323027.0,
+          "delta_rn": 29503.182
+        },
+        {
+          "cycle": 11,
+          "fluorescence": 322493.88,
+          "delta_rn": 28970.057
+        },
+        {
+          "cycle": 12,
+          "fluorescence": 322216.4,
+          "delta_rn": 28692.588
+        },
+        {
+          "cycle": 13,
+          "fluorescence": 322014.28,
+          "delta_rn": 28490.463
+        },
+        {
+          "cycle": 14,
+          "fluorescence": 321615.53,
+          "delta_rn": 28091.713
+        },
+        {
+          "cycle": 15,
+          "fluorescence": 321352.7,
+          "delta_rn": 27828.87
+        },
+        {
+          "cycle": 16,
+          "fluorescence": 320925.2,
+          "delta_rn": 27401.37
+        },
+        {
+          "cycle": 17,
+          "fluorescence": 320834.97,
+          "delta_rn": 27311.15
+        },
+        {
+          "cycle": 18,
+          "fluorescence": 320560.66,
+          "delta_rn": 27036.838
+        },
+        {
+          "cycle": 19,
+          "fluorescence": 318851.16,
+          "delta_rn": 25327.338
+        },
+        {
+          "cycle": 20,
+          "fluorescence": 315401.62,
+          "delta_rn": 21877.807
+        },
+        {
+          "cycle": 21,
+          "fluorescence": 310331.6,
+          "delta_rn": 16807.775
+        },
+        {
+          "cycle": 22,
+          "fluorescence": 303821.62,
+          "delta_rn": 10297.807
+        },
+        {
+          "cycle": 23,
+          "fluorescence": 296709.94,
+          "delta_rn": 3186.1191
+        },
+        {
+          "cycle": 24,
+          "fluorescence": 288829.66,
+          "delta_rn": -4694.162
+        },
+        {
+          "cycle": 25,
+          "fluorescence": 280861.4,
+          "delta_rn": -12662.412
+        },
+        {
+          "cycle": 26,
+          "fluorescence": 273977.62,
+          "delta_rn": -19546.193
+        },
+        {
+          "cycle": 27,
+          "fluorescence": 268564.88,
+          "delta_rn": -24958.943
+        },
+        {
+          "cycle": 28,
+          "fluorescence": 263822.94,
+          "delta_rn": -29700.88
+        },
+        {
+          "cycle": 29,
+          "fluorescence": 259848.44,
+          "delta_rn": -33675.383
+        },
+        {
+          "cycle": 30,
+          "fluorescence": 256756.42,
+          "delta_rn": -36767.4
+        },
+        {
+          "cycle": 31,
+          "fluorescence": 254854.42,
+          "delta_rn": -38669.4
+        },
+        {
+          "cycle": 32,
+          "fluorescence": 253498.33,
+          "delta_rn": -40025.492
+        },
+        {
+          "cycle": 33,
+          "fluorescence": 251980.98,
+          "delta_rn": -41542.836
+        },
+        {
+          "cycle": 34,
+          "fluorescence": 250675.23,
+          "delta_rn": -42848.586
+        },
+        {
+          "cycle": 35,
+          "fluorescence": 250206.6,
+          "delta_rn": -43317.227
+        },
+        {
+          "cycle": 36,
+          "fluorescence": 249787.17,
+          "delta_rn": -43736.65
+        },
+        {
+          "cycle": 37,
+          "fluorescence": 249420.94,
+          "delta_rn": -44102.883
+        },
+        {
+          "cycle": 38,
+          "fluorescence": 248608.66,
+          "delta_rn": -44915.164
+        },
+        {
+          "cycle": 39,
+          "fluorescence": 248013.44,
+          "delta_rn": -45510.383
+        },
+        {
+          "cycle": 40,
+          "fluorescence": 247905.25,
+          "delta_rn": -45618.57
+        }
+      ],
+      "data_quality": {
+        "total_cycles": 40,
+        "data_points": 40,
+        "has_complete_data": true,
+        "max_fluorescence": 328238.97,
+        "min_fluorescence": 247905.25,
+        "max_delta_rn": 34715.15,
+        "min_delta_rn": -45618.57
+      }
+    },
+    {
+      "well_info": {
+        "well_position": "5",
+        "sample_name": "35125",
+        "detector_name": "ASTROVIR",
+        "task": "Target"
+      },
+      "results": {
+        "ct_value": null,
+        "avg_ct": null,
+        "ct_sd": null,
+        "quantity": null,
+        "avg_quantity": null,
+        "amplification_status": -1,
+        "cq_confidence": 0.0
+      },
+      "fluorescence_data": [
+        {
+          "cycle": 1,
+          "fluorescence": 282880.56,
+          "delta_rn": 7625.802
+        },
+        {
+          "cycle": 2,
+          "fluorescence": 282123.16,
+          "delta_rn": 6590.661
+        },
+        {
+          "cycle": 3,
+          "fluorescence": 280295.5,
+          "delta_rn": 4485.2705
+        },
+        {
+          "cycle": 4,
+          "fluorescence": 279375.88,
+          "delta_rn": 3287.911
+        },
+        {
+          "cycle": 5,
+          "fluorescence": 279034.44,
+          "delta_rn": 2668.739
+        },
+        {
+          "cycle": 6,
+          "fluorescence": 278637.84,
+          "delta_rn": 1994.4109
+        },
+        {
+          "cycle": 7,
+          "fluorescence": 278378.75,
+          "delta_rn": 1457.5828
+        },
+        {
+          "cycle": 8,
+          "fluorescence": 278016.8,
+          "delta_rn": 817.9109
+        },
+        {
+          "cycle": 9,
+          "fluorescence": 277770.25,
+          "delta_rn": 293.614
+        },
+        {
+          "cycle": 10,
+          "fluorescence": 277638.8,
+          "delta_rn": -115.55785
+        },
+        {
+          "cycle": 11,
+          "fluorescence": 277496.22,
+          "delta_rn": -535.886
+        },
+        {
+          "cycle": 12,
+          "fluorescence": 277224.62,
+          "delta_rn": -1085.2141
+        },
+        {
+          "cycle": 13,
+          "fluorescence": 277130.78,
+          "delta_rn": -1456.7922
+        },
+        {
+          "cycle": 14,
+          "fluorescence": 277104.0,
+          "delta_rn": -1761.3079
+        },
+        {
+          "cycle": 15,
+          "fluorescence": 277084.8,
+          "delta_rn": -2058.2297
+        },
+        {
+          "cycle": 16,
+          "fluorescence": 277279.47,
+          "delta_rn": -2141.3079
+        },
+        {
+          "cycle": 17,
+          "fluorescence": 277812.53,
+          "delta_rn": -1885.9797
+        },
+        {
+          "cycle": 18,
+          "fluorescence": 277210.03,
+          "delta_rn": -2766.214
+        },
+        {
+          "cycle": 19,
+          "fluorescence": 277188.47,
+          "delta_rn": -3065.511
+        },
+        {
+          "cycle": 20,
+          "fluorescence": 277945.25,
+          "delta_rn": -2586.464
+        },
+        {
+          "cycle": 21,
+          "fluorescence": 278313.2,
+          "delta_rn": -2496.261
+        },
+        {
+          "cycle": 22,
+          "fluorescence": 278584.6,
+          "delta_rn": -2502.589
+        },
+        {
+          "cycle": 23,
+          "fluorescence": 279900.22,
+          "delta_rn": -1464.6985
+        },
+        {
+          "cycle": 24,
+          "fluorescence": 280652.97,
+          "delta_rn": -989.68286
+        },
+        {
+          "cycle": 25,
+          "fluorescence": 281380.6,
+          "delta_rn": -539.79224
+        },
+        {
+          "cycle": 26,
+          "fluorescence": 282192.34,
+          "delta_rn": -5.7766047
+        },
+        {
+          "cycle": 27,
+          "fluorescence": 282742.4,
+          "delta_rn": 266.5515
+        },
+        {
+          "cycle": 28,
+          "fluorescence": 282978.88,
+          "delta_rn": 225.28589
+        },
+        {
+          "cycle": 29,
+          "fluorescence": 283463.4,
+          "delta_rn": 432.08276
+        },
+        {
+          "cycle": 30,
+          "fluorescence": 283853.38,
+          "delta_rn": 544.31714
+        },
+        {
+          "cycle": 31,
+          "fluorescence": 284063.94,
+          "delta_rn": 477.14526
+        },
+        {
+          "cycle": 32,
+          "fluorescence": 285360.7,
+          "delta_rn": 1496.1609
+        },
+        {
+          "cycle": 33,
+          "fluorescence": 285554.28,
+          "delta_rn": 1412.0203
+        },
+        {
+          "cycle": 34,
+          "fluorescence": 285664.25,
+          "delta_rn": 1244.2546
+        },
+        {
+          "cycle": 35,
+          "fluorescence": 286297.97,
+          "delta_rn": 1600.239
+        },
+        {
+          "cycle": 36,
+          "fluorescence": 286336.5,
+          "delta_rn": 1361.0359
+        },
+        {
+          "cycle": 37,
+          "fluorescence": 286404.94,
+          "delta_rn": 1151.739
+        },
+        {
+          "cycle": 38,
+          "fluorescence": 286595.72,
+          "delta_rn": 1064.7859
+        },
+        {
+          "cycle": 39,
+          "fluorescence": 286984.88,
+          "delta_rn": 1176.2078
+        },
+        {
+          "cycle": 40,
+          "fluorescence": 287626.78,
+          "delta_rn": 1540.3796
+        }
+      ],
+      "data_quality": {
+        "total_cycles": 40,
+        "data_points": 40,
+        "has_complete_data": true,
+        "max_fluorescence": 287626.78,
+        "min_fluorescence": 277084.8,
+        "max_delta_rn": 7625.802,
+        "min_delta_rn": -3065.511
+      }
+    },
+    {
+      "well_info": {
+        "well_position": "5",
+        "sample_name": "35125",
+        "detector_name": "MS2_RT",
+        "task": "Target"
+      },
+      "results": {
+        "ct_value": 24.594536,
+        "avg_ct": 24.594536,
+        "ct_sd": null,
+        "quantity": null,
+        "avg_quantity": null,
+        "amplification_status": 1,
+        "cq_confidence": 0.9936132088243278
+      },
+      "fluorescence_data": [
+        {
+          "cycle": 1,
+          "fluorescence": 37561.035,
+          "delta_rn": 702.4698
+        },
+        {
+          "cycle": 2,
+          "fluorescence": 37527.91,
+          "delta_rn": 627.59705
+        },
+        {
+          "cycle": 3,
+          "fluorescence": 37419.56,
+          "delta_rn": 477.49777
+        },
+        {
+          "cycle": 4,
+          "fluorescence": 36873.707,
+          "delta_rn": -110.10152
+        },
+        {
+          "cycle": 5,
+          "fluorescence": 36792.32,
+          "delta_rn": -233.23596
+        },
+        {
+          "cycle": 6,
+          "fluorescence": 36999.324,
+          "delta_rn": -67.97978
+        },
+        {
+          "cycle": 7,
+          "fluorescence": 36925.35,
+          "delta_rn": -183.70016
+        },
+        {
+          "cycle": 8,
+          "fluorescence": 36933.367,
+          "delta_rn": -217.43227
+        },
+        {
+          "cycle": 9,
+          "fluorescence": 37229.58,
+          "delta_rn": 37.03095
+        },
+        {
+          "cycle": 10,
+          "fluorescence": 37385.164,
+          "delta_rn": 150.86916
+        },
+        {
+          "cycle": 11,
+          "fluorescence": 37350.633,
+          "delta_rn": 74.59019
+        },
+        {
+          "cycle": 12,
+          "fluorescence": 37287.227,
+          "delta_rn": -30.563787
+        },
+        {
+          "cycle": 13,
+          "fluorescence": 37308.098,
+          "delta_rn": -51.44042
+        },
+        {
+          "cycle": 14,
+          "fluorescence": 37610.996,
+          "delta_rn": 209.7103
+        },
+        {
+          "cycle": 15,
+          "fluorescence": 37514.707,
+          "delta_rn": 71.67351
+        },
+        {
+          "cycle": 16,
+          "fluorescence": 37357.863,
+          "delta_rn": -126.91797
+        },
+        {
+          "cycle": 17,
+          "fluorescence": 37339.32,
+          "delta_rn": -187.20866
+        },
+        {
+          "cycle": 18,
+          "fluorescence": 37724.312,
+          "delta_rn": 156.0358
+        },
+        {
+          "cycle": 19,
+          "fluorescence": 38340.094,
+          "delta_rn": 730.06934
+        },
+        {
+          "cycle": 20,
+          "fluorescence": 38811.07,
+          "delta_rn": 1159.2982
+        },
+        {
+          "cycle": 21,
+          "fluorescence": 40104.113,
+          "delta_rn": 2410.5935
+        },
+        {
+          "cycle": 22,
+          "fluorescence": 43430.105,
+          "delta_rn": 5694.838
+        },
+        {
+          "cycle": 23,
+          "fluorescence": 50152.95,
+          "delta_rn": 12375.934
+        },
+        {
+          "cycle": 24,
+          "fluorescence": 64657.523,
+          "delta_rn": 26838.76
+        },
+        {
+          "cycle": 25,
+          "fluorescence": 90783.37,
+          "delta_rn": 52922.855
+        },
+        {
+          "cycle": 26,
+          "fluorescence": 132054.84,
+          "delta_rn": 94152.586
+        },
+        {
+          "cycle": 27,
+          "fluorescence": 185972.86,
+          "delta_rn": 148028.86
+        },
+        {
+          "cycle": 28,
+          "fluorescence": 244692.47,
+          "delta_rn": 206706.72
+        },
+        {
+          "cycle": 29,
+          "fluorescence": 301614.47,
+          "delta_rn": 263586.97
+        },
+        {
+          "cycle": 30,
+          "fluorescence": 353146.84,
+          "delta_rn": 315077.6
+        },
+        {
+          "cycle": 31,
+          "fluorescence": 397639.53,
+          "delta_rn": 359528.53
+        },
+        {
+          "cycle": 32,
+          "fluorescence": 435038.97,
+          "delta_rn": 396886.22
+        },
+        {
+          "cycle": 33,
+          "fluorescence": 466632.56,
+          "delta_rn": 428438.06
+        },
+        {
+          "cycle": 34,
+          "fluorescence": 492550.12,
+          "delta_rn": 454313.88
+        },
+        {
+          "cycle": 35,
+          "fluorescence": 515157.28,
+          "delta_rn": 476879.28
+        },
+        {
+          "cycle": 36,
+          "fluorescence": 534219.4,
+          "delta_rn": 495899.62
+        },
+        {
+          "cycle": 37,
+          "fluorescence": 550710.7,
+          "delta_rn": 512349.22
+        },
+        {
+          "cycle": 38,
+          "fluorescence": 564392.94,
+          "delta_rn": 525989.7
+        },
+        {
+          "cycle": 39,
+          "fluorescence": 575910.8,
+          "delta_rn": 537465.8
+        },
+        {
+          "cycle": 40,
+          "fluorescence": 583783.4,
+          "delta_rn": 545296.6
+        }
+      ],
+      "data_quality": {
+        "total_cycles": 40,
+        "data_points": 40,
+        "has_complete_data": true,
+        "max_fluorescence": 583783.4,
+        "min_fluorescence": 36792.32,
+        "max_delta_rn": 545296.6,
+        "min_delta_rn": -233.23596
+      }
+    }
+  ],
+  "summary": {
+    "total_wells": 24,
+    "positive_wells": 4,
+    "negative_wells": 20,
+    "positivity_rate": 16.666666666666664,
+    "ct_statistics": {
+      "count": 4,
+      "mean": 26.846732250000002,
+      "min": 20.89946,
+      "max": 31.723581,
+      "std": 5.008855188483716
+    },
+    "detector_summary": {
+      "EIEC": {
+        "total": 1,
+        "positive": 0
+      },
+      "CAMSPP": {
+        "total": 1,
+        "positive": 0
+      },
+      "YERENT": {
+        "total": 1,
+        "positive": 0
+      },
+      "CLODIF": {
+        "total": 1,
+        "positive": 0
+      },
+      "HELPYL": {
+        "total": 1,
+        "positive": 0
+      },
+      "GIALAM": {
+        "total": 1,
+        "positive": 0
+      },
+      "SALSPP": {
+        "total": 1,
+        "positive": 0
+      },
+      "SHISPP": {
+        "total": 1,
+        "positive": 0
+      },
+      "ANCDUO": {
+        "total": 1,
+        "positive": 0
+      },
+      "ROTAVIRB": {
+        "total": 1,
+        "positive": 0
+      },
+      "ENTVER": {
+        "total": 1,
+        "positive": 0
+      },
+      "SAPVIR": {
+        "total": 1,
+        "positive": 0
+      },
+      "GAPDH": {
+        "total": 1,
+        "positive": 1
+      },
+      "NECAME": {
+        "total": 1,
+        "positive": 0
+      },
+      "ADENOB_C": {
+        "total": 1,
+        "positive": 0
+      },
+      "NOROVIRG2": {
+        "total": 1,
+        "positive": 0
+      },
+      "CRYPSPP": {
+        "total": 1,
+        "positive": 0
+      },
+      "EHEC": {
+        "total": 1,
+        "positive": 1
+      },
+      "ENTHIS": {
+        "total": 1,
+        "positive": 0
+      },
+      "ROTAVIRA": {
+        "total": 1,
+        "positive": 0
+      },
+      "EEC": {
+        "total": 1,
+        "positive": 1
+      },
+      "NOROVIRG1": {
+        "total": 1,
+        "positive": 0
+      },
+      "ASTROVIR": {
+        "total": 1,
+        "positive": 0
+      },
+      "MS2_RT": {
+        "total": 1,
+        "positive": 1
+      }
+    },
+    "sample_summary": {
+      "35125": {
+        "total": 24,
+        "positive": 4
+      }
+    },
+    "unique_detectors": 24,
+    "unique_samples": 1
+  },
+  "export_metadata": {
+    "exported_at": "2025-09-20T11:16:55.978903",
+    "exporter_version": "1.0",
+    "total_wells": 24,
+    "data_format": "QuantStudio_JSON_v1"
+  }
+}

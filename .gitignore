@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+venv/
+env/
+.venv/
+.mypy_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Database
+*.db
+*.sqlite
+
+# GitHub Classroom autograding (hide from students)
+.github/classroom/
+.github/workflows/
+
+# Keep the hidden config directory for instructor setup
+!.config/
+
+# Data files (uncomment to ignore large datasets)
+# data/raw/*
+# data/processed/*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/settings.json
+.vscode/launch.json
+
+# R
+.Rhistory
+.RData
+.Ruserdata
+
+# Temporary and build files
+*.tmp
+*.temp
+*.log
+build/
+dist/
+
+# Archives and downloads
+*.zip
+*.tar.gz
+*.tgz

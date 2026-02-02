@@ -1,0 +1,301 @@
+TransactionID,Sales_Rep_Name,Region,Product_Category,Revenue,Cost,Units_Sold,Sale_Date
+1,Carol Davis,Latin America,Services,20750.92,12253.36,78,2023-04-24
+2,Carol Davis,Europe,Hardware,32359.98,24595.2,13,2023-06-09
+3,Carol Davis,Europe,Services,39268.4,23291.09,34,2023-03-25
+4,Bob Smith,Europe,Hardware,28865.09,12428.74,90,2023-04-11
+5,Frank Miller,Latin America,Software,3932.36,1778.18,63,2023-08-26
+6,Carol Davis,Latin America,Services,48209.75,26052.04,26,2023-09-04
+7,Frank Miller,Europe,Software,33055.35,20432.24,25,2023-06-19
+8,Alice Johnson,Europe,Consulting,49856.54,37118.63,1,2023-09-01
+9,Bob Smith,Europe,Consulting,13477.13,8685.85,20,2023-11-17
+10,Eva Brown,Asia Pacific,Services,21188.96,16757.06,15,2023-08-17
+11,Carol Davis,Latin America,Services,24474.26,7469.31,21,2023-08-26
+12,Alice Johnson,Asia Pacific,Hardware,48997.22,26134.68,92,2023-05-19
+13,Alice Johnson,Asia Pacific,Consulting,8079.98,3889.0,99,2023-08-12
+14,Alice Johnson,North America,Consulting,15606.39,6063.92,13,2023-05-31
+15,Eva Brown,North America,Services,30287.4,12633.44,84,2023-02-10
+16,Carol Davis,Latin America,Services,37277.72,15418.04,84,2023-11-30
+17,Eva Brown,Latin America,Software,38674.17,27501.44,4,2023-07-21
+18,Carol Davis,Europe,Services,44751.74,26480.82,60,2023-08-27
+19,David Wilson,Latin America,Hardware,38301.63,19173.66,94,2023-02-20
+20,David Wilson,North America,Hardware,2365.46,1323.14,95,2023-11-09
+21,Eva Brown,Asia Pacific,Consulting,8713.33,6309.4,41,2023-06-14
+22,Eva Brown,Europe,Hardware,35684.6,20041.9,4,2023-07-15
+23,Carol Davis,North America,Consulting,48747.95,17027.61,63,2023-10-17
+24,Bob Smith,Europe,Consulting,5931.5,3693.96,49,2023-10-16
+25,Carol Davis,Asia Pacific,Services,5568.06,3489.03,19,2023-11-10
+26,Eva Brown,Latin America,Consulting,47637.19,29136.66,13,2023-09-29
+27,Carol Davis,Latin America,Services,41576.83,31637.33,80,2023-03-08
+28,Carol Davis,Europe,Software,5195.86,2110.14,20,2023-04-30
+29,Frank Miller,North America,Hardware,32028.51,25582.75,72,2023-01-30
+30,Frank Miller,Asia Pacific,Services,9565.87,3196.97,11,2023-03-24
+31,David Wilson,Europe,Hardware,13660.83,9422.01,21,2023-12-23
+32,Carol Davis,Europe,Software,40023.96,24310.21,28,2023-08-02
+33,Bob Smith,Latin America,Software,29574.11,20577.32,80,2023-09-18
+34,Bob Smith,Europe,Consulting,23881.25,11403.18,39,2023-08-16
+35,Carol Davis,Latin America,Hardware,3110.8,2484.33,67,2023-12-13
+36,Alice Johnson,Asia Pacific,Software,22348.26,8112.45,95,2023-11-09
+37,Bob Smith,North America,Consulting,20434.37,12648.67,30,2023-05-20
+38,Bob Smith,Asia Pacific,Hardware,28982.88,22657.09,8,2023-11-07
+39,Bob Smith,Latin America,Services,14641.3,8999.71,32,2023-05-01
+40,Carol Davis,Europe,Hardware,2032.28,1166.4,76,2023-05-29
+41,David Wilson,North America,Software,20892.25,10707.29,75,2023-03-31
+42,Bob Smith,North America,Consulting,6683.41,4255.84,63,2023-09-24
+43,Eva Brown,Asia Pacific,Consulting,10133.14,7165.37,59,2023-05-02
+44,Frank Miller,North America,Hardware,5874.23,3000.27,34,2023-12-24
+45,Frank Miller,Latin America,Consulting,39416.08,31336.17,20,2023-08-02
+46,Carol Davis,Latin America,Services,27171.6,14353.03,36,2023-02-12
+47,Eva Brown,Latin America,Software,1948.33,860.95,35,2023-10-26
+48,Bob Smith,Europe,Hardware,46823.46,28040.16,6,2023-07-17
+49,Frank Miller,North America,Consulting,22288.56,7454.04,4,2023-10-08
+50,Eva Brown,North America,Software,11261.17,4496.82,44,2023-02-02
+51,Bob Smith,North America,Hardware,19513.52,8995.91,84,2023-07-08
+52,Alice Johnson,Latin America,Hardware,14196.1,9882.62,46,2023-08-27
+53,Carol Davis,North America,Services,31178.48,12245.9,31,2023-12-22
+54,Eva Brown,North America,Hardware,1031.64,626.55,2,2023-11-20
+55,Carol Davis,Europe,Services,29758.47,23551.67,70,2023-03-11
+56,Alice Johnson,Europe,Hardware,32140.98,21704.76,39,2023-03-28
+57,Eva Brown,Latin America,Services,42280.29,22735.39,27,2023-06-26
+58,Carol Davis,North America,Services,11471.32,8099.68,31,2023-12-25
+59,Carol Davis,North America,Services,28811.69,10383.51,38,2023-10-29
+60,Carol Davis,North America,Hardware,24912.88,14809.38,49,2023-03-07
+61,Frank Miller,Latin America,Hardware,8426.32,4130.13,26,2023-03-13
+62,David Wilson,Asia Pacific,Consulting,20874.86,15743.5,7,2023-06-05
+63,Alice Johnson,Asia Pacific,Consulting,44454.58,20239.46,74,2023-08-01
+64,Frank Miller,Europe,Consulting,44256.41,28511.84,12,2023-03-21
+65,Bob Smith,Asia Pacific,Consulting,21822.14,9088.78,73,2023-03-24
+66,Carol Davis,North America,Consulting,39425.01,26677.57,83,2023-08-21
+67,Frank Miller,North America,Services,47896.3,37811.2,18,2023-05-18
+68,Bob Smith,North America,Consulting,13985.79,7437.4,80,2023-11-12
+69,Eva Brown,Europe,Services,32597.22,24244.09,69,2023-04-29
+70,Bob Smith,Europe,Hardware,32930.1,15631.09,75,2023-11-10
+71,Carol Davis,Latin America,Consulting,15695.89,7722.88,46,2023-04-11
+72,Eva Brown,Europe,Hardware,42309.8,15124.13,42,2023-06-01
+73,Carol Davis,North America,Services,32844.64,25288.84,42,2023-04-08
+74,Eva Brown,Asia Pacific,Consulting,44364.4,24792.69,45,2023-10-29
+75,David Wilson,Latin America,Hardware,43481.28,22460.57,45,2023-11-01
+76,Carol Davis,North America,Consulting,26289.74,8780.08,97,2023-01-26
+77,Bob Smith,Asia Pacific,Consulting,35458.7,11957.35,68,2023-06-08
+78,Eva Brown,Latin America,Consulting,7012.66,3113.74,58,2023-04-09
+79,Bob Smith,Europe,Hardware,48042.88,34945.09,17,2023-11-09
+80,Carol Davis,Europe,Services,22011.49,16970.34,85,2023-08-18
+81,Frank Miller,North America,Services,16928.27,11112.88,27,2023-01-14
+82,Bob Smith,Asia Pacific,Hardware,14711.84,10789.47,67,2023-04-03
+83,Carol Davis,Latin America,Consulting,18563.46,13006.92,36,2023-03-23
+84,Alice Johnson,Asia Pacific,Services,26932.68,21222.68,40,2023-06-20
+85,Alice Johnson,Asia Pacific,Services,24085.11,12023.91,19,2023-11-15
+86,David Wilson,Asia Pacific,Consulting,19552.44,13981.77,93,2023-12-07
+87,Alice Johnson,Latin America,Software,20458.5,15512.08,89,2023-03-24
+88,Alice Johnson,Latin America,Consulting,25762.53,18124.62,61,2023-06-16
+89,Frank Miller,North America,Services,31716.9,23179.21,81,2023-01-21
+90,Frank Miller,Asia Pacific,Services,9112.4,2739.99,32,2023-02-21
+91,Frank Miller,Latin America,Software,29452.13,19311.41,93,2023-05-05
+92,Carol Davis,Latin America,Services,46939.01,24104.2,23,2023-01-22
+93,Carol Davis,Europe,Software,48793.64,20098.79,77,2023-06-27
+94,Carol Davis,Asia Pacific,Services,46731.05,34422.63,86,2023-04-21
+95,Carol Davis,Latin America,Services,12524.95,6817.12,23,2023-02-12
+96,Frank Miller,Asia Pacific,Services,7745.48,2356.14,33,2023-03-31
+97,Bob Smith,Asia Pacific,Hardware,20514.82,7988.07,9,2023-08-25
+98,Frank Miller,Latin America,Software,36762.72,13403.35,26,2023-08-11
+99,Bob Smith,Latin America,Software,16604.61,12479.69,19,2023-03-30
+100,Eva Brown,Europe,Services,24297.61,16072.38,28,2023-02-18
+101,David Wilson,Latin America,Services,24396.48,12795.5,17,2023-10-12
+102,Carol Davis,North America,Hardware,2636.2,1240.62,80,2023-09-26
+103,Eva Brown,Europe,Services,46242.15,14024.64,72,2023-01-26
+104,David Wilson,North America,Software,5832.56,2582.08,68,2023-11-07
+105,Carol Davis,Latin America,Services,4732.25,2987.34,39,2023-12-03
+106,Carol Davis,Latin America,Consulting,29116.36,18986.83,50,2023-05-02
+107,Bob Smith,Latin America,Hardware,20063.93,14165.1,7,2023-12-02
+108,Alice Johnson,Europe,Services,30670.54,15740.93,78,2023-02-22
+109,Eva Brown,Latin America,Consulting,22704.68,15802.83,77,2023-08-01
+110,Frank Miller,North America,Services,28604.58,21127.91,94,2023-03-21
+111,Eva Brown,Asia Pacific,Software,17147.22,5802.43,88,2023-05-02
+112,Frank Miller,Latin America,Software,18809.91,6272.16,16,2023-12-11
+113,Alice Johnson,Asia Pacific,Consulting,36262.11,27851.03,98,2023-06-07
+114,Bob Smith,North America,Software,21833.06,9399.84,27,2023-03-29
+115,Bob Smith,Europe,Services,41604.55,22734.4,95,2023-08-19
+116,David Wilson,Europe,Hardware,21932.52,6790.14,8,2023-03-07
+117,Frank Miller,Europe,Hardware,11014.48,5168.91,73,2023-10-25
+118,Alice Johnson,Latin America,Consulting,46768.14,24966.15,81,2023-07-08
+119,Eva Brown,Asia Pacific,Consulting,49238.97,24050.55,72,2023-07-24
+120,Carol Davis,Latin America,Hardware,42101.04,13698.82,60,2023-01-12
+121,Bob Smith,Europe,Software,28051.76,18080.51,83,2023-11-12
+122,Bob Smith,Europe,Software,17510.62,11834.91,28,2023-09-07
+123,David Wilson,Europe,Software,15842.43,12266.17,72,2023-06-09
+124,Frank Miller,Latin America,Hardware,27637.94,15539.4,84,2023-08-10
+125,David Wilson,Europe,Software,38939.91,12446.78,56,2023-08-10
+126,Eva Brown,Asia Pacific,Consulting,45755.79,16633.91,86,2023-11-04
+127,Alice Johnson,North America,Services,22341.72,16639.76,80,2023-03-23
+128,Alice Johnson,Europe,Hardware,32950.18,24355.69,53,2023-10-19
+129,Bob Smith,North America,Hardware,21375.38,15662.47,44,2023-03-15
+130,Alice Johnson,Europe,Hardware,23681.71,9839.25,94,2023-04-09
+131,Bob Smith,Asia Pacific,Hardware,13203.04,4439.74,56,2023-04-28
+132,Bob Smith,North America,Hardware,40784.21,15517.1,10,2023-06-03
+133,Bob Smith,Europe,Hardware,36289.23,17802.07,83,2023-12-11
+134,David Wilson,Europe,Hardware,34164.17,21995.68,90,2023-08-14
+135,Bob Smith,Europe,Hardware,32977.22,21051.04,51,2023-09-16
+136,David Wilson,Latin America,Hardware,37331.69,24128.05,11,2023-03-16
+137,Carol Davis,Latin America,Hardware,44660.53,22718.7,91,2023-12-14
+138,Bob Smith,Latin America,Software,44436.06,20048.74,49,2023-10-28
+139,Frank Miller,North America,Hardware,41707.88,26520.87,78,2023-12-26
+140,Eva Brown,Europe,Consulting,45860.91,35693.14,82,2023-04-12
+141,Bob Smith,Europe,Services,9434.78,6025.28,68,2023-03-23
+142,Frank Miller,North America,Services,48884.31,29590.78,62,2023-09-29
+143,Bob Smith,Latin America,Services,11888.94,6619.16,82,2023-03-28
+144,Alice Johnson,North America,Software,20765.86,14431.21,17,2023-04-29
+145,Bob Smith,Asia Pacific,Software,46615.43,31987.67,33,2023-09-13
+146,Frank Miller,Latin America,Hardware,7705.79,4488.47,100,2023-03-02
+147,Carol Davis,Latin America,Services,31530.02,10895.01,71,2023-02-18
+148,Frank Miller,North America,Hardware,42669.73,23075.89,30,2023-06-04
+149,David Wilson,Latin America,Software,39619.36,25623.49,83,2023-11-18
+150,Eva Brown,Asia Pacific,Hardware,31864.1,10090.62,89,2023-04-01
+151,David Wilson,Europe,Hardware,1138.37,566.98,45,2023-12-25
+152,Alice Johnson,Latin America,Hardware,16478.35,5702.94,97,2023-01-09
+153,Eva Brown,Latin America,Software,21650.15,7823.46,8,2023-09-13
+154,David Wilson,Europe,Services,17872.61,12618.08,60,2023-11-18
+155,Bob Smith,Latin America,Consulting,5439.97,3511.79,87,2023-12-09
+156,Frank Miller,Europe,Hardware,27623.24,17543.37,53,2023-07-27
+157,Frank Miller,North America,Software,15699.1,12209.61,80,2023-04-29
+158,Eva Brown,Asia Pacific,Software,7541.04,4585.29,71,2023-10-10
+159,Alice Johnson,Asia Pacific,Services,45298.38,32802.88,43,2023-11-23
+160,Frank Miller,Europe,Software,9879.45,4826.7,87,2023-04-29
+161,Alice Johnson,Asia Pacific,Software,41411.58,15955.6,14,2023-11-14
+162,David Wilson,Europe,Hardware,37639.78,23266.66,39,2023-08-10
+163,Carol Davis,North America,Services,44650.15,31350.01,80,2023-02-09
+164,Carol Davis,Europe,Consulting,23196.06,8698.08,79,2023-05-18
+165,Eva Brown,Latin America,Software,4818.22,2164.34,30,2023-05-09
+166,Alice Johnson,Latin America,Services,2713.24,1271.07,99,2023-10-15
+167,Alice Johnson,North America,Software,19394.83,13929.66,45,2023-06-02
+168,Alice Johnson,Asia Pacific,Hardware,33606.49,10471.01,46,2023-05-17
+169,David Wilson,Latin America,Services,47652.31,32819.67,3,2023-05-01
+170,Alice Johnson,Europe,Software,2365.11,1047.52,58,2023-03-19
+171,Bob Smith,Europe,Consulting,48571.74,20320.28,22,2023-11-13
+172,Eva Brown,North America,Software,7767.83,4427.42,61,2023-04-15
+173,Bob Smith,Asia Pacific,Consulting,1356.52,613.06,88,2023-04-08
+174,David Wilson,North America,Consulting,34172.27,23517.52,62,2023-01-05
+175,Alice Johnson,North America,Software,15023.83,10293.43,47,2023-12-05
+176,Bob Smith,North America,Consulting,28903.04,13868.83,93,2023-12-31
+177,Alice Johnson,North America,Consulting,39486.8,26617.95,38,2023-02-16
+178,David Wilson,Asia Pacific,Consulting,21620.83,9465.0,31,2023-07-29
+179,Eva Brown,Asia Pacific,Consulting,26882.51,14305.52,92,2023-09-20
+180,Alice Johnson,Europe,Hardware,15141.02,10822.63,55,2023-06-04
+181,David Wilson,Europe,Hardware,48529.15,21969.57,80,2023-09-07
+182,Eva Brown,Latin America,Consulting,29110.94,10631.08,2,2023-02-06
+183,David Wilson,Europe,Software,20424.52,7564.4,76,2023-04-05
+184,Frank Miller,Latin America,Software,11550.64,4411.19,89,2023-08-27
+185,Alice Johnson,Latin America,Software,2701.57,1361.89,92,2023-06-15
+186,Carol Davis,Europe,Software,28025.31,15796.91,94,2023-09-16
+187,David Wilson,North America,Consulting,22905.77,15411.11,39,2023-02-06
+188,Alice Johnson,North America,Software,30327.6,11151.92,12,2023-08-12
+189,Frank Miller,Asia Pacific,Hardware,34215.71,25566.34,35,2023-10-06
+190,David Wilson,North America,Hardware,40611.72,30962.37,5,2023-06-08
+191,Carol Davis,Latin America,Software,15183.11,10326.61,6,2023-02-19
+192,Bob Smith,Asia Pacific,Services,12416.94,5625.88,37,2023-08-19
+193,Frank Miller,Asia Pacific,Consulting,41204.14,17297.68,39,2023-11-23
+194,Eva Brown,Europe,Software,12949.55,5976.56,77,2023-01-13
+195,Eva Brown,Latin America,Hardware,42608.47,28828.16,11,2023-03-14
+196,Eva Brown,Latin America,Software,16546.51,8979.7,47,2023-05-16
+197,Frank Miller,Latin America,Consulting,31933.54,23117.01,81,2023-06-21
+198,Carol Davis,Europe,Software,12628.6,4302.15,99,2023-03-07
+199,Frank Miller,Latin America,Software,35001.85,26339.31,96,2023-08-14
+200,Frank Miller,Asia Pacific,Software,21596.18,10296.72,9,2023-08-28
+201,Eva Brown,Asia Pacific,Software,43221.14,26239.59,92,2023-06-04
+202,Alice Johnson,North America,Software,44498.19,17470.27,31,2023-03-01
+203,Alice Johnson,Europe,Services,28569.73,9107.94,91,2023-12-23
+204,Frank Miller,Asia Pacific,Software,34506.39,14059.53,47,2023-09-11
+205,Carol Davis,Asia Pacific,Services,44624.16,22654.44,76,2023-09-03
+206,Frank Miller,North America,Hardware,46997.37,14421.48,92,2023-06-29
+207,Frank Miller,Asia Pacific,Services,2008.91,1589.83,46,2023-07-10
+208,Bob Smith,Asia Pacific,Consulting,48063.17,18979.02,20,2023-03-05
+209,Eva Brown,Europe,Software,26496.89,19477.3,21,2023-04-29
+210,Carol Davis,North America,Services,8551.45,5654.39,20,2023-07-03
+211,Eva Brown,Latin America,Software,35078.65,23781.78,17,2023-12-26
+212,Bob Smith,Europe,Services,32328.92,19504.26,46,2023-05-11
+213,Frank Miller,Asia Pacific,Software,42062.52,31183.48,16,2023-05-17
+214,Carol Davis,Asia Pacific,Consulting,24735.46,15207.63,91,2023-10-21
+215,David Wilson,Latin America,Software,46567.16,19525.26,45,2023-09-27
+216,Alice Johnson,North America,Consulting,4768.14,1558.21,77,2023-02-17
+217,Alice Johnson,North America,Hardware,25679.06,19882.68,45,2023-02-22
+218,David Wilson,Latin America,Software,16395.58,10078.46,93,2023-01-05
+219,Frank Miller,Europe,Consulting,18645.24,7233.18,57,2023-11-26
+220,Alice Johnson,Europe,Hardware,41970.17,12800.2,86,2023-06-27
+221,Frank Miller,Europe,Software,40968.79,18721.46,37,2023-07-11
+222,Carol Davis,Asia Pacific,Hardware,16196.01,9399.28,68,2023-08-19
+223,Frank Miller,Asia Pacific,Consulting,17100.87,7752.4,97,2023-08-18
+224,Frank Miller,Europe,Software,18689.75,10084.18,64,2023-07-18
+225,Carol Davis,Europe,Hardware,34840.81,10950.63,43,2023-03-19
+226,Eva Brown,Asia Pacific,Software,17480.67,9969.3,25,2023-04-02
+227,Eva Brown,Europe,Software,24497.76,14052.49,79,2023-05-04
+228,Alice Johnson,North America,Software,3424.84,2330.08,74,2023-04-02
+229,Alice Johnson,North America,Software,41837.6,30843.0,48,2023-11-29
+230,Alice Johnson,Asia Pacific,Consulting,49956.01,21740.59,88,2023-12-12
+231,Carol Davis,Asia Pacific,Hardware,29686.98,23297.35,52,2023-06-20
+232,Frank Miller,Latin America,Hardware,38269.04,14868.36,80,2023-04-16
+233,Bob Smith,Asia Pacific,Consulting,22384.3,12063.98,37,2023-08-20
+234,David Wilson,Latin America,Consulting,43320.02,29898.39,35,2023-03-15
+235,Carol Davis,Latin America,Consulting,3305.34,2435.68,45,2023-12-12
+236,Frank Miller,Asia Pacific,Software,16557.15,5863.57,79,2023-10-08
+237,Frank Miller,North America,Services,29540.31,9477.38,64,2023-05-05
+238,Bob Smith,Europe,Consulting,15615.46,11909.04,52,2023-08-08
+239,Bob Smith,Asia Pacific,Consulting,25834.34,16171.58,11,2023-07-10
+240,Alice Johnson,North America,Services,29563.08,21220.58,85,2023-07-13
+241,Eva Brown,Latin America,Software,32842.14,22114.98,70,2023-03-24
+242,Bob Smith,North America,Hardware,48771.67,32329.34,16,2023-05-13
+243,Eva Brown,Europe,Consulting,42450.92,21695.4,34,2023-10-21
+244,Alice Johnson,Latin America,Services,36159.45,23593.0,29,2023-07-07
+245,Alice Johnson,Latin America,Hardware,14115.33,5110.37,64,2023-07-22
+246,Frank Miller,North America,Consulting,6689.77,3306.37,34,2023-10-01
+247,Carol Davis,Europe,Consulting,5676.57,3789.46,93,2023-12-26
+248,Eva Brown,North America,Software,33575.05,17204.51,97,2023-08-10
+249,Eva Brown,Europe,Services,29302.18,23232.59,68,2023-12-18
+250,Eva Brown,Latin America,Hardware,16958.64,12928.36,65,2023-11-30
+251,Alice Johnson,Europe,Services,12640.46,5543.06,45,2023-01-03
+252,David Wilson,North America,Consulting,33732.51,24999.58,88,2023-12-28
+253,Alice Johnson,Asia Pacific,Software,33885.52,24130.75,60,2023-04-29
+254,Bob Smith,Asia Pacific,Consulting,27845.44,14901.59,23,2023-09-01
+255,Frank Miller,Europe,Software,22849.46,11653.92,5,2023-04-26
+256,Carol Davis,Europe,Software,9541.31,3985.37,97,2023-12-12
+257,Frank Miller,North America,Consulting,4477.17,2688.87,22,2023-11-03
+258,Alice Johnson,Europe,Hardware,24590.5,14567.34,63,2023-04-28
+259,Alice Johnson,Latin America,Consulting,13604.6,6344.58,22,2023-03-21
+260,Alice Johnson,Latin America,Hardware,38187.3,23535.67,100,2023-11-03
+261,Bob Smith,Asia Pacific,Services,27211.41,17179.26,44,2023-06-26
+262,Frank Miller,Latin America,Consulting,3438.23,1896.48,45,2023-08-16
+263,Carol Davis,Asia Pacific,Software,35969.28,26662.45,52,2023-11-10
+264,Carol Davis,Europe,Hardware,34317.48,23830.61,89,2023-06-14
+265,Carol Davis,Europe,Services,45312.95,15084.74,15,2023-12-31
+266,David Wilson,Asia Pacific,Services,11424.9,6065.05,4,2023-01-02
+267,Frank Miller,Asia Pacific,Consulting,41219.67,16730.16,25,2023-12-01
+268,Frank Miller,Asia Pacific,Consulting,46544.57,26637.04,43,2023-08-27
+269,Alice Johnson,Latin America,Services,31024.21,12612.12,78,2023-06-22
+270,Alice Johnson,Latin America,Software,37137.04,27686.68,82,2023-08-21
+271,Bob Smith,Latin America,Software,3866.48,1261.04,75,2023-12-09
+272,Carol Davis,North America,Hardware,6905.83,4946.42,31,2023-01-28
+273,Frank Miller,North America,Services,4499.16,2272.93,69,2023-05-02
+274,Eva Brown,Latin America,Services,38796.98,23401.67,79,2023-01-12
+275,David Wilson,Europe,Software,25330.2,10895.38,93,2023-05-13
+276,Alice Johnson,Asia Pacific,Consulting,1914.47,1151.36,65,2023-03-10
+277,David Wilson,Asia Pacific,Software,40402.43,15868.36,84,2023-05-19
+278,David Wilson,North America,Hardware,24180.51,17008.63,3,2023-04-04
+279,Eva Brown,North America,Software,32310.35,19328.67,60,2023-09-09
+280,Bob Smith,Europe,Services,11805.27,7370.27,92,2023-04-04
+281,Carol Davis,Europe,Consulting,22151.01,9576.69,88,2023-12-09
+282,Frank Miller,Asia Pacific,Consulting,18267.85,7013.2,13,2023-12-01
+283,Alice Johnson,Europe,Services,15037.78,4788.78,53,2023-03-23
+284,David Wilson,Europe,Software,49866.51,19117.23,96,2023-05-04
+285,Eva Brown,Asia Pacific,Software,20052.34,9685.11,74,2023-09-29
+286,Alice Johnson,Latin America,Hardware,17754.91,13390.34,95,2023-03-06
+287,Bob Smith,Europe,Consulting,31099.55,21502.81,57,2023-03-30
+288,Carol Davis,Latin America,Consulting,15760.95,6493.53,1,2023-11-26
+289,Frank Miller,Europe,Hardware,3393.75,1052.97,77,2023-05-22
+290,Alice Johnson,Europe,Software,11034.63,4603.89,21,2023-07-25
+291,Carol Davis,Latin America,Services,27275.19,20480.76,90,2023-10-08
+292,Alice Johnson,North America,Services,23689.77,10952.35,56,2023-08-31
+293,Carol Davis,North America,Consulting,26535.57,15430.29,80,2023-01-29
+294,Alice Johnson,Latin America,Consulting,34806.29,18741.34,56,2023-07-15
+295,Eva Brown,Latin America,Hardware,2867.68,1632.15,21,2023-10-16
+296,Alice Johnson,Latin America,Services,38026.53,28410.28,69,2023-08-03
+297,Eva Brown,North America,Software,10029.25,4614.59,61,2023-05-13
+298,Bob Smith,Asia Pacific,Services,37911.51,21905.14,27,2023-12-22
+299,Alice Johnson,North America,Software,2137.3,1156.84,69,2023-12-05
+300,Carol Davis,Latin America,Services,34730.09,21474.69,39,2023-06-16

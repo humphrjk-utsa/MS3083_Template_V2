@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "Check R Environment",
+      "setup": "cd /workspaces/Data-Management-Assignment-1-Intro-to-R",
+      "run": "R --version",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 60,
+      "points": 5
+    },
+    {
+      "name": "Check Required Notebook File",
+      "setup": "",
+      "run": "test -f assignment/Homework/homework_lesson_1.ipynb",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Install Required R Packages",
+      "setup": "cd /workspaces/Data-Management-Assignment-1-Intro-to-R",
+      "run": "R -e \"install.packages(c('jsonlite', 'tidyverse', 'readxl'), repos='https://cran.rstudio.com/', quiet=TRUE)\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 120,
+      "points": 0
+    },
+    {
+      "name": "Check Code Attempts Data Import",
+      "setup": "",
+      "run": "grep -c 'read_csv\\|read_excel' assignment/Homework/homework_lesson_1.ipynb",
+      "input": "",
+      "output": "",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Test Data Import Functionality",
+      "setup": "cd /workspaces/Data-Management-Assignment-1-Intro-to-R && cp .config/classroom/autograder.R .",
+      "run": "Rscript autograder.R assignment/Homework/homework_lesson_1.ipynb data_import",
+      "input": "",
+      "output": "PASS",
+      "comparison": "regex",
+      "timeout": 60,
+      "points": 20
+    },
+    {
+      "name": "Test Required Packages Loading",
+      "setup": "cd /workspaces/Data-Management-Assignment-1-Intro-to-R && cp .config/classroom/autograder.R .",
+      "run": "Rscript autograder.R assignment/Homework/homework_lesson_1.ipynb packages",
+      "input": "",
+      "output": "PASS",
+      "comparison": "included",
+      "timeout": 30,
+      "points": 10
+    },
+    {
+      "name": "Test Data Type Handling",
+      "setup": "cd /workspaces/Data-Management-Assignment-1-Intro-to-R && cp .config/classroom/autograder.R .",
+      "run": "Rscript autograder.R assignment/Homework/homework_lesson_1.ipynb data_types",
+      "input": "",
+      "output": "PASS",
+      "comparison": "included",
+      "timeout": 30,
+      "points": 15
+    },
+    {
+      "name": "Check Data Inspection Commands Used",
+      "setup": "",
+      "run": "grep -E 'head\\(|str\\(|summary\\(' assignment/Homework/homework_lesson_1.ipynb | wc -l",
+      "input": "",
+      "output": "",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Check Reflection Questions Attempted",
+      "setup": "",
+      "run": "grep -A 3 'Your Answer:' assignment/Homework/homework_lesson_1.ipynb | grep -v '\\[Write your response here\\]' | grep -v '^--$' | wc -l",
+      "input": "",
+      "output": "",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Test Reflection Questions Completion",
+      "setup": "cd /workspaces/Data-Management-Assignment-1-Intro-to-R && cp .config/classroom/autograder.R .",
+      "run": "Rscript autograder.R assignment/Homework/homework_lesson_1.ipynb reflection",
+      "input": "",
+      "output": "PASS",
+      "comparison": "regex",
+      "timeout": 30,
+      "points": 10
+    }
+  ]
+}

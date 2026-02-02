@@ -1,0 +1,148 @@
+{
+  "name": "Data Science Classroom",
+  "image": "quay.io/jupyter/datascience-notebook:latest",
+  
+  // Use conda-based setup - no sudo required
+  "postCreateCommand": "bash .devcontainer/conda_setup.sh",
+  "postStartCommand": "bash .devcontainer/conda_post_start.sh",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.black-formatter",
+        "ms-python.flake8",
+        "ms-python.mypy-type-checker",
+        "ms-python.pylint",
+        "ms-toolsai.jupyter",
+        "ms-toolsai.vscode-jupyter-cell-tags",
+        "ms-toolsai.vscode-jupyter-slideshow",
+        "reditorsupport.r",
+        "ikuyadeu.r-debugger",
+        "reditorsupport.r-lsp",
+        "ckolkman.vscode-postgres",
+        "ms-mssql.mssql",
+        "ms-toolsai.datawrangler",
+        "ms-mssql.sql-database-projects-vscode",
+        "ms-mssql.data-workspace-vscode",
+        "ms-azuretools.vscode-azurefunctions",
+        "ms-azuretools.vscode-azureresourcegroups",
+        "ms-azuretools.vscode-azurestorage",
+        "ms-azuretools.vscode-cosmosdb",
+        "mtxr.sqltools",
+        "mtxr.sqltools-driver-pg",
+        "mtxr.sqltools-driver-sqlite",
+        "mtxr.sqltools-driver-mssql",
+        "mtxr.sqltools-driver-mysql",
+        "koszti.dotnet-test-explorer",
+        "mechatroner.rainbow-csv",
+        "janisdd.vscode-edit-csv",
+        "ms-vscode.hexeditor",
+        "esbenp.prettier-vscode",
+        "oderwat.indent-rainbow",
+        "streetsidesoftware.code-spell-checker",
+        "ms-vscode.vscode-json",
+        "redhat.vscode-yaml",
+        "redhat.vscode-xml",
+        "yzhang.markdown-all-in-one",
+        "quarto.quarto",
+        "ms-vscode-remote.remote-containers",
+        "github.copilot",
+        "github.copilot-chat",
+        "eamodio.gitlens",
+        "ms-vscode.live-server",
+        "christian-kohler.path-intellisense",
+        "formulahendry.auto-rename-tag",
+        "visualstudioexptteam.vscodeintellicode",
+        "ms-python.isort",
+        "donjayamanne.githistory",
+        "ms-vscode.powershell"
+      ],
+      "settings": {
+        // === EXISTING SETTINGS ===
+        "python.defaultInterpreterPath": "/opt/conda/bin/python",
+        "python.terminal.activateEnvironment": true,
+        "r.rpath": "/opt/conda/bin/R",
+        "r.rterm.linux": "/opt/conda/bin/R",
+        "r.alwaysUseActiveTerminal": true,
+        "jupyter.jupyterServerType": "local",
+        "jupyter.kernels.filter": [],
+        "files.associations": {
+          "*.rmd": "rmd",
+          "*.Rmd": "rmd"
+        },
+        "editor.rulers": [80, 120],
+        "python.formatting.provider": "black",
+        "python.linting.enabled": true,
+        "python.linting.flake8Enabled": true,
+        "git.enableSmartCommit": true,
+        "git.confirmSync": false,
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+          "source.organizeImports": "explicit"
+        },
+        
+        // === ADD THESE COPILOT RESTRICTIONS FOR CLASSROOM USE ===
+        // Disable GitHub Copilot Agent Mode (the autonomous AI assistant)
+        "chat.agent.enabled": false,
+        
+        // Disable advanced Copilot features that could be used for cheating
+        "github.copilot.editor.enableCodeActions": false,
+        "github.copilot.nextEditSuggestions.enabled": false,
+        "github.copilot.renameSuggestions.triggerAutomatically": false,
+        "github.copilot.chat.agent.runTasks": false,
+        "github.copilot.chat.codesearch.enabled": false,
+        
+        // Keep basic completions enabled but restrict advanced features
+        // If you want to disable Copilot completely, uncomment this line:
+        // "github.copilot.enable": false,
+        
+        "sqltools.connections": [
+          {
+            "name": "Student PostgreSQL",
+            "driver": "PostgreSQL",
+            "server": "localhost",
+            "port": 5432,
+            "database": "${env:PGDATABASE}",
+            "username": "${env:PGUSER}",
+            "password": "${env:PGPASSWORD}",
+            "connectionTimeout": 0
+          }
+        ]
+      }
+    }
+  },
+
+  "forwardPorts": [8888, 5432, 3000, 8000, 8080],
+  "portsAttributes": {
+    "8888": {
+      "label": "Jupyter Lab",
+      "onAutoForward": "notify"
+    },
+    "5432": {
+      "label": "PostgreSQL",
+      "onAutoForward": "silent"
+    },
+    "3000": {
+      "label": "Development Server",
+      "onAutoForward": "openPreview"
+    },
+    "8000": {
+      "label": "Python Web Server",
+      "onAutoForward": "openPreview"
+    },
+    "8080": {
+      "label": "Alternative Web Server",
+      "onAutoForward": "openPreview"
+    }
+  },
+
+  "remoteUser": "jovyan",
+
+  "runArgs": [
+    "--name=${localWorkspaceFolderBasename}-devcontainer",
+    "--hostname=codespace-${localWorkspaceFolderBasename}"
+  ],
+
+  "shutdownAction": "stopContainer"
+}
